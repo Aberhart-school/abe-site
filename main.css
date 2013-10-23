@@ -1,0 +1,34 @@
+/* Copyright 2013 Tauran Wood, <Insert other conributer names here> */
+
+/*  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+body {
+background:url(abe-bg1.jpg) repeat center top;
+}
+body div {
+	width:960px;
+	/* aligns to center */
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+#border {
+	border-style:solid;
+	border-width:2px;
+	border-color:#000;
+	border-radius:10px;
+	z-index:2;
+	background:#fff;
+}

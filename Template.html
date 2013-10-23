@@ -1,0 +1,54 @@
+<!-- Copyright 2013 Tauran Wood, <Insert other conributer names here> -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script src="jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
+			
+			// "topstuff" is the top area. headers, top menu, etc
+			$( document ).ready(function() { $("#topstuff").load( "topstuff.html" ); });
+			
+			// "leftside" is the side menu on the left, and the social media links.
+			$( document ).ready(function() { $("#leftside").load( "leftside.html" ); });
+			
+			// "rightside" is the side menu on the left, cbe links, and help info thing.
+			$( document ).ready(function() { $("#rightside").load( "rightside.html" ); });
+			
+			// "footers" is self-explanatory
+			$( document ).ready(function() { $("#footers").load( "footers.html" ); });
+			
+		</script>
+	</head>
+    <body>
+		<div id="border"><!-- exists only to give the rounded border around the body -->
+			<div id="topstuff"></div>
+			<div id="leftside"></div>
+			<!-- Content starts here -->
+			<div id="content">
+				<p>Hello, World!</p>
+			</div>
+			<!-- Content ends here -->
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
