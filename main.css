@@ -13,9 +13,16 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+@font-face
+{
+	font-family: Main;
+	src: url(Ubuntu-Regular.ttf);
+	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
+	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
+}
 body {
-background:url(abe-bg1.jpg) repeat center top;
+	background:url(abe-bg1.jpg) repeat center top;
+	font-family:Main;
 }
 body div {
 	width:960px;
