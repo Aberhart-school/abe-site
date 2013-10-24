@@ -80,7 +80,11 @@
 	width:100%;
 	height:40px;
 	color:#fff;
-	
+	border-style:solid;
+	border-width:0px;
+	border-color:#000;
+	border-top-width:2px;
+	border-bottom-width:2px;
 }
 #topmenu > li {
 	border-style:solid;
@@ -107,6 +111,8 @@
 	margin-bottom:auto;
 	border-style:solid;
 	border-width:1px;
+	border-left-width:2px;
+	border-right-width:2px;
 }
 #topmenu ul li:hover a {
     background: #ffc97c;

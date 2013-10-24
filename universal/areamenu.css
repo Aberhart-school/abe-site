@@ -20,8 +20,28 @@
 	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
+#areamenu {
+	margin:0px;
+	width:200px;
+	margin-bottom:10px;
+	border-color:#000;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	border-width:2px;
+	border-style:solid;
+	border-left-width:0px;
+}
+#areamenu h3 {
+	background-color:#374049;
+	margin:0px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-top:8px;
+	color:white;
+}
 /* This runs the menu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
+/* The source was modified to provide verticalness */
 #leftmenu,
 #leftmenu ul {
     list-style: none;
@@ -46,7 +66,7 @@
     display: none;
 	z-index: 999;
 	margin-left:200px;
-	margin-top:-41px;
+	margin-top:-42px; /* 40px for the box, plus two for the border */
 }
 
 #leftmenu li:hover ul {
@@ -69,7 +89,7 @@
 #leftmenu > li {
 	border-style:solid;
 	border-width:0px;
-	border-bottom-width:2px;
+	border-top-width:2px;
 	border-color:#000;
 }
 #leftmenu > li > a {
@@ -84,6 +104,10 @@
  ------------------------------------------*/
 #leftmenu ul {
     background: #374049;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000;
+	
 }
 #leftmenu ul li a {
     color: #fff;
@@ -95,4 +119,8 @@
 }
 #leftmenu ul li:hover a {
     background: #ffc97c;
+}
+/* move the little sub-menu arrow to the right */
+#leftmenu span {
+	float:right;
 }

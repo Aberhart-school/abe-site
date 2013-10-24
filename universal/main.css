@@ -40,7 +40,7 @@ body div {
 	background:#fff;
 }
 #leftside {
-	width:200px;
+	width:202px; /* 200px for the menu, + 2 for the border */
 	display:inline-block;
 	margin-right:8px;
 	float:left;
