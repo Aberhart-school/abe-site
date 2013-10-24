@@ -18,35 +18,35 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="main.css"/>
-		<script src="jquery-1.10.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/universal/main.css"/>
+		<script src="/universal/jquery-1.10.2.min.js"></script>
 		<script>
 			"use strict";
 			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
 			
 			// "topstuff" is the top area. headers, top menu, etc
-			$( document ).ready(function() { $("#topstuff").load( "topstuff.html" ); });
+			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
 			
 			// "leftside" is the side menu on the left, and the social media links.
-			$( document ).ready(function() { $("#leftside").load( "leftside.html" ); });
+			$( document ).ready(function() { $("#leftside").load( "/universal/leftside.html" ); }); // replace with the location of the side menu for the site area
 			
 			// "rightside" is the side menu on the left, cbe links, and help info thing.
-			$( document ).ready(function() { $("#rightside").load( "rightside.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
 			
 			// "footers" is self-explanatory
-			$( document ).ready(function() { $("#footers").load( "footers.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
 			
 		</script>
 	</head>
     <body>
 		<div id="border"><!-- exists only to give the rounded border around the body -->
 			<div id="topstuff"></div>
-			<div id="leftside"></div>
 			<!-- Content starts here -->
 			<div id="content">
 				<p>Hello, World!</p>
 			</div>
 			<!-- Content ends here -->
+			<div id="leftside"></div><!-- this comes second so that the content div hugs the top instead of the bottom -->
 			<div id="rightside"></div>
 			<div id="footers"></div>
 		</div>

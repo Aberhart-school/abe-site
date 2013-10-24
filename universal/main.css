@@ -16,12 +16,12 @@
 @font-face
 {
 	font-family: Main;
-	src: url(Ubuntu-Regular.ttf);
+	src: url(/universal/Ubuntu-Regular.ttf);
 	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
 body {
-	background:url(abe-bg1.jpg) repeat center top;
+	background:url(/universal/abe-bg1.jpg) repeat center top;
 	font-family:Main;
 }
 body div {
@@ -38,4 +38,14 @@ body div {
 	border-radius:10px;
 	z-index:2;
 	background:#fff;
+}
+#leftside {
+	width:200px;
+	display:inline-block;
+	margin-right:8px;
+	float:left;
+}
+#content {
+	display:inline-block;
+	width:740px; /* to be changed */
 }

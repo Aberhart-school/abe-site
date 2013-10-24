@@ -16,7 +16,7 @@
 @font-face
 {
 	font-family: Main;
-	src: url(Ubuntu-Regular.ttf);
+	src: url(/universal/Ubuntu-Regular.ttf);
 	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
