@@ -7,5 +7,5 @@ When editing this code, please set your indent to tabs with a width of 4, for co
 
 Also READ THE DOCUMENT CALLED "CODING FOR THE WEBSITE". Seriously. It's there so that you don't screw up colossally. Read it.
 
-Note: you can't run the website just by7 double-clicking the html file. it has to be hosted on the top level of a server,
+Note: you can't run the website just by double-clicking the html file. it has to be hosted on the top level of a server,
 otherwise the links and the loading of seperate files don't work
