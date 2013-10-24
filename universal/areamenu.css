@@ -20,7 +20,7 @@
 	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
-#areamenu {
+#areamenuborder {
 	margin:0px;
 	width:200px;
 	margin-bottom:10px;
@@ -31,7 +31,7 @@
 	border-style:solid;
 	border-left-width:0px;
 }
-#areamenu h3 {
+#areamenuborder h3 {
 	background-color:#374049;
 	margin:0px;
 	padding-bottom:8px;
@@ -118,7 +118,7 @@
 	border-width:1px;
 }
 #leftmenu ul li:hover a {
-    background: #ffc97c;
+    background: #000;
 }
 /* move the little sub-menu arrow to the right */
 #leftmenu span {
