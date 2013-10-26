@@ -1,0 +1,102 @@
+/* Copyright 2013 Tauran Wood, <Insert other conributer names here> */
+
+/*  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+@font-face
+{
+	font-family: Main;
+	src: url(/universal/Ubuntu-Regular.ttf);
+	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
+	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
+}
+#rightlinksborder {
+	margin:0px;
+	width:200px;
+	margin-bottom:10px;
+	border-color:#000;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-width:2px;
+	border-style:solid;
+	border-right-width:0px;
+}
+#rightlinksborder h3 {
+	background-color:#374049;
+	margin:0px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-top:8px;
+	color:white;
+}
+/* This runs the menu */
+/* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
+/* The source was modified to provide verticalness */
+#linksmenu,
+#linksmenu ul {
+    list-style: none;
+	padding-left:0px;
+}
+#linksmenu {
+    float:none;
+	width:200px;
+}
+#linksmenu > li {
+    float:none;
+}
+#linksmenu li a {
+	display: block;
+    line-height: 40px;
+    padding-left: 10px;
+	padding-right:10px;
+    text-decoration: none;
+}
+#linksmenu ul {
+    position: absolute;
+    display: none;
+	z-index: 999;
+	margin-left:200px;
+	margin-top:-42px; /* 40px for the box, plus two for the border */
+}
+
+#linksmenu li:hover ul {
+    display: block;
+
+}
+
+/* Menu styling */
+
+/* Main menu
+------------------------------------------*/
+#linksmenu {
+	display:block;
+    font-family: Main;
+    font-size: 15px;
+    background: #f09d28;
+	margin:0px;
+	color:#000;
+}
+#linksmenu > li {
+	border-style:solid;
+	border-width:0px;
+	border-top-width:2px;
+	border-color:#000;
+}
+#linksmenu > li > a {
+    color: #000;
+    font-weight: normal;
+}
+#linksmenu > li:hover > a {
+    background: #374049;
+    color: #fff;
+}

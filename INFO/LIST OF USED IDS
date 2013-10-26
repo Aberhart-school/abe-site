@@ -1,7 +1,6 @@
 List of used ids
 =======
 Sort of self-explanatory, just a list of identifiers that have been used so that there aren no duplicates
-May be alphabetized eventually
 
 A
 abe_header
@@ -17,9 +16,22 @@ content
 L
 leftmenu
 leftside
+linksmenu
 
 P
 phoneNumbers
 
+R
+rightlinksborder
+rightside
+
+S
+socialmediaborder
+socialmediacontent
+
 T
 topmenu
+twitterlogo
+
+Y
+youtubelogo
