@@ -20,7 +20,7 @@
 	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
-#rightlinksborder {
+.rightmenuborder {
 	margin:0px;
 	width:200px;
 	margin-bottom:10px;
@@ -30,14 +30,28 @@
 	border-width:2px;
 	border-style:solid;
 	border-right-width:0px;
+	background-color:#f09d28;
 }
-#rightlinksborder h3 {
+.rightmenuborder h3 {
 	background-color:#374049;
 	margin:0px;
 	padding-bottom:8px;
 	padding-left:10px;
 	padding-top:8px;
 	color:white;
+}
+#helpmenu img{
+	height:75px;
+	border-radius:5px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:8px;
+}
+#helpmenu p {
+	font-family:Arial;
+	font-size:12px;
+	line-height:18px;
+	padding-left:8px;
 }
 /* This runs the menu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
@@ -82,7 +96,6 @@
 	display:block;
     font-family: Main;
     font-size: 15px;
-    background: #f09d28;
 	margin:0px;
 	color:#000;
 }

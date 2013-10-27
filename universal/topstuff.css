@@ -45,7 +45,7 @@
 }
 #topmenu {
     float: left;
-	
+	display:inline-block;
 }
 #topmenu > li {
     float: left;
