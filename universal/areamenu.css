@@ -30,6 +30,7 @@
 	border-width:2px;
 	border-style:solid;
 	border-left-width:0px;
+	background-color: #f09d28;
 }
 #areamenuborder h3 {
 	background-color:#374049;
@@ -82,7 +83,6 @@
 	display:block;
     font-family: Main;
     font-size: 15px;
-    background: #f09d28;
 	margin:0px;
 	color:#000;
 }

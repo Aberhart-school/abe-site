@@ -23,12 +23,15 @@
 body {
 	background:url(/universal/main-bg.jpg) repeat center top;
 	font-family:Main;
+	margin-top:8px;
+	margin-bottom:15px;
 }
 #border {
 	width:960px;
 	/* aligns to center */
 	margin-left:auto;
 	margin-right:auto;
+	
 	overflow:hidden;
 	/* applies the border */
 	border-style:solid;
@@ -54,4 +57,9 @@ body {
 #content {
 	display:inline-block;
 	width:535px; /* 960, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
+}
+#footers {
+	width:100%;
+	display:inline-block;
+	margin-bottom:10px;
 }

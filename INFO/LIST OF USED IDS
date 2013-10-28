@@ -1,9 +1,16 @@
-List of used ids
+List of used ids/classes
 =======
-Sort of self-explanatory, just a list of identifiers that have been used so that there aren no duplicates
+Sort of self-explanatory, just a list of identifiers that have been used so that there are no duplicates
+CLASSES
+
+R
+rightmenuborder
+
+IDs
 
 A
 abe_header
+address
 areamenuborder
 
 B
@@ -12,6 +19,14 @@ border
 C
 cbe_header
 content
+copyright
+
+F
+footer
+footers
+
+H
+helpmenu
 
 L
 leftmenu

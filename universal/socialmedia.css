@@ -23,6 +23,7 @@
 	border-width:2px;
 	border-style:solid;
 	border-left-width:0px;
+	background-color:#f09d28;
 }
 #socialmediaborder h3 {
 	background-color:#374049;
@@ -37,7 +38,6 @@
 	font-size:12px;
 	line-height:18px;
 	display:block;
-	background-color:#f09d28;
 }
 #socialmediacontent img {
 	height:55px;
