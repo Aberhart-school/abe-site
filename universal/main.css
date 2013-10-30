@@ -60,9 +60,12 @@ body {
 }
 #content iframe {
 	width:535px;
-	height:500px;
+	height:300px;
 	background:#fff;
-	border-style:none;
+	border-style:solid;
+	border-color:#000;
+	border-radius:5px;
+	display:block;
 }
 #footers {
 	width:100%;
