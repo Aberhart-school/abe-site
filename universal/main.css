@@ -26,6 +26,9 @@ body {
 	margin-top:8px;
 	margin-bottom:15px;
 }
+p {
+	line-height:135%;
+}
 #border {
 	width:960px;
 	/* aligns to center */
