@@ -59,6 +59,7 @@ p {
 }
 #content {
 	display:inline-block;
+	margin-bottom:10px;
 	width:535px; /* 960, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
 }
 #content iframe {
