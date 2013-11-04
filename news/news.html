@@ -1,0 +1,86 @@
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/universal/main.css"/>
+		<script src="/universal/jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			
+			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
+			
+			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
+			
+			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
+			
+			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
+			
+			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
+			
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/news/news.css"/>
+		
+	</head>
+    <body>
+		<div id="border"><!-- exists only to give the rounded border around the body -->
+			<div id="topstuff"></div>
+			<!-- Content starts here -->
+			<div id="content">
+				<h1 id="newsheader">Additional news</h1>
+				<ul id="newslist">
+					<li><h3>William aberhart open house</h3>
+						<span>
+							5th Dec 2013, 18:30 - 20:30 <br/>
+							For more information please call the school
+						</span>
+					</li>
+					<li><h3>Hosting International Students</h3>
+						<span>
+							The CBE is seeking families who will host international students who want to attend William Aberhart. <br/><br/>
+							<a href="http://www.cbeinternational.ca/homestay_host.htm">Homestay Hosting Information</a>
+						</span>
+					</li>
+					<li><h3>Alberta Post-Secondary Open Houses</h3>
+						<span>
+							<a href="#">Click here to view a list of upcoming open houses</a>
+						</span>
+					</li>
+					<li><h3>Graduation rings</h3>
+						<span>
+							<a href="http://www.messagefromjostens.com/WilliamAberhartHighSchoolClassof2014GraduationRingOrderDays">Click here to view a list of upcoming order event days</a>
+						</span>
+					</li>
+					<li><h3>High School Completion</h3>
+						<span>
+							The high school completion newsletter is now available from the Alberta government. <br/><br/>
+							<a href="#">Click here to view.</a>
+						</span>
+					</li>
+				</ul>
+			</div><!-- Content ends here -->
+			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+				<div id="areamenu"></div>
+				<div id="socialmedia"></div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
