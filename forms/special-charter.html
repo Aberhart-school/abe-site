@@ -1,0 +1,52 @@
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/universal/main.css"/>
+		<script src="/universal/jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			
+			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
+			
+			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
+			
+			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
+			
+			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
+			
+			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
+			
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<iframe src="http://www.cbe.ab.ca/Parents/Forms/Special_Needs_Charter_Transportation_Contract_2013-14.pdf" class="fullpageiframe"></iframe>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="socialmedia"></div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
