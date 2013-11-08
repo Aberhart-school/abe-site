@@ -14,7 +14,7 @@ The content area is for content. if you are loading a pdf document, a webpage th
 or similar items, it should be embeded in an iframe, not loaded in a new window.
 
 The right area is for external links. i.e. links to the main cbe website, d2l, homelogic, etc. There will also be a link
-to the crisis help page. ALL EXTERNAL LINKS GO HERE OR IN CONTENT, NOT IN THE OTHER MENUS.
+to the crisis help page. ALL EXTERNAL LINKS GO HERE OR IN CONTENT, NOT IN THE OTHER MENUS.(if you must put them somewhere else, mark them with the label “(External)”
 
 The footer is for the short copyright info, with a link to the full explanation, and the physical school adress.
 

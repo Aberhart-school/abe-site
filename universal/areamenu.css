@@ -32,6 +32,9 @@
 	border-left-width:0px;
 	background-color: #f09d28;
 }
+#areamenuborder > a {
+	text-decoration:none;
+}
 #areamenuborder h3 {
 	background-color:#374049;
 	margin:0px;

@@ -71,6 +71,15 @@ p {
 	border-radius:5px;
 	display:block;
 }
+.fullpageiframe {
+	width:535px;
+	height:700px;
+	background:#fff;
+	border-style:solid;
+	border-color:#000;
+	border-radius:5px;
+	display:block;
+}
 #footers {
 	width:100%;
 	display:inline-block;
