@@ -1,5 +1,4 @@
 <!-- Copyright 2013 Tauran Wood -->
-<!-- Copyright 2013 Tauran Wood -->
 
 <!--  This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -21,44 +20,49 @@
         <meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="/universal/main.css"/>
 		<script src="/universal/jquery-1.10.2.min.js"></script>
-		
-		<link rel="stylesheet" type="text/css" href="/calendars/CSI.css"/>
-		
 		<script>
 			"use strict";
-			
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
-			
-			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
-			
+			$( document ).ready(function() { $("#areamenu").load( "/departments/athletics/areamenu-athletics.html" ); });
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
-			
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
-			
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
-			
 		</script>
-		<!-- runs the tabs -->
+		
 		<link rel="stylesheet" type="text/css" href="/universal/simpletabs.css"/>
 		<script src="/universal/simpletabs.js"></script>
-		<!-- for more info, see: http://fotis.co/projects/simpletabs/ -->
+		
+		<link rel="stylesheet" type="text/css" href="/departments/departments.css"/>
 	</head>
     <body>
-		<div id="border"><!-- exists only to give the rounded border around the body -->
+		<div id="border">
 			<div id="topstuff"></div>
-			<!-- Content starts here -->
 			<div id="content">
+				<h2 class="centerAlign">
+					Field Hockey
+				</h2>
 				<div class="simpleTabs">
 					<ul class="simpleTabsNavigation">
-						<li><a href="#">This month</a></li>
-						<li><a href="#">Next month</a></li>
+						<li><a href="#">Junior Girls</a></li>
+						<li><a href="#">Senior Girls</a></li>
 					</ul>
-					<div class="simpleTabsContent"><iframe class="CSIcalendar" src="/calendars/csi-now.pdf"></iframe></div>
-					<div class="simpleTabsContent"><iframe class="CSIcalendar" src="/calendars/csi-soon.pdf"></iframe></div>
+					<div class="simpleTabsContent">
+						<img class="teamImage" src="/departments/athletics/teams/fieldhockey-jr-girls.jpg"/>
+						<p class="centerAlign teamInfoLink">
+						<a href="http://www.itsportnet.com/league.php?scriptName=TEAMSCHEDULE&leagueID=5449&divisionID=83059&teamID=15970&sportID=1026&seasonID=8743&printPage=1&cache=no">Schedule and Results (External link)</a>
+						<a href="http://www.itsportnet.com/league.php?scriptName=DIVISIONSTANDING&printPage=1&leagueID=5449&divisionID=83059&seasonID=8743&sportID=1026">Current Standings (External link)</a>
+						</p>
+					</div>
+					<div class="simpleTabsContent">
+						<img class="teamImage" src="/departments/athletics/teams/fieldhockey-sr-girls.jpg"/>
+						<p class="teamInfoLink">
+						<a href="http://www.itsportnet.com/league.php?scriptName=TEAMSCHEDULE&leagueID=5449&divisionID=83060&teamID=15981&sportID=1026&seasonID=8743&printPage=1&cache=no">Schedule and Results (External link)</a>
+						<a href="http://www.itsportnet.com/league.php?scriptName=DIVISIONSTANDING&printPage=1&leagueID=5449&divisionID=83060&seasonID=8743&sportID=1026">Current Standings (External link)</a>
+						</p>
+					</div>
 				</div>
 			</div>
-			<!-- Content ends here -->
-			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+			<div id="leftside">
 				<div id="areamenu"></div>
 				<div id="socialmedia"></div>
 			</div>

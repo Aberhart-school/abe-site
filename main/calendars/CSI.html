@@ -1,18 +1,19 @@
 <!-- Copyright 2013 Tauran Wood -->
+<!-- Copyright 2013 Tauran Wood -->
 
 <!--  This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
  
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
  
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.
- -->
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
 <!DOCTYPE html>
 <html>
@@ -20,6 +21,9 @@
         <meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="/universal/main.css"/>
 		<script src="/universal/jquery-1.10.2.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/main/calendars/CSI.css"/>
+		
 		<script>
 			"use strict";
 			
@@ -33,7 +37,7 @@
 			
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
 			
-			</script>
+		</script>
 		<!-- runs the tabs -->
 		<link rel="stylesheet" type="text/css" href="/universal/simpletabs.css"/>
 		<script src="/universal/simpletabs.js"></script>
@@ -44,7 +48,14 @@
 			<div id="topstuff"></div>
 			<!-- Content starts here -->
 			<div id="content">
-				<iframe src="/europe/coffee-order-form.pdf" class="fullpageiframe"></iframe>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a href="#">This month</a></li>
+						<li><a href="#">Next month</a></li>
+					</ul>
+					<div class="simpleTabsContent"><iframe class="CSIcalendar" src="/main/calendars/csi-now.pdf"></iframe></div>
+					<div class="simpleTabsContent"><iframe class="CSIcalendar" src="/main/calendars/csi-soon.pdf"></iframe></div>
+				</div>
 			</div>
 			<!-- Content ends here -->
 			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->

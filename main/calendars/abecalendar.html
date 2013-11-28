@@ -22,35 +22,26 @@
 		<script src="/universal/jquery-1.10.2.min.js"></script>
 		<script>
 			"use strict";
-			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
 			
-			// "topstuff" is the top area. headers, top menu, etc
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
 			
-			// "areamenu" is the side menu on the left, that you use to navigate within an area of a website.
-			$( document ).ready(function() { $("#areamenu").load( "/departments/athletics/areamenu-athletics.html" ); });
-			// IMPORTANT replace with the location of the areamenu for the site area
+			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
 			
-			// "socialmedia" is the side menu on the left, cbe links, and help info thing.
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
 			
-			// "rightside" is the side menu on the left, cbe links, and help info thing.
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
 			
-			// "footers" is self-explanatory
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
 			
 		</script>
 	</head>
     <body>
-		<div id="border"><!-- exists only to give the rounded border around the body -->
+		<div id="border">
 			<div id="topstuff"></div>
-			<!-- Content starts here -->
 			<div id="content">
-				<p>Hello, World!</p>
+				<iframe src="/main/calendars/abecalendar.pdf" class="fullpageiframe"></iframe>
 			</div>
-			<!-- Content ends here -->
-			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+			<div id="leftside">
 				<div id="areamenu"></div>
 				<div id="socialmedia"></div>
 			</div>
