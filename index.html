@@ -14,6 +14,8 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,17 +24,11 @@
 		<script src="/universal/jquery-1.10.2.min.js"></script>
 		<script>
 			"use strict";
-			
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
-			
 			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
-			
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
-			
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
-			
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
-			
 		</script>
 		<!-- runs the tabs -->
 		<link rel="stylesheet" type="text/css" href="/universal/simpletabs.css"/>
@@ -40,15 +36,14 @@
 		<!-- for more info, see: http://fotis.co/projects/simpletabs/ -->
 	</head>
     <body>
-		<div id="border"><!-- exists only to give the rounded border around the body -->
+		<div id="border">
 			<div id="topstuff"></div>
-			<!-- Content starts here -->
 			<div id="content">
 				<div class="simpleTabs">
 					<ul class="simpleTabsNavigation">
-						<li><a href="#">Loan items</a></li>
-						<li><a href="#">Home Logic</a></li>
-						<li><a href="#">Laptop/Software Purchases</a></li>
+						<li><a>Loan items</a></li>
+						<li><a>Home Logic</a></li>
+						<li><a>Laptop/Software Purchases</a></li>
 					</ul>
 					<div class="simpleTabsContent">
 						<h3>To all students, with outstanding textbooks and other materials from the library:</h3>
@@ -63,21 +58,20 @@
 						</p>
 						<p>Use the link below to view more information. You can access the Home Logic Website using the External Links bar on the right side of this website.
 						</p>
-						<h3><a href="#">Home Logic Parent Letter</a></h3>
+						<h3><a href="/main/news/homelogic.html">Home Logic Parent Letter</a></h3>
 					</div>
 					<div class="simpleTabsContent">
 						<h3>Laptop purchase opportunity</h3>
 						<p>The Calgary Board of Education has leveraged its relationship with PC Corp and Office Solutions Inc. (OSI), its official computer vendors. These businesses are now offering an exceptional value that is available only to CBE students and their parents
 						</p>
-						<p><a href="#">Parent Information Letter</a></p>
-						<p><a href="#">Laptop and Software Flyer</a></p>
-						<p><a href="http://cbe.onthehub.com">CBE Student Software Hub (Ms Office - Adobe - Etc</a></p>
+						<p><a href="/main/news/laptop-letter.html">Parent Information Letter</a></p>
+						<p><a href="/main/news/laptop-flyer.html">Laptop and Software Flyer</a></p>
+						<p><a href="http://cbe.onthehub.com">CBE Student Software Hub (Ms Office - Adobe - etc.) (External link)</a></p>
 					</div>
 				</div>
 				<iframe src="/main_office/daily_bulletin.pdf" class="landscapeiframe"></iframe>
 			</div>
-			<!-- Content ends here -->
-			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+			<div id="leftside">
 				<div id="areamenu"></div>
 				<div id="socialmedia"></div>
 			</div>

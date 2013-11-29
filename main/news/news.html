@@ -22,30 +22,24 @@
 		<script src="/universal/jquery-1.10.2.min.js"></script>
 		<script>
 			"use strict";
-			
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
-			
 			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
-			
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
-			
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
-			
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
-			
 		</script>
 		
 		<link rel="stylesheet" type="text/css" href="/news/news.css"/>
 		
 	</head>
     <body>
-		<div id="border"><!-- exists only to give the rounded border around the body -->
+		<div id="border">
 			<div id="topstuff"></div>
-			<!-- Content starts here -->
 			<div id="content">
 				<h1 id="newsheader">Additional news</h1>
 				<ul id="newslist">
-					<li><h3>William aberhart open house</h3>
+					<li>
+						<h3>William aberhart open house</h3>
 						<span>
 							5th Dec 2013, 18:30 - 20:30 <br/>
 							For more information please call the school
@@ -59,7 +53,7 @@
 					</li>
 					<li><h3>Alberta Post-Secondary Open Houses</h3>
 						<span>
-							<a href="#">Click here to view a list of upcoming open houses</a>
+							<a href="/main/news/open-houses.html">Click here to view a list of upcoming open houses</a>
 						</span>
 					</li>
 					<li><h3>Graduation rings</h3>
@@ -70,12 +64,12 @@
 					<li><h3>High School Completion</h3>
 						<span>
 							The high school completion newsletter is now available from the Alberta government. <br/><br/>
-							<a href="#">Click here to view.</a>
+							<a href="/main/news/highschool-completion.html">Click here to view.</a>
 						</span>
 					</li>
 				</ul>
-			</div><!-- Content ends here -->
-			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+			</div>
+			<div id="leftside">
 				<div id="areamenu"></div>
 				<div id="socialmedia"></div>
 			</div>

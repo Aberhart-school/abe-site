@@ -22,28 +22,20 @@
 		<script src="/universal/jquery-1.10.2.min.js"></script>
 		<script>
 			"use strict";
-			
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
-			
 			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
-			
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
-			
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
-			
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
-			
 		</script>
 	</head>
     <body>
-		<div id="border"><!-- exists only to give the rounded border around the body -->
+		<div id="border">
 			<div id="topstuff"></div>
-			<!-- Content starts here -->
 			<div id="content">
 				<iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=williamaberhart%40gmail.com&amp;color=%23060D5E&amp;ctz=America%2FEdmonton" style=" border-width:0 " width="535" height="500" frameborder="0" scrolling="no"></iframe>
 			</div>
-			<!-- Content ends here -->
-			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+			<div id="leftside">
 				<div id="areamenu"></div>
 				<div id="socialmedia"></div>
 			</div>
