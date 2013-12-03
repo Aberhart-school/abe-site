@@ -104,15 +104,19 @@
  ------------------------------------------*/
 #topmenu ul {
     background: #f09d28;
+	border-color:#000;
+	border-style:solid;
+	border-width:2px;
+	border-top-width:0px;
+	margin-left:-2px; /* Compensates for the width of the border when alighning the sub-menu */
 }
 #topmenu ul li a {
     color: #000;
 	margin-top:auto;
 	margin-bottom:auto;
 	border-style:solid;
-	border-width:1px;
-	border-left-width:2px;
-	border-right-width:2px;
+	border-width:0px;
+	border-top-width:2px;
 }
 #topmenu ul li:hover a {
     background: #ffc97c;
