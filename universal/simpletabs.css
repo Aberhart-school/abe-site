@@ -11,7 +11,8 @@ div.simpleTabs {
 }
 ul.simpleTabsNavigation {
 	margin:0 10px;
-	padding:0;
+	padding:0px;
+	padding-top:7px;
 	text-align:left;
 }
 ul.simpleTabsNavigation li {
