@@ -29,6 +29,9 @@ body {
 p {
 	line-height:135%;
 }
+h3 {
+	padding-left:5px;
+}
 .centerAlign {
 	text-align:center;
 }
@@ -37,19 +40,29 @@ p {
 	margin-right:auto;
 	display:block;
 }
+.contentSection {
+	border-style:solid;
+	border-width:2px;
+	border-color:#000;
+	border-radius:5px;
+	margin-bottom:8px;
+	padding:2px;
+}
 #border {
 	width:1060px;
+	
 	/* aligns to center */
 	margin-left:auto;
 	margin-right:auto;
 	
 	overflow:hidden;
+	
 	/* applies the border */
 	border-style:solid;
 	border-width:2px;
 	border-color:#000;
 	border-radius:10px;
-	z-index:2;
+	
 	background:#fff;
 }
 #leftside{
