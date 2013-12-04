@@ -38,7 +38,7 @@ p {
 	display:block;
 }
 #border {
-	width:960px;
+	width:1060px;
 	/* aligns to center */
 	margin-left:auto;
 	margin-right:auto;
@@ -68,10 +68,10 @@ p {
 #content {
 	display:inline-block;
 	margin-bottom:10px;
-	width:535px; /* 960, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
+	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
 }
 iframe {
-	width:535px;
+	width:635px;
 	background:#fff;
 	border-style:solid;
 	border-color:#000;
@@ -79,10 +79,10 @@ iframe {
 	display:block;
 }
 .fullpageiframe {
-	height:700px;
+	height:820px;
 }
 .landscapeiframe {
-	height:400px;
+	height:490px;
 }
 #footers {
 	width:100%;
