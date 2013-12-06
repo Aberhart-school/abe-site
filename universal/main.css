@@ -23,8 +23,11 @@
 body {
 	background:url(/universal/main-bg.jpg) repeat center top;
 	font-family:Main;
-	margin-top:8px;
-	margin-bottom:15px;
+	width:1060px;
+	padding:15px;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
 }
 p {
 	line-height:135%;
@@ -49,12 +52,7 @@ h3 {
 	padding:2px;
 }
 #border {
-	width:1060px;
-	
-	/* aligns to center */
-	margin-left:auto;
-	margin-right:auto;
-	
+	width:1060px;	
 	overflow:hidden;
 	
 	/* applies the border */
