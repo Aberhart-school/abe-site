@@ -1,5 +1,3 @@
-// runs the tab browsing things like the one on the main page
-
 /**
  * @version		1.3
  * @package		SimpleTabs
@@ -8,4 +6,175 @@
  * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('3 4={O:"Z",P:"10",9:"11",w:"12",x:"13",r:"14",Q:o(){5(!s.t)y E;5(!s.F)y E;3 b=s.t("G");u(3 i=0;i<b.7;i++){5(b[i].6==4.O){b[i].H("8",4.r+[i]);3 c=b[i].v("8");3 d=b[i].t("15");u(3 j=0;j<d.7;j++){5(d[j].6==4.P){3 a=d[j].t("a");u(3 k=0;k<a.7;k++){a[k].H("8",c+"I"+k);5(4.z(\'A\')){3 e=4.z(\'A\').J("K");3 f=e[1];3 g=e[2];5(a[k].p.p.p.v("8")==4.r+f){5(a[k].v("8")==4.r+f+"I"+g){a[k].6=4.w}q{a[k].6=""}}q{a[0].6=4.w}}q{a[0].6=4.w}a[k].16=o(){4.R(B,\'A\');y E}}}}3 h=b[i].t("G");3 m=0;u(3 l=0;l<h.7;l++){5(h[l].6==4.9){h[l].H("8",c+"L"+[m]);5(4.z(\'A\')){3 e=4.z(\'A\').J("K");3 f=e[1];3 g=e[2];5(h[l].p.v("8")==4.r+f){5(h[l].v("8")==4.r+f+"L"+g){h[l].6=4.9+" "+4.x}q{h[l].6=4.9}}q{h[0].6=4.9+" "+4.x}}q{h[0].6=4.9+" "+4.x}m++}}}}},R:o(a,b){B.S(b);3 c=a.p.p.p.v("8");3 d=c+"I";3 e=a.v("8").T(d,"");3 f=a.p.p.t("a");u(3 n=0;n<f.7;n++){f[n].6=""}a.6=4.w;3 g=s.F(c).t("G");3 h=M U(4.9);u(3 i=0;i<g.7;i++){5(h.17(g[i].6)){g[i].6=4.9}}s.F(c+"L"+e).6=4.9+" "+4.x;3 j=M U(4.r);3 k=c.T(j,"");B.N(b,\'18\'+k+\'K\'+e,1)},N:o(a,b,c){5(c){3 d=M 19();d.1a(d.1b()+(c*1c*V*V*1d));3 e="; 1e="+d.1f()}q 3 e="";s.W=a+"="+b+e+"; 1g=/"},z:o(a){3 b=a+"=";3 d=s.W.J(\';\');u(3 i=0;i<d.7;i++){3 c=d[i];1h(c.1i(0)==\' \')c=c.X(1,c.7);5(c.1j(b)==0)y c.X(b.7,c.7)}y 1k},S:o(a){B.N(a,"",-1)},Y:o(a){3 b=C.D;5(1l C.D!=\'o\'){C.D=a}q{C.D=o(){5(b){b()}a()}}}};4.Y(4.Q);',62,84,'|||var|kmrSimpleTabs|if|className|length|id|sbContentClass|||||||||||||||function|parentNode|else|sbIdPrefix|document|getElementsByTagName|for|getAttribute|sbCurrentNavClass|sbCurrentTabClass|return|readCookie|simpleTabsCookie|this|window|onload|false|getElementById|div|setAttribute|_a_|split|_|_div_|new|createCookie|sbContainerClass|sbNavClass|init|setCurrent|eraseCookie|replace|RegExp|60|cookie|substring|addLoadEvent|simpleTabs|simpleTabsNavigation|simpleTabsContent|current|currentTab|tabber|ul|onclick|test|simpleTabsCookie_|Date|setTime|getTime|24|1000|expires|toGMTString|path|while|charAt|indexOf|null|typeof'.split('|'),0,{}))
+// Main SimpleTabs function
+var kmrSimpleTabs = {
+
+	sbContainerClass: "simpleTabs",
+	sbNavClass: "simpleTabsNavigation",
+	sbContentClass: "simpleTabsContent",
+	sbCurrentNavClass: "current",
+	sbCurrentTabClass: "currentTab",
+	sbIdPrefix: "tabber",	
+
+	init: function(){
+		if(!document.getElementsByTagName) return false;
+		if(!document.getElementById) return false;
+		
+		var containerDiv = document.getElementsByTagName("div");
+	
+		for(var i=0; i<containerDiv.length; i++){
+			if (containerDiv[i].className == kmrSimpleTabs.sbContainerClass) {
+				
+				// assign a unique ID for this tab block and then grab it
+				containerDiv[i].setAttribute("id",kmrSimpleTabs.sbIdPrefix+[i]);		
+				var containerDivId = containerDiv[i].getAttribute("id");
+	
+				// Navigation
+				var ul = containerDiv[i].getElementsByTagName("ul");
+				
+				for(var j=0; j<ul.length; j++){
+					if (ul[j].className == kmrSimpleTabs.sbNavClass) {
+	
+						var a = ul[j].getElementsByTagName("a");
+						for(var k=0; k<a.length; k++){
+							a[k].setAttribute("id",containerDivId+"_a_"+k);
+							// get current
+							if(kmrSimpleTabs.readCookie('simpleTabsCookie')){
+								var cookieElements = kmrSimpleTabs.readCookie('simpleTabsCookie').split("_");
+								var curTabCont = cookieElements[1];
+								var curAnchor = cookieElements[2];
+								if(a[k].parentNode.parentNode.parentNode.getAttribute("id")==kmrSimpleTabs.sbIdPrefix+curTabCont){
+									if(a[k].getAttribute("id")==kmrSimpleTabs.sbIdPrefix+curTabCont+"_a_"+curAnchor){
+										a[k].className = kmrSimpleTabs.sbCurrentNavClass;
+									} else {
+										a[k].className = "";
+									}
+								} else {
+									a[0].className = kmrSimpleTabs.sbCurrentNavClass;
+								}
+							} else {
+								a[0].className = kmrSimpleTabs.sbCurrentNavClass;
+							}
+							
+							a[k].onclick = function(){
+								kmrSimpleTabs.setCurrent(this,'simpleTabsCookie');
+								return false;
+							}
+						}
+					}
+				}
+	
+				// Tab Content
+				var div = containerDiv[i].getElementsByTagName("div");
+				var countDivs = 0;
+				for(var l=0; l<div.length; l++){
+					if (div[l].className == kmrSimpleTabs.sbContentClass) {
+						div[l].setAttribute("id",containerDivId+"_div_"+[countDivs]);	
+						if(kmrSimpleTabs.readCookie('simpleTabsCookie')){
+							var cookieElements = kmrSimpleTabs.readCookie('simpleTabsCookie').split("_");
+							var curTabCont = cookieElements[1];
+							var curAnchor = cookieElements[2];		
+							if(div[l].parentNode.getAttribute("id")==kmrSimpleTabs.sbIdPrefix+curTabCont){
+								if(div[l].getAttribute("id")==kmrSimpleTabs.sbIdPrefix+curTabCont+"_div_"+curAnchor){
+									div[l].className = kmrSimpleTabs.sbContentClass+" "+kmrSimpleTabs.sbCurrentTabClass;
+								} else {
+									div[l].className = kmrSimpleTabs.sbContentClass;
+								}
+							} else {
+								div[0].className = kmrSimpleTabs.sbContentClass+" "+kmrSimpleTabs.sbCurrentTabClass;
+							}
+						} else {
+							div[0].className = kmrSimpleTabs.sbContentClass+" "+kmrSimpleTabs.sbCurrentTabClass;
+						}
+						countDivs++;
+					}
+				}	
+	
+				// End navigation and content block handling	
+			}
+		}
+	},
+	
+	// Function to set the current tab
+	setCurrent: function(elm,cookie){
+		
+		this.eraseCookie(cookie);
+		
+		//get container ID
+		var thisContainerID = elm.parentNode.parentNode.parentNode.getAttribute("id");
+	
+		// get current anchor position
+		var regExpAnchor = thisContainerID+"_a_";
+		var thisLinkPosition = elm.getAttribute("id").replace(regExpAnchor,"");
+	
+		// change to clicked anchor
+		var otherLinks = elm.parentNode.parentNode.getElementsByTagName("a");
+		for(var n=0; n<otherLinks.length; n++){
+			otherLinks[n].className = "";
+		}
+		elm.className = kmrSimpleTabs.sbCurrentNavClass;
+		
+		// change to associated div
+		var otherDivs = document.getElementById(thisContainerID).getElementsByTagName("div");
+		var RegExpForContentClass = new RegExp(kmrSimpleTabs.sbContentClass);
+		for(var i=0; i<otherDivs.length; i++){
+			if ( RegExpForContentClass.test(otherDivs[i].className) ) {
+				otherDivs[i].className = kmrSimpleTabs.sbContentClass;
+			}
+		}
+		document.getElementById(thisContainerID+"_div_"+thisLinkPosition).className = kmrSimpleTabs.sbContentClass+" "+kmrSimpleTabs.sbCurrentTabClass;
+	
+		// get Tabs container ID
+		var RegExpForPrefix = new RegExp(kmrSimpleTabs.sbIdPrefix);
+		var thisContainerPosition = thisContainerID.replace(RegExpForPrefix,"");
+		
+		// set cookie
+		//this.createCookie(cookie,'simpleTabsCookie_'+thisContainerPosition+'_'+thisLinkPosition,1);
+	},
+	
+	// Cookies
+	createCookie: function(name,value,days) {
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+		}
+		else var expires = "";
+		document.cookie = name+"="+value+expires+"; path=/";
+	},
+	
+	readCookie: function(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	},
+	
+	eraseCookie: function(name) {
+		this.createCookie(name,"",-1);
+	},
+
+	// Loader
+	addLoadEvent: function(func) {
+		var oldonload = window.onload;
+		if (typeof window.onload != 'function') {
+			window.onload = func;
+		} else {
+			window.onload = function() {
+				if (oldonload) {
+					oldonload();
+				}
+				func();
+			}
+		}
+	}
+	
+	// END
+};
+
+// Load SimpleTabs
+kmrSimpleTabs.addLoadEvent(kmrSimpleTabs.init);

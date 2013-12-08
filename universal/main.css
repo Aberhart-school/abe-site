@@ -35,6 +35,9 @@ p {
 h3 {
 	padding-left:5px;
 }
+.list li {
+	padding:5px;
+}
 .centerAlign {
 	text-align:center;
 }
