@@ -84,7 +84,20 @@ h3 {
 	margin-bottom:10px;
 	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
 }
-iframe {
+#cbeRSS {
+	height:400px;
+	width:200px;
+	background:#fff;
+	border-style:solid;
+	border-color:#000;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-left-style:none;
+	display:block;
+	margin-bottom:8px;
+}
+.fullpageiframe {
+	height:820px;
 	width:635px;
 	background:#fff;
 	border-style:solid;
@@ -92,11 +105,14 @@ iframe {
 	border-radius:5px;
 	display:block;
 }
-.fullpageiframe {
-	height:820px;
-}
 .landscapeiframe {
 	height:490px;
+	width:635px;
+	background:#fff;
+	border-style:solid;
+	border-color:#000;
+	border-radius:5px;
+	display:block;
 }
 #footers {
 	width:100%;
