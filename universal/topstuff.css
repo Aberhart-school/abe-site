@@ -23,14 +23,16 @@
 #cbe_header {
 	height:22px;
 }
-#cbe_header img {
+#cbe_header a img {
 	float:right;
 	padding-right:10px;
+	border-width:0px;
 }
 #abe_header {
 	height:175px;
 }
 #abe_header img {
+	top:-2px;;
 	margin-left:auto;
 	margin-right:auto;
 	display:block;

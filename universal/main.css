@@ -54,6 +54,53 @@ h3 {
 	margin-bottom:8px;
 	padding:2px;
 }
+/* The following few classes controls the rss styling */
+#cbeRSS > script{
+	display:inline;
+}
+.feedburnerFeedBlock {
+	background-color:#f09d28;
+	height:300px;
+	width:200px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-right-style:none;
+	margin-bottom:8px;
+	overflow:auto;
+}
+.feedburnerFeedBlock ul {
+	padding-left:25px;
+}
+.feedburnerFeedBlock li {
+	border-style:none;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-bottom-color:#000;
+}
+.feedburnerFeedBlock > ul > li:last-child {
+	border-style:none;
+}
+.feedTitle a, .feedTitle a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+.feedTitle {
+	text-align:center;
+	background-color:#374049;
+	margin:0px;
+	padding-top:5px;
+	padding-bottom:8px;
+	border-style:none;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-bottom-color:#000;
+}
+/* This is where the rss styling ends */
+
+
 #border {
 	width:1060px;	
 	overflow:hidden;
@@ -83,18 +130,6 @@ h3 {
 	display:inline-block;
 	margin-bottom:10px;
 	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
-}
-#cbeRSS {
-	height:400px;
-	width:200px;
-	background:#fff;
-	border-style:solid;
-	border-color:#000;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-	border-left-style:none;
-	display:block;
-	margin-bottom:8px;
 }
 .fullpageiframe {
 	height:820px;

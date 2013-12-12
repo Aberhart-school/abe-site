@@ -13,13 +13,6 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-@font-face
-{
-	font-family: Main;
-	src: url(/universal/Ubuntu-Regular.ttf);
-	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
-	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
-}
 .rightmenuborder {
 	margin:0px;
 	width:200px;
@@ -94,7 +87,6 @@
 ------------------------------------------*/
 #linksmenu {
 	display:block;
-    font-family: Main;
     font-size: 15px;
 	margin:0px;
 	color:#000;
