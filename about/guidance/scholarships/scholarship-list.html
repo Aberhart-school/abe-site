@@ -25,29 +25,17 @@
 		<script>
 			"use strict";
 			$( document ).ready(function() { $("#topstuff").load( "/universal/topstuff.html" ); });
-			$( document ).ready(function() { $("#areamenu").load( "/areamenu-main.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/about/guidance/areamenu-guidance.html" ); });
 			$( document ).ready(function() { $("#socialmedia").load( "/universal/socialmedia.html" ); });
 			$( document ).ready(function() { $("#rightside").load( "/universal/rightside.html" ); });
 			$( document ).ready(function() { $("#footers").load( "/universal/footers.html" ); });
 		</script>
-		
-		<!-- runs the tabs -->
-		<link rel="stylesheet" type="text/css" href="/universal/simpletabs.css"/>
-		<script src="/universal/simpletabs.js"></script>
-		<!-- for more info, see: http://fotis.co/projects/simpletabs/ -->
 	</head>
     <body>
 		<div id="border">
 			<div id="topstuff"></div>
 			<div id="content">
-				<div class="simpleTabs">
-					<ul class="simpleTabsNavigation">
-						<li><a>This month</a></li>
-						<li><a>Next month</a></li>
-					</ul>
-					<div class="simpleTabsContent"><iframe class="landscapeiframe" src="/main/calendars/csi-now.pdf"></iframe></div>
-					<div class="simpleTabsContent"><iframe class="landscapeiframe" src="/main/calendars/csi-soon.pdf"></iframe></div>
-				</div>
+				<iframe src="/about/guidance/scholarships/scholarship-list.pdf" class="fullpageiframe"></iframe>
 			</div>
 			<div id="leftside">
 				<div id="areamenu"></div>

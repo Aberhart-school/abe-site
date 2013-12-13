@@ -75,6 +75,7 @@ h3 {
 .feedburnerFeedBlock ul {
 	list-style:none;
 	padding-left:0px;
+	margin:0px;
 }
 .feedburnerFeedBlock li {
 	border-style:solid;
