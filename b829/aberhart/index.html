@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/areamenu-main.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<div class="contentSection">
+					<h3>Our school</h3>
+					<ul class="list">
+						<li>Aberhart woodshop <a href="">featured</a> in Kootenay Mountain Culture magazine</li>
+					</ul>
+				</div>
+				<div class="contentSection">
+					<h3>Important events - See <a href="/b829/aberhart/main/news/news.html">News page</a> for more info</h3>
+					<!-- These should be in "Headline format," that is, short, informative, and eye-catching. Full expanations can be put in the news page, but those should be short too-->
+					<ul class="list">
+						<li>Laptop / software purchase opportunity -<a href="">Parent letter</a> - <a href="">Flyer</a></li>
+						<li>Link to home logic in the sidebar on the right - <a href="">Parent letter</a></li>
+						<li>Students with unreturned loan material have had their account disabled</li>
+						<li>M. Ferguson is retiring - <a href="">Letter to Parents</a></li>
+						<li><a href="">What do you want in a new principal?</a></li>
+						<li><a href="">Grad apparel fundraiser</a></li>
+						<li>Missed grad photos? <a href="">Book a sitting</a> before Feb. 28 to make the yearbook</li>
+						<li><a href="">Info for hosting international students</a></li>
+						<li><a href="">Upcoming Post-secondary open houses</a></li>
+						<li><a href="">High school completion newsletter (External)</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

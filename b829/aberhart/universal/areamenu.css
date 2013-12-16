@@ -1,0 +1,121 @@
+/* Copyright 2013 Tauran Wood */
+
+/*  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+#areamenuborder {
+	margin:0px;
+	width:200px;
+	margin-bottom:10px;
+	border-color:#000;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	border-width:2px;
+	border-style:solid;
+	border-left-width:0px;
+	background-color: #f09d28;
+}
+#areamenuborder > a {
+	text-decoration:none;
+}
+#areamenuborder h3 {
+	background-color:#374049;
+	margin:0px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-top:8px;
+	color:white;
+}
+/* This runs the menu */
+/* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
+/* The source was modified to provide verticalness */
+#leftmenu,
+#leftmenu ul {
+    list-style: none;
+	padding-left:0px;
+}
+#leftmenu {
+    float:none;
+	width:200px;
+}
+#leftmenu > li {
+    float:none;
+}
+#leftmenu li a {
+	display: block;
+    line-height: 40px;
+    padding-left: 10px;
+	padding-right:10px;
+    text-decoration: none;
+}
+#leftmenu ul {
+    position: absolute;
+    display: none;
+	z-index: 999;
+	margin-left:200px;
+	margin-top:-42px; /* 40px for the box, plus two for the border */
+}
+
+#leftmenu li:hover ul {
+    display: block;
+
+}
+
+/* Menu styling */
+
+/* Main menu
+------------------------------------------*/
+#leftmenu {
+	display:block;
+	font-size: 15px;
+	margin:0px;
+	color:#000;
+}
+#leftmenu > li {
+	border-style:solid;
+	border-width:0px;
+	border-top-width:2px;
+	border-color:#000;
+}
+#leftmenu > li > a {
+    color: #000;
+    font-weight: normal;
+}
+#leftmenu > li:hover > a {
+    background: #374049;
+    color: #fff;
+}
+/* Submenu
+ ------------------------------------------*/
+#leftmenu ul {
+    background: #374049;
+	border-width:1px;
+	border-style:solid;
+	border-color:#000;
+	
+}
+#leftmenu ul li a {
+    color: #fff;
+	margin-top:auto;
+	margin-bottom:auto;
+	border-color:#000;
+	border-style:solid;
+	border-width:1px;
+}
+#leftmenu ul li:hover a {
+    background: #000;
+}
+/* move the little sub-menu arrow to the right */
+#leftmenu span {
+	float:right;
+}
