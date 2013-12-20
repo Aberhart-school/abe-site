@@ -54,6 +54,63 @@ h3 {
 	margin-bottom:8px;
 	padding:2px;
 }
+#border {
+	width:100%;
+	overflow:hidden;
+	
+	/* applies the border */
+	border-style:solid;
+	border-width:2px;
+	border-color:#000;
+	border-radius:10px;
+	
+	background:#fff;
+}
+#leftside{
+	display:inline-block;
+	float:left;
+}
+#rightside {
+	display:inline-block;
+	float:right;
+}
+#leftside, #leftside > div, #rightside{
+	width:202px; /* 200px for the menu, + 2 for the border */
+}
+#footers {
+	width:100%;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+/* these three classes are the only ones that need modification when changing content width */
+#content {
+	display:inline-block;
+	margin-bottom:10px;
+	margin-left:8px;
+	margin-right:8px;
+	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
+}
+.fullpageiframe {
+	height:820px;
+	width:100%;
+	background:#fff;
+	border-style:solid;
+	border-color:#000;
+	border-radius:5px;
+	display:block;
+}
+.landscapeiframe {
+	height:490px;
+	width:100%;
+	background:#fff;
+	border-style:solid;
+	border-color:#000;
+	border-radius:5px;
+	display:block;
+}
+
+
 
 /* The following few classes control the rss styling */
 #cbeRSS > script{
@@ -102,57 +159,3 @@ h3 {
 }
 /* This is where the rss styling ends */
 
-
-#border {
-	width:1060px;	
-	overflow:hidden;
-	
-	/* applies the border */
-	border-style:solid;
-	border-width:2px;
-	border-color:#000;
-	border-radius:10px;
-	
-	background:#fff;
-}
-#leftside{
-	display:inline-block;
-	margin-right:8px;
-	float:left;
-}
-#rightside {
-	display:inline-block;
-	margin-left:8px;
-	float:right;
-}
-#leftside, #leftside > div, #rightside{
-	width:202px; /* 200px for the menu, + 2 for the border */
-}
-#content {
-	display:inline-block;
-	margin-bottom:10px;
-	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
-}
-.fullpageiframe {
-	height:820px;
-	width:635px;
-	background:#fff;
-	border-style:solid;
-	border-color:#000;
-	border-radius:5px;
-	display:block;
-}
-.landscapeiframe {
-	height:490px;
-	width:635px;
-	background:#fff;
-	border-style:solid;
-	border-color:#000;
-	border-radius:5px;
-	display:block;
-}
-#footers {
-	width:100%;
-	display:inline-block;
-	margin-bottom:10px;
-}

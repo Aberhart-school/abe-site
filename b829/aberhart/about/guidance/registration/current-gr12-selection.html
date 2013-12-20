@@ -25,17 +25,30 @@
 		<script>
 			"use strict";
 			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
-			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/areamenu-main.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/about/guidance/areamenu-guidance.html" ); });
 			$( document ).ready(function() { $("#socialmedia").load( "/b829/aberhart/universal/socialmedia.html" ); });
 			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
 			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
 	</head>
     <body>
 		<div id="border">
 			<div id="topstuff"></div>
 			<div id="content">
-				<iframe class="landscapeiframe" src="https://www.google.com/calendar/embed?showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=williamaberhart%40gmail.com&amp;color=%23060D5E&amp;ctz=America%2FEdmonton" style=" border-width:0" frameborder="0" scrolling="no"></iframe>
+				<h2>Current grade 12 course selection</h2>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>English</a></li>
+						<li><a>Spanish</a></li>
+						<li><a>French</a></li>
+					</ul>
+					<div class="simpleTabsContent"><iframe src="/b829/aberhart/about/guidance/registration/current-gr12-selection-en.pdf" class="fullpageiframe"></iframe></div>
+					<div class="simpleTabsContent"><iframe src="/b829/aberhart/about/guidance/registration/current-gr12-selection-es.pdf" class="fullpageiframe"></iframe></div>
+					<div class="simpleTabsContent"><iframe src="/b829/aberhart/about/guidance/registration/current-gr12-selection-fr.pdf" class="fullpageiframe"></iframe></div>
+				</div>
 			</div>
 			<div id="leftside">
 				<div id="areamenu"></div>

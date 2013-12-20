@@ -21,7 +21,7 @@
 	border-width:2px;
 	border-color:#000;
 	border-radius:5px;
-	width:600px;
+	width:100%;
 }
 .teamInfoLink > a {
 	text-align:center;
