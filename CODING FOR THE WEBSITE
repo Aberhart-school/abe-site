@@ -20,6 +20,8 @@ The footer is for the short copyright info, with a link to the full explanation,
 
 When you drastically change a file, you can add your name to the copyright header of that file
 
+The standard orange is #f80; the standard dark grey is #344.
+
 
 More info and guidelines can be found on the wiki
 
