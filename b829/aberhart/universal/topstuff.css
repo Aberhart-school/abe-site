@@ -96,13 +96,13 @@
     font-weight: normal;
 }
 #topmenu > li:hover > a {
-    background: #f09d28;
+    background: #f80;
     color: #000;
 }
 /* Submenu
  ------------------------------------------*/
 #topmenu ul {
-    background: #f09d28;
+    background: #f80;
 	border-color:#000;
 	border-style:solid;
 	border-width:2px;

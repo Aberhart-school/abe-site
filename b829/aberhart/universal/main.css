@@ -21,7 +21,9 @@
 	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
 }
 body {
-	background:url(/b829/aberhart/universal/main-bg.jpg) repeat center top;
+	background:url(/b829/aberhart/Templates/AbeA-vector.svg) repeat center top;
+	background-size:119px;
+	background-color:#aaa;
 	font-family:Main;
 	width:1060px;
 	padding:15px;
@@ -117,7 +119,7 @@ h3 {
 	display:inline;
 }
 .feedburnerFeedBlock {
-	background-color:#f09d28;
+	background-color:#f80;
 	height:370px;
 	width:200px;
 	border-style:solid;
