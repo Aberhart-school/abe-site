@@ -26,12 +26,17 @@
 	background-color:#f80;
 }
 .rightmenuborder h3 {
-	background-color:#374049;
+	background-color:#344;
 	margin:0px;
 	padding-bottom:8px;
 	padding-left:10px;
 	padding-top:8px;
 	color:white;
+}
+#helpmenu {
+	border-top-style:solid;
+	border-top-width:2px;
+	border-top-color:#000;
 }
 #helpmenu img{
 	height:75px;
@@ -51,6 +56,9 @@
 	font-size:12px;
 	line-height:18px;
 	display:block;
+	border-top-style:solid;
+	border-top-width:2px;
+	border-top-color:#000;
 }
 #socialmediacontent img {
 	height:55px;
@@ -125,6 +133,6 @@
     font-weight: normal;
 }
 #linksmenu > li:hover > a {
-    background: #374049;
+    background: #344;
     color: #fff;
 }

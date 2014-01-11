@@ -29,7 +29,7 @@
 	text-decoration:none;
 }
 #areamenuborder h3 {
-	background-color:#374049;
+	background-color:#344;
 	margin:0px;
 	padding-bottom:8px;
 	padding-left:10px;
@@ -92,13 +92,13 @@
     font-weight: normal;
 }
 #leftmenu > li:hover > a {
-    background: #374049;
+    background: #344;
     color: #fff;
 }
 /* Submenu
  ------------------------------------------*/
 #leftmenu ul {
-    background: #374049;
+    background: #344;
 	border-width:1px;
 	border-style:solid;
 	border-color:#000;
