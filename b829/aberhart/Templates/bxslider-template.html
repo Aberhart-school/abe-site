@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/bxslider/jquery.bxslider.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.10.2.min.js"></script>
+		<script src="/b829/aberhart/universal/bxslider/jquery.bxslider.min.js"></script>
+		<script>$( document ).ready(function() { $('.bxslider').bxSlider({ auto: true, autoControls: true, responsive: false, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000 });});
+		</script>
+	</head>
+    <body>
+		<div class="bxslider"><!-- Main class, contains the menu -->
+			<div><!-- bxslider > div contains individual panels -->
+				<div>Left side</div><!-- two sub-divs will divide the panel in half (i.e. image on one side, text on the other -->
+				<div>Right side</div><!-- the number of sub divs must be exactly zero or two-->
+			</div>
+			<div>Not divided</div><!-- the width is fixed, the height will adjust automatically to the largest slide-->
+			<!-- This DOES NOT mean that you can put an enormous essay of a news article in one of these. content should remain short -->
+		</div>
+	</body>
+</html>
