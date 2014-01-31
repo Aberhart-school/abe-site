@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-services/areamenu-guidance.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/student-services/guidance.css"/>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>About us</a></li>
+						<li><a>Services</a></li>
+						<li><a>Surveys</a></li>
+					</ul>
+					<div class="simpleTabsContent">
+						<div id="guidanceAbout">
+							<h2>Our team</h2>
+							<h3>Secretary</h3>
+							<p>Ms. McLaughlin <span>Ext. 2407</span></p>
+							<h3>Counsellors</h3>
+							<p>Nicole Peters (A-G) <span>Ext. 2405</span></p>
+							<p>Marnie White (H-O) <span>Ext. 2406</span></p>
+							<p>Giselle Kreuger / Dale Rudd-Laws (P-Z) <span>Ext. 2404</span></p>
+							<h2>Office Hours</h2>
+							<p>Monday - Thursday <span>815h - 1600h</span></p>
+							<p>Friday <span>815h - 1500h</span></p>
+							<br/>
+							<br/>
+							<p>Counselling appointments may be requested by students, parents, teachers or teacher advisors.</p>
+						</div>
+					</div>
+					<div class="simpleTabsContent">
+						<h2>Services</h2>
+						<p>In order to assist students obtaining a high school education and planning for post-secondary or career directions and counseling, the guidance department offers a variety of services including assistance with:</p>
+						<h3>Educational Counselling</h3>
+						<p>Program Planning, Course Registration, Timetable Conflicts, information packages, Applications to summer school, online, or self-directed learning, referrals from teacher, administration, parent or student.</p>
+						<h3>Career Counselling</h3>
+						<p>Career Planning, Career Centre with a full-time Career Practitioner available, Career information session, career assessment tools.</p>
+						<h3>Personal/Social Counselling</h3>
+						<p>Personal issues, Crisis Intervention, Special Needs Intervention, Referrals and consultation with outside agencies, mediation, referrals from teacher, administration, parent or student.</p>
+						<h3>Post-Secondary Planning</h3>
+						<p>Alberta and Out of Province Post Secondary Fairs, Post Secondary lunch hour information sessions, Scholarship/Loan Information, Post Secondary application information.</p>
+					</div>
+					<div class="simpleTabsContent">
+						<h2>Surveys</h2>
+						<h3>PLP Survey</h3>
+						<p>
+							<a href="http://s829wah3.edu.cbe.ab.ca/studentsurvey/">Link to survey (must be used on a school computer)</a>
+							<br/>
+							<a href="PLP-guide.html">PLP Interpretive guide</a>
+						</p>
+						<h3>Tell them from me survey</h3>
+						<p>
+							<a href="https://www.tellthemfromme.com/login.htm">Link to survey</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

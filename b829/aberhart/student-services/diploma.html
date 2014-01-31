@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.10.2.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-services/areamenu-guidance.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/student-services/guidance.css"/>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<h2>The Alberta high school diploma</h2>
+				<p>The Alberta high school diploma is an official document issued by Alberta Education (<a href="http://www.education.alberta.ca">http://www.education.alberta.ca</a>) and certifies that the holder has completed a prescribed program of instruction at a high school or through other formats under the direction and supervision of Alberta Education.
+				</p>
+				<h4>To attain a high school diploma, a student must:</h4>
+				<ul>
+					<li>Earn a minimum of 100 credits</li>
+					<li>Complete, and meet the standards of, the following courses:
+						<ul>
+							<li>ELA or FLA, 30-1 or 30-2</li>
+							<li>Social studies 30-1 or 30-2</li>
+							<li>Mathematics 20-1, 20-2, or 20-3</li>
+							<li>Biology, Physics, Chemistry, or Science 20, or Science 24</li>
+							<li>Physical education 10</li>
+							<li>Career and life management</li>
+						</ul>
+					</li>
+					<li>Earn at least 10 credits, in any combination, from any of the following:
+						<ul>
+							<li>Career and technology studies</li>
+							<li>Fine arts</li>
+							<li>Interntional languages</li>
+							<li>Physical education 20/30</li>
+							<li>Locally developed/acquired and authorized courses.</li>
+							<li>Two 35 level courses from any trade in the Registered Apprenticeship Program</li>
+						</ul>
+					</li>
+					<li>Earn at least 10 credits in any 30-level courses (in addition to any courses listed above)</li>
+				</ul>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
