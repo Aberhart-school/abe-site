@@ -30,16 +30,26 @@
 			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
 		
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/departments/departments.css"/>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
 	</head>
     <body>
 		<div id="border">
 			<div id="topstuff"></div>
 			<div id="content">
 				<h2 class="centerAlign">
-					ABE Departments
+					30th of January 2014
 				</h2>
-				<img class="centerAlignImage" src="/b829/aberhart/universal/AbeA.jpg"/>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>Balance sheet</a></li>
+						<li><a>Profit loss</a></li>
+						<li><a>Trial balance</a></li>
+					</ul>
+					<div class="simpleTabsContent"><iframe src="2014-01-30-balance-sheet.pdf" class="fullpageiframe"></iframe></div>
+					<div class="simpleTabsContent"><iframe src="2014-01-30-profit-loss.pdf" class="fullpageiframe"></iframe></div>
+					<div class="simpleTabsContent"><iframe src="2014-01-30-trial-balance.pdf" class="fullpageiframe"></iframe></div>
+				</div>
 			</div>
 			<div id="leftside">
 				<div id="areamenu"></div>
