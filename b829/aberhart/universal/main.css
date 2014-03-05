@@ -99,7 +99,7 @@ h3 {
 	margin-bottom:10px;
 }
 
-/* these three classes are the only ones that need modification when changing content width */
+/* these three classes, plus the iframe classes in simpletabs.css, are the only ones that need modification when changing content width */
 #content {
 	display:inline-block;
 	margin-bottom:10px;
