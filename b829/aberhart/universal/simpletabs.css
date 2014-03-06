@@ -53,12 +53,3 @@ div.simpleTabsContent {
 div.simpleTabsContent.currentTab {
 	display:block;
 }
-/* these adjust the width of iframes so they dont overflow the tabs */
-.simpleTabsContent .landscapeiframe {
-	width:100%;
-	height:460px;
-}
-.simpleTabsContent .fullpageiframe {
-	width:100%;
-	height:770px;
-}

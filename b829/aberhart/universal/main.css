@@ -108,22 +108,40 @@ h3 {
 	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
 }
 .fullpageiframe {
-	height:820px;
+    position: relative;
 	width:100%;
 	background:#fff;
+	display:inline-block;
+}
+.fullpageiframe > div {
+    padding-top: 127%; /* 8.5:11 aspect ratio */
+}
+.fullpageiframe > div > iframe {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top: 0;	
 	border-style:solid;
 	border-color:#000;
 	border-radius:5px;
-	display:block;
 }
 .landscapeiframe {
-	height:490px;
+    position: relative;
 	width:100%;
 	background:#fff;
+	display:inline-block;
+}
+.landscapeiframe > div {
+    padding-top: 77%; /* 11:8.5 aspect ratio */
+}
+.landscapeiframe > div > iframe {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top: 0;	
 	border-style:solid;
 	border-color:#000;
 	border-radius:5px;
-	display:block;
 }
 
 
