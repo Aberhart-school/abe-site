@@ -116,7 +116,7 @@ h3 {
 	display:inline-block;
 }
 .fullpageiframe > div {
-    padding-top: 127%; /* 8.5:11 aspect ratio */
+    padding-top: 127%; /* 8.5:11 aspect ratio...ish */
 }
 .fullpageiframe > div > iframe {
 	width:100%;
@@ -134,7 +134,7 @@ h3 {
 	display:inline-block;
 }
 .landscapeiframe > div {
-    padding-top: 77%; /* 11:8.5 aspect ratio */
+    padding-top: 79%; /* 11:8.5 aspect ratio...ish */
 }
 .landscapeiframe > div > iframe {
 	width:100%;
