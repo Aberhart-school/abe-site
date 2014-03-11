@@ -116,7 +116,7 @@ h3 {
 	display:inline-block;
 }
 .fullpageiframe > div {
-    padding-top: 127%; /* 8.5:11 aspect ratio...ish */
+    padding-top: 130%; /* 8.5:11 aspect ratio...ish */
 }
 .fullpageiframe > div > iframe {
 	width:100%;
