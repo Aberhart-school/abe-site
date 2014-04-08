@@ -21,59 +21,105 @@
 	padding-right:10px;
 	border-width:0px;
 }
-#abe_header {
-	height:175px;
-}
-#abe_header img {
-	top:-2px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-}
 #phoneNumbers {
 	padding-top:2px;
-	padding-right:6px;
+	padding-left:6px;
 	text-align:right;
-	float:right;
 }
-/* This runs the menu */
+/* This runs the submenu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
-#topmenu,
-#topmenu ul {
+.areamenu,
+.areamenu ul {
     list-style: none;
 	padding-left:0px;
 }
-#topmenu {
-    float: left;
+.areamenu {
+	width:100%;
+	text-align:center;
+	margin:0;
+}
+.areamenu > li {
 	display:inline-block;
 }
-#topmenu > li {
-    float: left;
-}
-#topmenu li a {
+.areamenu li a {
 	display: block;
     height: 40px;
     line-height: 40px;
-    padding-left: 22px;
-	padding-right:22px;
+    padding-left:10px;
+	padding-right:10px;
+	text-align:left;
     text-decoration: none;
 }
-#topmenu ul {
+.areamenu ul {
     position: absolute;
     display: none;
 	z-index: 999;
 }
 
-#topmenu li:hover ul {
+.areamenu li:hover ul {
     display: block;
 }
+/* Submenu styling */
+.areamenu, .areamenu ul {
+	font-size:0;
+	background-color:#f80;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0;
+	border-bottom-width: 2px;
+}
+.areamenu ul {
+	background-color:#344;
+	border-width:2px;
+	border-top-width:0px;
+	margin-left:-2px; /* Compensates for the width of the border when alighning the sub-menu */
+}
+.areamenu > li {
+	font-size:15px;
+	border-style:solid;
+	border-color: #000;
+	border-width: 0;
+	border-right-width: 2px;
+}
+.areamenu > li:first-child {
+	border-left-width:2px;
+}
+.areamenu > li:hover {
+	color:#fff;
+	background-color: #344;
+}
+.areamenu > li > ul > li {
+	font-size:15px;
+	border-style:solid;
+	border-color: #000;
+	border-width: 0;
+	border-top-width: 2px;
+}
+.areamenu > li > ul > li:hover {
+	background-color:#000;
+}
+.areamenu > li > a {
+	color:#000;
+}
+.areamenu > li:hover > a {
+	color:#fff;
+}
+.areamenu > li > ul > li > a{
+	color:#fff;
+}
 
-/* Menu styling */
 
-/* Main menu
-------------------------------------------*/
-#topmenu {
-    font-size: 15px;
+.topmenu > .bx-wrapper > .bx-viewport {
+	overflow: visible;
+	border-width:0;
+	left:0px;
+}
+.topmenu > .bx-wrapper {
+	margin-bottom: 8px;
+}
+/* Main Menu styling */
+#topmenuPager {
+    font-size: 0;/* This gets rid of the space between elements, per http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
     background: #344;
 	margin-top:0px;
 	width:100%;
@@ -84,39 +130,30 @@
 	border-color:#000;
 	border-top-width:2px;
 	border-bottom-width:2px;
+	text-align:center;
 }
-#topmenu > li {
+#topmenuPager > a {
+	font-size: 15px;
+	display:inline-block;
+	padding:0px 10px;
+	line-height:40px;
 	border-style:solid;
 	border-width:0px;
 	border-right-width:2px;
 	border-color:#000;
-}
-#topmenu > li > a {
     color: #fff;
+	text-decoration:none;
     font-weight: normal;
+	position:relative;
 }
-#topmenu > li:hover > a {
-    background: #f80;
+#topmenuPager a:first-child {
+	border-left-width:2px;
+}
+#topmenuPager > a:hover {
+    background: #fff;
     color: #000;
 }
-/* Submenu
- ------------------------------------------*/
-#topmenu ul {
-    background: #f80;
-	border-color:#000;
-	border-style:solid;
-	border-width:2px;
-	border-top-width:0px;
-	margin-left:-2px; /* Compensates for the width of the border when alighning the sub-menu */
-}
-#topmenu ul li a {
+#topmenuPager > a.active {
+	background: #f80;
     color: #000;
-	margin-top:auto;
-	margin-bottom:auto;
-	border-style:solid;
-	border-width:0px;
-	border-top-width:2px;
-}
-#topmenu ul li:hover a {
-    background: #ffc97c;
 }

@@ -25,10 +25,11 @@
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script>
 			"use strict";
-			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
-			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-activities/areamenu-student-activities.html" ); });
-			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
-			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+			$( document ).ready(function() {
+				$("#topstuff").load( "/b829/aberhart/universal/topstuff.html" );	
+				$("#areamenu").load( "/b829/aberhart/student-activities/areamenu-student-activities.html" );	
+				$("#sidebarlinks").load( "/b829/aberhart/universal/sidebarlinks.html" );	
+				$("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
@@ -45,20 +46,19 @@
 						<li><a>Local ack. of risk</a></li>
 					</ul>
 					<div class="simpleTabsContent">
-						<div class="fullpageiframe"><div><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/debate/forms/membership.pdf"></iframe></div></div>
+						<div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/debate/forms/membership.pdf"></iframe></div></div>
 					</div>
 					<div class="simpleTabsContent">
-						<div class="fullpageiframe"><div><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=forms/local-ack-of-risk.pdf"></iframe></div></div>
+						<div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/debate/forms/local-ack-of-risk.pdf"></iframe></div></div>
 					</div>
 				</div>
 			</div>
 			<div id="leftside">
-				<div id="areamenu"></div>
 				<div id="cbeRSS">
 					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
 				</div>
+				<div id="sidebarlinks"></div>
 			</div>
-			<div id="rightside"></div>
 			<div id="footers"></div>
 		</div>
 	</body>

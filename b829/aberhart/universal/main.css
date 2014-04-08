@@ -25,7 +25,7 @@ body {
 	background-size:119px;
 	background-color:#aaa;
 	font-family:Main;
-	width:1060px;
+	min-width:1000px;
 	padding:15px;
 	margin:0px;
 	margin-left:auto;
@@ -83,14 +83,8 @@ h3 {
 	background:#fff;
 }
 #leftside{
-	display:inline-block;
 	float:left;
-}
-#rightside {
 	display:inline-block;
-	float:right;
-}
-#leftside, #leftside > div, #rightside{
 	width:202px; /* 200px for the menu, + 2 for the border */
 }
 #footers {
@@ -99,13 +93,13 @@ h3 {
 	margin-bottom:10px;
 }
 
-/* this class is the only one that needs modification when changing content width */
 #content {
-	display:inline-block;
-	margin-bottom:10px;
+	width:calc(100% - 220px);
+	display:block;
+	float:right;
 	margin-left:8px;
+	margin-bottom:10px;
 	margin-right:8px;
-	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
 }
 
 /* iframes are resized using code found here http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */

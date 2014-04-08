@@ -13,19 +13,19 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-.rightmenuborder {
+.sidebarBorder {
 	margin:0px;
 	width:200px;
 	margin-bottom:10px;
 	border-color:#000;
-	border-bottom-left-radius:5px;
-	border-top-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
 	border-width:2px;
 	border-style:solid;
-	border-right-width:0px;
+	border-left-width:0px;
 	background-color:#f80;
 }
-.rightmenuborder h3 {
+.sidebarBorder h3 {
 	background-color:#344;
 	margin:0px;
 	padding-bottom:8px;
@@ -76,63 +76,4 @@
 #twitterlogo {
 	float:right;
 	margin-right:30px;
-}
-/* This runs the menu */
-/* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
-/* The source was modified to provide verticalness */
-#linksmenu,
-#linksmenu ul {
-    list-style: none;
-	padding-left:0px;
-}
-#linksmenu {
-    float:none;
-	width:200px;
-}
-#linksmenu > li {
-    float:none;
-}
-#linksmenu li a {
-	display: block;
-    line-height: 40px;
-    padding-left: 10px;
-	padding-right:10px;
-    text-decoration: none;
-}
-#linksmenu ul {
-    position: absolute;
-    display: none;
-	z-index: 999;
-	margin-left:200px;
-	margin-top:-42px; /* 40px for the box, plus two for the border */
-}
-
-#linksmenu li:hover ul {
-    display: block;
-
-}
-
-/* Menu styling */
-
-/* Main menu
-------------------------------------------*/
-#linksmenu {
-	display:block;
-    font-size: 15px;
-	margin:0px;
-	color:#000;
-}
-#linksmenu > li {
-	border-style:solid;
-	border-width:0px;
-	border-top-width:2px;
-	border-color:#000;
-}
-#linksmenu > li > a {
-    color: #000;
-    font-weight: normal;
-}
-#linksmenu > li:hover > a {
-    background: #344;
-    color: #fff;
 }

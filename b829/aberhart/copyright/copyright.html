@@ -25,10 +25,11 @@
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script>
 			"use strict";
-			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
-			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/copyright/areamenu-copyright.html" ); });
-			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
-			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+			$( document ).ready(function() {
+				$("#topstuff").load( "/b829/aberhart/universal/topstuff.html" );	
+				$("#areamenu").load( "/b829/aberhart/copyright/areamenu-copyright.html" );	
+				$("#sidebarlinks").load( "/b829/aberhart/universal/sidebarlinks.html" );	
+				$("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
 	</head>
     <body>
@@ -47,20 +48,17 @@
 				This website is distributed in the hope that it will be useful,	but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 				</p>
 				<p>
-				You can find a copy of the GNU GPL in the sidebar,
-				<br/>
-				or at the GNU website: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a>
+				You can find a copy of the GNU GPL at the GNU website: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a>
 				</p>
 				<p>You can find the Souce code for the website on github: <a href="https://github.com/thirstyice/abe-site">https://github.com/thirstyice/abe-site</a>
 				</p>
 			</div>
 			<div id="leftside">
-				<div id="areamenu"></div>
 				<div id="cbeRSS">
 					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
 				</div>
+				<div id="sidebarlinks"></div>
 			</div>
-			<div id="rightside"></div>
 			<div id="footers"></div>
 		</div>
 	</body>
