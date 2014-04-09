@@ -33,7 +33,7 @@
 				$("#areamenu").load( "/b829/aberhart/areamenu-main.html" );
 				$("#rightside").load( "/b829/aberhart/universal/rightside.html" );
 				$("#footers").load( "/b829/aberhart/universal/footers.html" );
-				$('.bxslider').bxSlider({ auto: true, autoControls: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false });
+				$('.mainPageSlider').bxSlider({ auto: true, autoControls: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
 			});
 		</script>
 	</head>
@@ -41,52 +41,51 @@
 		<div id="border">
 			<div id="topstuff"></div>
 			<div id="content">
-				<div class="contentSection">
-					<!-- Glimpses into Aberhart life and culture (i.e. feel-good stories, or things we can be proud of) -->
-					<div class="bxslider">
-						<div><p>
-							<p><img src="/b829/aberhart/main/news/woodshop-KMC.jpg" alt="woodshop-KMC" width="160" height="120" style="float:left"><h3 class="centerAlign">Aberhart Woodshop Featured</h3>
-							Mr. Matt Crawley's woodshop was recently featured in Kootenay Mountain Culture Magazine.
-							<a href="http://schools.cbe.ab.ca/b829/aberhart/front_page/woodshop_article_KMC_w2013-14.pdf">Full article (external)</a>
-							</p>
-						</div>
-
-						<div><p>
-							<p><img src="/b829/aberhart/departments/athletics/teams/volleyball-jr-boys.jpg" alt="volleyball-jr-boys" width="160" height="120" style="float:left"><h3 class="centerAlign">Volleyball Teams are City Champions</h3></p>
-						</div>
+				<!-- Glimpses into Aberhart life and culture (i.e. feel-good stories, or things we can be proud of) -->
+				<div class="mainPageSlider">
+					<div>
+						<img src="/b829/aberhart/main/news/woodshop-KMC.jpg" alt="woodshop-KMC" style="float:left;"/><h3 class="centerAlign">Aberhart Woodshop Featured</h3>
+						Mr. Matt Crawley's woodshop was recently featured in Kootenay Mountain Culture Magazine.
+						<a href="http://schools.cbe.ab.ca/b829/aberhart/front_page/woodshop_article_KMC_w2013-14.pdf">Full article (external)</a>
+					</div>
+					<div>
+						<img src="/b829/aberhart/departments/athletics/teams/volleyball-jr-boys.jpg" alt="volleyball-jr-boys" style="float:left;"/>
+						<h3 class="centerAlign">Volleyball Teams are City Champions</h3>
 					</div>
 				</div>
-				<div class="contentSection" style="float: left; width: 30%; height:300px;">
-					<h3 class="centerAlign">What's New</h3>	
-					<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-					<!-- Include only events that have occured; limit of four -->
-					<ul class="list">
-						<li>Aberhart has a new principal - <a href="/b829/aberhart/main/news/new-principal-letter.html">Introductory letter</a></li>
-						<li>Spanish programs in Calgary set to expand - <a href="http://globalnews.ca/news/1169722/spanish-programs-at-calgary-schools-set-to-expand/">Global news (external)</a></li>
-						<p>more...</p>
-					</ul>
-				</div>
-				<div class="contentSection" style="float: left; width: 30.5%; height:300px;">
-					<h3 class="centerAlign">Upcoming</h3>
-					<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-					<!-- Include only events that have yet to occur; limit of four -->
-					<ul class="list">
-						<li><a href="/b829/aberhart/main/news/grad.html">Grad 2014</a></li>
-						<li><a href="/b829/aberhart/main/exams/exam-schedule.html">Exam Schedule - June 2014 </a></li>
-						<li><a href="/b829/aberhart/main/news/open-houses.html">Upcoming Post-secondary open houses</a></li>
-						<p>more...</p>
-					</ul>
-				</div>
-				<div class="contentSection" style="float: right; width: 30%; height:300px;">
-					<h3 class="centerAlign">Ongoing</h3>
-					<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-					<!-- Include only information that is current (i.e. events that are ongoing; limit of four -->
-					<ul class="list">
-						<li><a href="/b829/aberhart/main/news/laptop-letter.html">Software Purchase Opportunity</a> - <a href="/b829/aberhart/main/news/laptop-flyer.html">Flyer</a></li>
-						<li><a href="/b829/aberhart/main/news/homelogic.html">Home Logic Parent letter</a></li>
-						<li><a href="http://www.cbeinternational.ca/homestay_host.htm">Info for hosting international students (CBE website)</a></li>
-						<p>more...</p>
-					</ul>
+				<div class="mainPageNews">
+					<div>
+						<h3 class="centerAlign">What's New</h3>	
+						<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
+						<!-- Include only events that have occured; limit of four -->
+						<ul class="list">
+							<li>Aberhart has a new principal - <a href="/b829/aberhart/main/news/new-principal-letter.html">Introductory letter</a></li>
+							<li>Spanish programs in Calgary set to expand - <a href="http://globalnews.ca/news/1169722/spanish-programs-at-calgary-schools-set-to-expand/">Global news (external)</a></li>
+							<p>more...</p>
+						</ul>
+					</div>
+					<div>
+						<h3 class="centerAlign">Upcoming</h3>
+						<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
+						<!-- Include only events that have yet to occur; limit of four -->
+						<ul class="list">
+							<li><a href="/b829/aberhart/main/news/grad.html">Grad 2014</a></li>
+							<li><a href="/b829/aberhart/main/exams/exam-schedule.html">Exam Schedule - June 2014 </a></li>
+							<li><a href="/b829/aberhart/main/news/open-houses.html">Upcoming Post-secondary open houses</a></li>
+							<p>more...</p>
+						</ul>
+					</div>
+					<div>
+						<h3 class="centerAlign">Ongoing</h3>
+						<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
+						<!-- Include only information that is current (i.e. events that are ongoing; limit of four -->
+						<ul class="list">
+							<li><a href="/b829/aberhart/main/news/laptop-letter.html">Software Purchase Opportunity</a> - <a href="/b829/aberhart/main/news/laptop-flyer.html">Flyer</a></li>
+							<li><a href="/b829/aberhart/main/news/homelogic.html">Home Logic Parent letter</a></li>
+							<li><a href="http://www.cbeinternational.ca/homestay_host.htm">Info for hosting international students (CBE website)</a></li>
+							<p>more...</p>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div id="leftside">
