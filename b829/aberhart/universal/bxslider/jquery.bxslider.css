@@ -19,7 +19,7 @@
 	margin: 0 auto 35px;
 	padding: 0;
 	*zoom: 1;
-	width:100%;
+	width:590px;
 }
 
 .bx-wrapper img {
@@ -195,12 +195,16 @@
 	font-size: .85em;
 	padding: 10px;
 }
-
-/* User added */
-.bx-viewport {
-	overflow:hidden;
-}
 .bxslider > div {
 	padding-left:20px;
 	padding-right:20px;
+}
+.bxslider > div > div {
+	width:270px;
+}
+.bxslider > div > div:first-child {
+	float:left;
+}
+.bxslider > div > div:last-child {
+	float:right;
 }

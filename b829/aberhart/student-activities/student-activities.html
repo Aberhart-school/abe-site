@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>William Aberhart</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-activities/areamenu-student-activities.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<h2 class="centerAlign">
+					Student activities
+				</h2>
+				<img class="centerAlignImage" src="student-activities-main.jpg"/>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

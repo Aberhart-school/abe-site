@@ -25,11 +25,10 @@
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script>
 			"use strict";
-			$( document ).ready(function() {
-				$("#topstuff").load( "/b829/aberhart/universal/topstuff.html" );	
-				$("#sidebarlinks").load( "/b829/aberhart/universal/sidebarlinks.html" );	
-				$("#footers").load( "/b829/aberhart/universal/footers.html" );
-			});
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-services/areamenu-guidance.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
@@ -52,11 +51,12 @@
 				</div>
 			</div>
 			<div id="leftside">
+				<div id="areamenu"></div>
 				<div id="cbeRSS">
 					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
 				</div>
-				<div id="sidebarlinks"></div>
 			</div>
+			<div id="rightside"></div>
 			<div id="footers"></div>
 		</div>
 	</body>

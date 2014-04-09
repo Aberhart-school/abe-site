@@ -25,11 +25,10 @@
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script>
 			"use strict";
-			$( document ).ready(function() {
-				$("#topstuff").load( "/b829/aberhart/universal/topstuff.html" );
-				$("#sidebarlinks").load( "/b829/aberhart/universal/sidebarlinks.html" );
-				$("#footers").load( "/b829/aberhart/universal/footers.html" );
-			});
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/about/areamenu-about.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
 		</script>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/departments/departments.css"/>
@@ -41,11 +40,12 @@
 				<div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/about/parent-council/info/grad-apparel.pdf"></iframe></div></div>
 			</div>
 			<div id="leftside">
+				<div id="areamenu"></div>
 				<div id="cbeRSS">
 					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
 				</div>
-				<div id="sidebarlinks"></div>
 			</div>
+			<div id="rightside"></div>
 			<div id="footers"></div>
 		</div>
 	</body>
