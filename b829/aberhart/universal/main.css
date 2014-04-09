@@ -64,7 +64,7 @@ h3 {
 	border-width:2px;
 	border-style:none;
 	border-left-style:solid;
-	overflow:scroll;
+	overflow:hidden;
 }
 .mainPageNews > div:first-child {
 	display:inline-block;
