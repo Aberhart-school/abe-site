@@ -48,13 +48,36 @@ h3 {
 	margin-right:auto;
 	display:block;
 }
-.contentSection {
-	border-style:solid;
+.mainPageNews {
+	border-color:#888;
 	border-width:2px;
-	border-color:#000;
-	border-radius:5px;
-	margin-bottom:8px;
-	padding:8px;
+	border-style:none;
+	border-top-style:solid;
+}
+.mainPageNews > div {
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	width:32%;
+	height:300px;
+	border-color:#888;
+	border-width:2px;
+	border-style:none;
+	border-left-style:solid;
+	overflow:hidden;
+}
+.mainPageNews > div:first-child {
+	display:inline-block;
+	border-left-style:none;
+	float:left;
+}
+.mainPageNews > div:last-child {
+	display:inline-block;
+	float:right;
+}
+.mainPageSlider img {
+	height:160px;
+	margin-left:15px;
 }
 .contactList {
 	width:100%;
