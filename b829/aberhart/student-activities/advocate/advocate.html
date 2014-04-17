@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>William Aberhart</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-activities/areamenu-student-activities.html" ); });
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<img src="/b829/aberhart/student-activities/advocate/TheAdvocateTitle.png" alt="The Advocate" width="640">
+				<div>
+					<p><i>The Advocate</i> is the official newspaper of William Aberhart High School. 
+					We publish on a bi-weekly basis and encourage letters to <i>The Advocate</i>.
+					<i>The Advocate</i> is meant as a forum for student expression and is published to inform and entertain the students and the entire school community.</p>
+					<p><b>Editor-in-chief:</b> Esther Schmidt-Brown<br><b>Assistant Editors:</b> Catherine Fong, Polina Sutyrina<br>
+					<b>Staff Sponsor:</b> K. Kempt<br><b>Columnists:</b> Signy Holm, Cyrus Fiori, Jason Climaco<br>
+					<b>Contributors:</b> Dennis Kwok, Ellen Been, Alisa Sanchez<br>
+					<b>Distribution:</b> The ACCESS class</p>
+				</div>
+				<div style="text-align: justify">
+					<h3>TEDx @ Aberhart</h3>
+					Many of you have heard of TED talks and the various topics and ideas brought forth by the speakers. We are fortunate to have an independently organized 
+					TEDx talk right here at Aberhart on May 9th. The talk will feature speakers and performers from our diverse group of current Aberhart students, as well as
+					Aberhart alumni. The goal of TEDxYouth@ William Aberhart High School is to open the doors to new ideas and important conversations, and highlight, as the TED official organization slogan states, the
+					"ideas worth spreading" to the students at Aberhart. The theme of TEDxYouth@ William Aberhart High School is 'Moving Forward' and as teenagers looking towards work, business, art, music, university
+					or even just adulthood, that's a pretty big deal. Looking at the future can be incredibly frustrating but we're always moving forward regardless of the tasks
+					set in front of us. Mankind has achieved incredible things, looking at history we can see the immense change that has taken place in the past hundred years and
+					things are hardly slowing down. Even so, we're here, a whole generation to our name. How will we move forward, with science, social issues, economic challenges,
+					political climates, or the environment? The world is a daunting place, on an even more daunting scale but together, with thoughts, ideas and each other it will
+					always move forward. So, we as students of Aberhart, a small part of a global community, what can we do? If you are interested in helping organize the TEDxYouth@AberhartHighSchool,
+					please visit Ms MacDonald (Room 329) or Mr Moquin (Room 202).
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
