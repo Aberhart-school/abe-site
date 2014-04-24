@@ -53,7 +53,6 @@ h3 {
 	border-width:2px;
 	border-style:none;
 	border-top-style:solid;
-	font-size:0;
 }
 .mainPageNews col {
 	margin-left:auto;
@@ -66,7 +65,7 @@ h3 {
 	border-right-style:none;
 }
 .mainPageNews td {
-	font-size:16px;
+	vertical-align:top;
 	width:32%;
 	overflow:hidden;
 	border-color:#888;
