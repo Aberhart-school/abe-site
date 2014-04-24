@@ -53,27 +53,32 @@ h3 {
 	border-width:2px;
 	border-style:none;
 	border-top-style:solid;
+	font-size:0;
 }
-.mainPageNews > div {
+.mainPageNews col {
 	margin-left:auto;
 	margin-right:auto;
-	display:inline-block;
-	width:32%;
 	height:300px;
+	overflow:hidden;
+	
+}
+.mainPageNews col:last-child {
+	border-right-style:none;
+}
+.mainPageNews td {
+	font-size:16px;
+	width:32%;
+	overflow:hidden;
 	border-color:#888;
 	border-width:2px;
 	border-style:none;
-	border-left-style:solid;
-	overflow:hidden;
+	border-right-style:solid;
 }
-.mainPageNews > div:first-child {
-	display:inline-block;
-	border-left-style:none;
-	float:left;
+.mainPageNews tr:last-child td, .mainPageNews td:last-child {
+	border-right-style:none;
 }
-.mainPageNews > div:last-child {
-	display:inline-block;
-	float:right;
+.mainPageNews > tbody > tr:last-child > td > a {
+	padding-left:40px;
 }
 .mainPageSlider img {
 	height:160px;
