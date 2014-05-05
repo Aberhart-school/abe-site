@@ -16,23 +16,22 @@
 #cbe_header {
 	height:90px;
 }
-#cbe_header a img {
-	float:left;
+#cbe_header img {
 	padding-right:10px;
 	padding-left:10px;
 	padding-top:10px;
 	border-width:0px;
 }
-#cbe_header h3, #cbe_header p {
+#cbe_header > span > * {
+	display:inline-block;
 	margin:0;
 }
-#school_info{
-	float:left;
+#cbe_header > * {
 	display:inline-block;
 }
-#cbe_links{
+#cbe_header ul {
+	margin:0;
 	margin-right:10px;
-	display: inline-block;
 	float:right;
 }
 #abe_header {
