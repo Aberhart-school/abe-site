@@ -13,18 +13,13 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-@font-face
-{
-	font-family: Main;
-	src: url(/b829/aberhart/universal/Ubuntu-Regular.ttf);
-	/* The font "Ubuntu-Regular" Copyright Dalton Maag */
-	/* It is released under the Ubuntu Font License, found here: http://font.ubuntu.com/ufl/ */
-}
 body {
 	background:url(/b829/aberhart/universal/AbeA-outline.svg) repeat center top;
 	background-size:119px;
 	background-color:#aaa;
-	font-family:Main;
+	font: 8pt Verdana, Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:11pt;
 	width:1060px;
 	padding:15px;
 	margin:0px;
@@ -34,7 +29,13 @@ body {
 p {
 	line-height:135%;
 }
+h1{
+	font:14pt Arial Helvetica, sans-serif;
+	color:#222222;
+}
 h3 {
+	color:#222222;
+	font:bold 10pt Verdana, Arial, Helvetica, sans-serif;
 	padding-left:5px;
 }
 .list li {
@@ -180,7 +181,7 @@ h3 {
 	display:inline;
 }
 .feedburnerFeedBlock {
-	background-color:#f28726;
+	background-color:#ffffff;
 	height:370px;
 	width:200px;
 	border-style:solid;
@@ -210,7 +211,7 @@ h3 {
 }
 .feedTitle {
 	text-align:center;
-	background-color:#344;
+	background-color:#666666;
 	font-size:1.17em;
 	margin:0px;
 	padding-top:8px;

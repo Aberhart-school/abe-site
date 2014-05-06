@@ -86,8 +86,7 @@
 /* Main menu
 ------------------------------------------*/
 #topmenu {
-    font-size: 15px;
-    background: #344;
+    background: #00adda;
 	margin-top:0px;
 	width:100%;
 	height:40px;
@@ -109,8 +108,8 @@
     font-weight: normal;
 }
 #topmenu > li:hover > a {
-    background: #f28726;
-    color: #000;
+    background: #666666;
+    color: #fff;
 }
 /* Submenu
  ------------------------------------------*/

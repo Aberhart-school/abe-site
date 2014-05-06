@@ -23,13 +23,13 @@
 	border-width:2px;
 	border-style:solid;
 	border-left-width:0px;
-	background-color: #f28726;
+	background-color: #FFFFFF;
 }
 #areamenuborder > a {
 	text-decoration:none;
 }
 #areamenuborder h3 {
-	background-color:#344;
+	background-color:#666666;
 	margin:0px;
 	padding-bottom:8px;
 	padding-left:10px;
@@ -77,7 +77,6 @@
 ------------------------------------------*/
 #leftmenu {
 	display:block;
-	font-size: 15px;
 	margin:0px;
 	color:#000;
 }
@@ -92,13 +91,13 @@
     font-weight: normal;
 }
 #leftmenu > li:hover > a {
-    background: #344;
+    background: #666666;
     color: #fff;
 }
 /* Submenu
  ------------------------------------------*/
 #leftmenu ul {
-    background: #344;
+    background: #666666;
 	border-width:1px;
 	border-style:solid;
 	border-color:#000;
