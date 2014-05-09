@@ -29,16 +29,16 @@ ul.simpleTabsNavigation li a {
 	border-bottom-style:none;
 	border-width:2px;
 	padding:5px 6px;
-	background-color:#344;
+	background-color:#FFF;
 	text-decoration:none;
-	color:#fff;
+	color:#000;
 }
 ul.simpleTabsNavigation li a:hover {
-	background-color:#f80;
+	background-color:#F28726;
 }
 ul.simpleTabsNavigation li a.current {
-	background:#fff;
-	color:#222;
+	background:#F28726;
+	color:#fff;
 	border-bottom:1px solid #fff;
 }
 div.simpleTabsContent {
