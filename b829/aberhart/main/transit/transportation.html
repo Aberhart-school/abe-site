@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Copyright 2013 Tauran Wood, Owen Thiessen -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>William Aberhart</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() {
+				$("#topstuff").load( "/b829/aberhart/universal/topstuff.html" );
+				$("#areamenu").load( "/b829/aberhart/main/transit/areamenu-transit.html" );
+				$("#rightside").load( "/b829/aberhart/universal/rightside.html" );
+				$("#footers").load( "/b829/aberhart/universal/footers.html" );
+				$('.mainPageSlider').bxSlider({ auto: true, autoControls: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
+			});
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
+	</head>
+	<body>
+		<div id="border">
+			<div id="topstuff"></div>
+			<div id="content">
+				<h2>External bus route links</h2>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>Ranchlands North (Route 785)</a></li>
+						<li><a>Citadel (Route 787)</a></li>
+						<li><a>Ranchlands (Route 788)</a></li>
+					</ul>
+					<div class="simpleTabsContent">
+						<a href="http://www.calgarytransit.com/students_transportation/rte785.html">Route 785 - Ranchlands North</a>
+					</div>
+					<div class="simpleTabsContent">
+						<a href="http://www.calgarytransit.com/students_transportation/rte787.html" width="156">Route 787 - Citadel</a>
+					</div>
+					<div class="simpleTabsContent">
+						<a href="http://www.calgarytransit.com/students_transportation/rte788.html">Route 788 - Ranchlands</a>
+					</div>
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div id="cbeRSS">
+					<script id="cbeRSS" src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
