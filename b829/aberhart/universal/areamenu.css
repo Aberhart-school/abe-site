@@ -91,13 +91,13 @@
     font-weight: normal;
 }
 #leftmenu > li:hover > a {
-    background: #F28726;
+    background: #666;
     color: #fff;
 }
 /* Submenu
  ------------------------------------------*/
 #leftmenu ul {
-    background: #F28726;
+    background: #666;
 	border-width:1px;
 	border-style:solid;
 	border-color:#000;
@@ -112,7 +112,7 @@
 	border-width:1px;
 }
 #leftmenu ul li:hover a {
-    background: #000;
+    background: #333;
 }
 /* move the little sub-menu arrow to the right */
 #leftmenu span {

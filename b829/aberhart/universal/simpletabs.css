@@ -34,7 +34,7 @@ ul.simpleTabsNavigation li a {
 	color:#000;
 }
 ul.simpleTabsNavigation li a:hover {
-	background-color:#F28726;
+	background-color:#666;
 }
 ul.simpleTabsNavigation li a.current {
 	background:#F28726;
