@@ -13,42 +13,7 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#cbe_header {
-	height:90px;
-}
-#cbe_header img {
-	padding-right:10px;
-	padding-left:10px;
-	padding-top:10px;
-	border-width:0px;
-}
-#cbe_header > span > * {
-	display:inline-block;
-	margin:0;
-}
-#cbe_header > * {
-	display:inline-block;
-}
-#cbe_header ul {
-	margin:0;
-	margin-right:10px;
-	float:right;
-}
-#abe_header {
-	height:200px;
-}
-#abe_header img {
-	top:-2px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-}
-#phoneNumbers {
-	padding-top:2px;
-	padding-right:6px;
-	text-align:right;
-	float:right;
-}
+
 /* This runs the menu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
 #topmenu,
