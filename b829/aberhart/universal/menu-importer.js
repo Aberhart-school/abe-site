@@ -4,4 +4,4 @@ $( document ).ready(function() {
 	$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html");
 	$("#rightside").load( "/b829/aberhart/universal/rightside.html" );
 	$("#footers").load( "/b829/aberhart/universal/footers.html" );
-)};
+});
