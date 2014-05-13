@@ -3,9 +3,9 @@ Coding for the website
 The top area is for headers and navigating between areas of the site. For most purposes, the only reason you should have to
 edit it is to add a link to a new document, or remove a link to an irrevelant document.
 
-The left area is for navigating within an area of a website; For instance, clicking on the topmenu link to "Mathematics"
-would take you to the main Mathematics page, then you would be able to navigate different math sections/courses using the
-left menu. You would return to the main Math page by clicking the top menu item, which sould be dark gray.
+The left area is for navigating within an area of a website; For instance, clicking on the topmenu link to "Departments"
+would take you to the main Departments page, then you would be able to navigate different sections/courses using the
+left menu. You would return to the main Math page by clicking the top menu item, which sould be orange.
 This area will be different for each area of the website,and will follow a template
 
 The left area also includes the rss feed
@@ -20,7 +20,7 @@ The footer is for the short copyright info, with a link to the full explanation,
 
 When you drastically change a file, you can add your name to the copyright header of that file
 
-The standard orange is #f80; the standard dark grey is #344.
+The standard orange is #f28726; the standard dark grey is #666.
 
 If you have any questions, feel free to post an issue with the 'question' label
 
