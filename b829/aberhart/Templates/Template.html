@@ -28,7 +28,8 @@
 			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
 			
 			// "topstuff" is the top area. headers, top menu, etc
-			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
+			$( document ).ready(function() { $("#topmenu-import").load( "/b829/aberhart/universal/topmenu.html" );
+				$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html"); });
 			
 			// "areamenu" is the side menu on the left, that you use to navigate within an area of a website.
 			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/Templates/areamenu-template.html" ); });
@@ -44,7 +45,8 @@
 	</head>
     <body>
 		<div id="border"><!-- exists only to give the rounded border around the body -->
-			<div id="topstuff"></div>
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
 			<!-- Content starts here -->
 			<div id="content">
 				<p>Hello, World!</p>

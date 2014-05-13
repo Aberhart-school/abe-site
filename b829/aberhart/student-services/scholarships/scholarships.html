@@ -25,15 +25,19 @@
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script>
 			"use strict";
-			$( document ).ready(function() { $("#topstuff").load( "/b829/aberhart/universal/topstuff.html" ); });
-			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/student-services/areamenu-guidance.html" ); });
-			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
-			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+			$( document ).ready(function() {
+				$("#topmenu-import").load( "/b829/aberhart/universal/topmenu.html" );
+				$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html");
+				$("#areamenu").load( "/b829/aberhart/areamenu-main.html" );
+				$("#rightside").load( "/b829/aberhart/universal/rightside.html" );
+				$("#footers").load( "/b829/aberhart/universal/footers.html" );
+			});
 		</script>
 	</head>
     <body>
 		<div id="border">
-			<div id="topstuff"></div>
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
 			<div id="content">
 				<h2>Scolarships</h2>
 				<p>There are many hundreds of thousands more scholarships in existence and all of them have a specific type of student in mind. Within these hundreds of thousands of scholarships there are thousands of different criteria that determine scholarship eligibility (for example, there is a scholarship for the children of Calgary Public School teachers. There is also a scholarship for people who enjoy sailing. And so on).</p>
