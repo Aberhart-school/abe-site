@@ -30,6 +30,7 @@
 			<ul id="leftmenu">
 				<!-- It is recommended, though not required, that all menu items without submenus be at the bottom, after those with submenus -->
 				<li onClick=""><a>Menu 1 <span>▹</span></a>
+				<!-- The onClick="" fixes a bug on ios, see issue #57 on github for explanation -->
 					<!-- the arrow symbol used for menus with submenus is U+25B9. please insert it directly and inside a span -->
 					<ul>
 						<li><a href="#">Look, Submenu!</a></li>
@@ -58,9 +59,9 @@
 				</li>
 				<li onClick=""><a>What happens when you use too many characters <span>▹</span></a>
 					<ul>
-						<li><a>The submenus die</a></li>
-						<li><a>...Sort of</a></li>
-						<li><a>and it looks bad</a></li>
+						<li><a href="#">The submenus die</a></li>
+						<li><a href="#">...Sort of</a></li>
+						<li><a href="#">and it looks bad</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Menu without submenu</a></li>
