@@ -25,9 +25,9 @@ The footer is for the short copyright info, with a link to the full explanation,
 When making a commit, the commit message should be brief but informative. Github reccommends less than 50 characters, any more than 80 and the message will be cut off. If more information is neccesary, running `git commit` without `-m` will open a text editor where the first line is the main message, and all subsequent lines are the extended description.  
 For example:  
 `Completed minor fixes for issue #42. Refactored files for fees and transit to their own folder in response to issue #52.` is too long. (on a side note, this should have been two commits, one for #42 and one for #52)  
-On the other hand:
+On the other hand:  
 `Fixed issue #29` is too short; It doesnt say what was actually changed.  
-`Updared registration guide, issue #20`, despite the sspelling mistake, is an example of a good commit message, both referencing the issue and giving a brief description of what actually happened.
+`Updared registration guide, issue #20`, despite the spelling mistake, is an example of a good commit message, both referencing the issue and giving a brief description of what actually happened.
 
 When you drastically change a file, you can add your name to the copyright header of that file
 ##Standard colors
