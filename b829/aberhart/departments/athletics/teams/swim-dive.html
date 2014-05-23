@@ -20,7 +20,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-		<title>William Aberhart</title>
+		<title>Swim and dive</title>
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		<script src="/b829/aberhart/universal/menu-importer.js"></script>
@@ -28,6 +28,9 @@
 			"use strict";
 			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/departments/areamenu-departments.html" ); });
 		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/departments/departments.css"/>
 	</head>
@@ -39,9 +42,26 @@
 				<h2 class="centerAlign">
 					Swim and Dive
 				</h2>
-				<img class="teamImage" src="/b829/aberhart/departments/athletics/teams/swim.jpg"/>
-				<img class="teamImage" src="/b829/aberhart/departments/athletics/teams/dive.jpg"/>
-				<p class="teamInfoLink"><a href="http://www.itsportsnet.com/league.php?scriptName=SPORTHOME&printPage=1&sportID=1025&leagueID=5449&seasonID=8942">Schedule and Results (External link)</a></p>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>Swim</a></li>
+						<li><a>Dive</a></li>
+					</ul>
+					<div class="simpleTabsContent">
+						<img class="teamImage" src="/b829/aberhart/departments/athletics/teams/swim.jpg"/>
+						<p class="teamInfoLink">
+							<a href="http://www.itsportsnet.com/league.php?scriptName=SPORTHOME&printPage=1&sportID=1025&leagueID=5449&seasonID=8942">Schedule and Results (External link)</a>
+							<a href="http://calgaryhighschoolsports.ca/">CSHSAA website (External link)</a>
+						</p>
+					</div>
+					<div class="simpleTabsContent">
+						<img class="teamImage" src="/b829/aberhart/departments/athletics/teams/dive.jpg"/>
+						<p class="teamInfoLink">
+							<a href="http://www.itsportsnet.com/league.php?scriptName=SPORTHOME&printPage=1&sportID=1025&leagueID=5449&seasonID=8942">Schedule and Results (External link)</a>
+							<a href="http://calgaryhighschoolsports.ca/">CSHSAA website (External link)</a>
+						</p>
+					</div>
+				</div>
 			</div>
 			<div id="leftside">
 				<div id="areamenu"></div>
