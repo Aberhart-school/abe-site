@@ -38,18 +38,3 @@
 	margin-right:10px;
 	float:right;
 }
-#abe_header {
-	height:200px;
-}
-#abe_header img {
-	top:-2px;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-}
-#phoneNumbers {
-	padding-top:2px;
-	padding-right:6px;
-	text-align:right;
-	float:right;
-}
