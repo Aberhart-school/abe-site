@@ -49,41 +49,6 @@ h3 {
 	margin-right:auto;
 	display:block;
 }
-.mainPageNews {
-	border-color:#888;
-	border-width:2px;
-	border-style:none;
-	border-top-style:solid;
-}
-.mainPageNews col {
-	margin-left:auto;
-	margin-right:auto;
-	height:300px;
-	overflow:hidden;
-	
-}
-.mainPageNews col:last-child {
-	border-right-style:none;
-}
-.mainPageNews td {
-	vertical-align:top;
-	width:32%;
-	overflow:hidden;
-	border-color:#888;
-	border-width:2px;
-	border-style:none;
-	border-right-style:solid;
-}
-.mainPageNews tr:last-child td, .mainPageNews td:last-child {
-	border-right-style:none;
-}
-.mainPageNews > tbody > tr:last-child > td > a {
-	padding-left:40px;
-}
-.mainPageSlider img {
-	height:160px;
-	margin-left:15px;
-}
 .contactList {
 	width:100%;
 }
@@ -113,6 +78,7 @@ h3 {
 #leftside{
 	display:inline-block;
 	float:left;
+	margin-right:2px;
 }
 #leftside > div {
 	width:200px;
@@ -142,8 +108,8 @@ h3 {
 	display:inline-block;
 	margin-bottom:10px;
 	margin-left:8px;
-	margin-right:8px;
-	width:635px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins - 5 for safety */
+	margin-right:6px;
+	width:640px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins, followed by trial and error for precision */
 }
 
 /* iframes are resized using code found here http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
