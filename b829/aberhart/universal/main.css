@@ -114,12 +114,22 @@ h3 {
 	display:inline-block;
 	float:left;
 }
+#leftside > div {
+	width:200px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-left-style:none;
+	margin-bottom:10px;
+}
 #rightside {
 	display:inline-block;
 	float:right;
 }
-#leftside, #leftside > div, #rightside{
-	width:202px; /* 200px for the menu, + 2 for the border */
+#leftside, #rightside{
+	width:200px;
 }
 #footers {
 	width:100%;
@@ -184,13 +194,6 @@ h3 {
 	background-color:#ffffff;
 	height:370px;
 	width:200px;
-	border-style:solid;
-	border-width:2px;
-	border-color:#000;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-	border-left-style:none;
-	margin-bottom:8px;
 	overflow:auto;
 }
 .feedburnerFeedBlock ul {
@@ -205,13 +208,14 @@ h3 {
 	border-bottom-color:#000;
 	padding-left:10px;
 }
-.feedTitle a, .feedTitle a:visited {
+.feedTitle > a, .feedTitle > a:visited {
 	color:#fff;
 	text-decoration:none;
+	font:bold 9pt Verdana, Arial, Helvetica, sans-serif;
 }
 .feedTitle {
 	text-align:center;
-	background-color:#F28726;
+	background-color:#F28726;
 	font-size:1.17em;
 	margin:0px;
 	padding-top:8px;
