@@ -15,14 +15,8 @@
 */
 #areamenuborder {
 	margin:0px;
+	display:inline-block;
 	width:200px;
-	margin-bottom:10px;
-	border-color:#000;
-	border-bottom-right-radius:5px;
-	border-top-right-radius:5px;
-	border-width:2px;
-	border-style:solid;
-	border-left-width:0px;
 	background-color: #FFFFFF;
 }
 #areamenuborder > a {

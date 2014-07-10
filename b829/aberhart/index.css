@@ -1,0 +1,54 @@
+/* Copyright 2013-14 Tauran Wood */
+
+/*  This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+ 
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+ 
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.mainPageNews {
+	border-color:#888;
+	border-width:2px;
+	border-style:none;
+	border-top-style:solid;
+}
+.mainPageNews col {
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	overflow:hidden;
+	
+}
+.mainPageNews col:last-child {
+	border-right-style:none;
+}
+.mainPageNews td {
+	vertical-align:top;
+	width:32%;
+	overflow:hidden;
+	border-color:#888;
+	border-width:2px;
+	border-style:none;
+	border-right-style:solid;
+}
+.mainPageNews tr:last-child td, .mainPageNews td:last-child {
+	border-right-style:none;
+}
+.mainPageNews > tbody > tr:last-child > td > a {
+	padding-left:40px;
+}
+.mainPageSlider img {
+	height:160px;
+	margin-left:15px;
+}
+#sliderContainer {
+	margin:0 10px;
+}
