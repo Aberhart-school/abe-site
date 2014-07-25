@@ -48,7 +48,8 @@
 #helpmenu p {
 	font:8pt Verdana, Arial, Helvetica, sans-serif;
 	line-height:18px;
-	padding-left:8px;
+	padding:8px;
+	padding-top:5px;
 }
 #socialmediacontent {
 	font:8pt Verdana, Arial, Helvetica, sans-serif;
