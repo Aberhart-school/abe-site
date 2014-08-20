@@ -72,7 +72,7 @@
     color: #fff;
     font-weight: normal;
 }
-#topmenu > li:hover > a {
+#topmenu > li:hover > a, .topmenuHighlight {
     background: #666666;
     color: #fff;
 }

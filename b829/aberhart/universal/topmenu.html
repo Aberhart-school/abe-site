@@ -22,32 +22,35 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/topmenu.css"/>
+		<script>
+		$(document).ready(function(){document.getElementById(location.href.replace(/.*aberhart\//i,"").replace(/\/.*/i,"").trim()).className="topmenuHighlight";});
+		</script>
 		<link rel="shortcut icon" href="/b829/aberhart/favicon.ico"/>
 	</head>
 	<body>
 		<ul id="topmenu">
-			<li>
+			<li id="main">
 				<a href="/b829/aberhart/index.htm">home</a>
 			</li>
-			<li>
+			<li id="departments">
 				<a href="/b829/aberhart/departments/departments.html">departments</a>
 			</li>
-			<li>
+			<li id="programs">
 				<a href="/b829/aberhart/programs/programs.html">programs</a>
 			</li>
-			<li>
+			<li id="student-activities">
 				<a href="/b829/aberhart/student-activities/student-activities.html">student activities</a>
 			</li>
-			<li>
+			<li id="student-services">
 				<a href="/b829/aberhart/student-services/guidance.html">student services</a>
 			</li>
-			<li>
+			<li id="fees">
 				<a href="/b829/aberhart/fees/descriptions.html">fees and waivers</a>
 			</li>
-			<li>
-				<a href="/b829/aberhart/transit/transportation.html">transportation</a>
+			<li id="transportation">
+				<a href="/b829/aberhart/transportation/transportation.html">transportation</a>
 			</li>
-			<li>
+			<li id="about">
 				<a href="/b829/aberhart/about/about-us.html">about us</a>
 			</li>
 		</ul>
