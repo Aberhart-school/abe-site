@@ -1,11 +1,9 @@
-abe-site
-========
+abe-site: The New WAHS Website
+==============================
+The new website for William Aberhart High School. The latest, official version of the website can be found at www.aberhart.ca.
 
-The new website of William Aberhart high school
-
-When editing this code, please set your indent to tabs with a width of 4, for compatibility
-
-Also READ THE DOCUMENT CALLED "CODING FOR THE WEBSITE". Seriously. It's there so that you don't screw up colossally. Read it.
-
-Note: you can't run the website just by double-clicking the html file. it has to be hosted on the top level of a server,
-otherwise the links and the loading of seperate files don't work
+Important Notes for Developers
+==============================
+* Please set your tab indentation level to four spaces, and use actual spaces instead of tab characters for compatibility reasons.
+* **PLEASE READ THE DOCUMENT NAMED *CODING FOR THE WEBSITE***. Seriously, it's there so that you don't screw up colossally. Read it.
+* The website cannot be run simply by opening and viewing the index page, index.htm (or any other page for that matter); it must be hosted at the top level of a server. Otherwise, hyperlinks to other pages, images, etc., will not work.
