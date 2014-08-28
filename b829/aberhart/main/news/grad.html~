@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>Grad info</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() {
+				$("#areamenu").load( "/b829/aberhart/areamenu-main.html" );
+			});
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<p>
+					<h2>Grad 2014</h2>
+					<h3>General Information</h3>
+					<a href="/b829/aberhart/main/news/grad-procedures.html">Graduation Ceremonies and Banquet Procedures</a>
+					<br>
+					<a href="/b829/aberhart/main/news/grad-info-booklet.html">Grad 2014 Info booklet</a>
+					<br>
+					<a href="/b829/aberhart/main/news/grad-bulletin-1.html">Bulletin #1 : February 18, 2014</a>
+					<br>
+					<a href="/b829/aberhart/main/news/grad-bulletin-2.html">Bulletin #2 : March 7, 2014</a>
+					<br>
+					<h3>Graduation Ceremonies</h3>
+					Wednesday, May 21, 9:00 am to 11:30 am
+					<br>
+					Stampede Corral, Stampede Park
+					<br>
+					<h3>Graduation Banquet</h3>
+					Wednesday, May 21, 6:30 pm to 12:00 am
+					<br>
+					BMO Centre, Stampede Park
+					<br>
+					<h3>Banquet Ticket Sales</h3>
+					March 19 - 20
+					<br>
+					<a href="/b829/aberhart/main/news/grad-banquet-order-form.html">Grad 2014 Banquet Order Form</a>
+					<br>
+					<a href="/b829/aberhart/main/news/grad-banquet-table-seating-form.html">Grad 2014 Banquet Table Seating Form</a>
+				</p>								
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div >
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

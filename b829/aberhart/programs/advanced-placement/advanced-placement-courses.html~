@@ -1,0 +1,73 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>AP courses</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/programs/areamenu-programs.html" ); });
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<h2>AP Courses</h2>
+				<h3>Grade 10</h3>
+				<ul>
+					<li>Science 10 AP</li>
+					<li>Math 10 C AP</li>
+					<li>Math 10 C AP french</li>
+				</ul>
+				<h3>Grade 11</h3>
+				<ul>
+					<li>Chemistry 20 AP</li>
+					<li>Math 20-1 AP</li>
+					<li>Math 20-1 AP French</li>
+					<li>Bio 20/30 AP</li>
+					<li>Physics 20 AP (second semester)</li>
+				</ul>
+				<h3>Grade 12</h3>
+				<ul>
+					<li>Chemistry 30/35 AP</li>								<li>Math 30-1 AP</li>
+					<li>Math 30-1 AP French</li>
+					<li>Math 31 AP</li>
+					<li>Physics 30 AP (First semester)</li>
+					<li>Computer science 30 AP</li>
+					<li>AP French Language and Culture</li>
+					<li>Political Science 30 AP</li>
+				</ul>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div >
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

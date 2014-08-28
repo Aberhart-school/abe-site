@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>About us</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/about/areamenu-about.html" ); });
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<h2 class="centerAlign">
+					About us
+		       	</h2>
+				<img src="william-aberhart-high-school-wide-angle.jpg" class="centerAlignImage"/>
+				<p>
+					William Aberhart High School is a comprehensive high school offering English, <a href="http://www.cbe.ab.ca/programs/languages/spanish.asp">Spanish Bilingual</a> and <a href="http://www.cbe.ab.ca/programs/languages/french1.asp">French Immersion</a> programs located in the northwest community of Banff Trail, near the University of Calgary.
+				</p>
+				<h3>
+					About the School
+				</h3>
+                <p>
+					The school was built in 1957 and is situated on 10.2 acres. The school has 54 classrooms, 2 gymnasia, a fully equipped Fitness Centre available for classes and student memberships, a multi-media library resource centre, and specialized areas for music, drama, and art.
+				</p>
+                <h3>
+					School Mission
+				</h3>
+                <p>
+					Our role is to provide an environment which enables students to grow as caring, autonomous, lifelong learners, able and willing to participate effectively and responsibly in society.
+				</p>
+                <h3>
+					Unique Points
+				</h3>
+                <ul>
+					<li>Advanced Placement program - Biology, Computer Science,Chemistry, Physics, Science, English, Political Science, Mathematics, French Literature</li>
+					<li>Trilingual (English, French Immersion, Spanish Bilingual)</li>
+					<li>Second languages - French and Spanish</li>
+					<li>CTS - Technical and Business courses</li>
+					<li>Learning Strategies and ESL support for all grades</li>
+					<li>International Students</li>
+					<li>Extensive extra-curricular program</li>
+				</ul>
+				<p><a href="http://www.cbe.ab.ca/schools/view.asp?id=100">Full Profile (External)</a></p>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div >
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>WAMPA - William Aberhart Music Parents Association</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/departments/areamenu-departments.html" ); });
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<h2 class="centerAlign">
+					William Aberhart Music Parents Association
+				</h2>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>Music flyer</a></li>
+						<li><a>WAMPA flyer</a></li>
+						<li><a>Dessert night</a></li>
+						<li><a>Agendas/Minutes</a></li>
+						<li><a>Bylaws</a></li>
+						<li><a>Contact</a></li>
+					</ul>
+					<div class="simpleTabsContent"><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/fine-arts/wampa/music-flyer.pdf"></iframe></div></div></div>
+					<div class="simpleTabsContent"><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/fine-arts/wampa/wampa-flyer.pdf"></iframe></div></div></div>
+					<div class="simpleTabsContent"><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/fine-arts/wampa/dessert-night.pdf"></iframe></div></div></div>
+					<div class="simpleTabsContent">
+						<h3>Agendas</h3>
+						<a href="agendas/2014-05-05.html">5 May 2014</a>
+						<br/>
+						<a href="agendas/2014-04-07.html">7 Apr 2014</a>
+						<br/>
+						<a href="agendas/2014-03-03.html">3 Mar 2014</a>
+						<br/>
+						<a href="agendas/2014-02-03.html">3 Feb 2014</a>
+						<br/>
+						<a href="agendas/2014-01-30.html">30 Jan 2014</a>
+						<br/>
+						<a href="agendas/2014-01-30.html">13 Jan 2014</a>
+						<br/>
+						<a href="agendas/2013-12-02.html">2 Dec 2013</a>
+						<h3>Minutes</h3>
+						<a href="minutes/2014-03-03.html">3 Mar 2014</a><br/>	
+						<a href="minutes/2014-02-03.html">3 Feb 2014</a><br/>	
+						<a href="minutes/2014-01-13.html">13 Jan 2014</a><br/>
+						<a href="minutes/2013-12-02.html">2 Dec 2013</a><br/>
+						<a href="minutes/2013-11-04.html">4 Nov 2013</a><br/>
+						<h3>Addenda to Minutes</h3>
+						<a href="minutes/balance-sheet.html">Balance Sheet - April 29 2014</a><br/>	
+						<a href="minutes/profit-loss.html">Profit Loss Sheet - April 29 2014</a><br/>
+						<a href="minutes/trial-balance.html">Trial Balance Sheet - April 29 2014</a><br/>
+					</div>
+					<div class="simpleTabsContent"><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/fine-arts/wampa/wampa-bylaws.pdf"></iframe></div></div></div>
+					<div class="simpleTabsContent"><div class="fullpageiframe"><div><iframe src="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/departments/fine-arts/wampa/board-of-directors-2013-14.pdf"></iframe></div></div></div>
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div >
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>Welcome to the new website</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		<script>
+			"use strict";
+			$( document ).ready(function() {
+				$("#areamenu").load( "/b829/aberhart/areamenu-main.html" );
+			});
+		</script>
+	</head>
+    <body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<p>
+					<h2>Welcome to Aberhart's New Website!</h2>
+                    <p>
+                        Our website has undergone an upgrade in order to improve navigation, to allow more
+                        student-developed content online, and to conform to CBE standards. Most of the
+                        development was done by ABE students!
+                    </p>
+                    <p>
+                        Navigation is still done through the top navigation bar and then the side content menu.
+                        One significant change is how we display PDF forms. They are now shown using an iFrame,
+                        which allows you to browse the document without leaving our website.
+                   	</p>
+                    <p>
+                        Our old website has been archived and is no longer publicly visible. If there is
+                        content that you cannot find on the new website, please send us a note! Also, if you have any thoughts or ideas for this website, please let us know by sending an
+                        email to the <a href="mailto:gjwehnes@cbe.ab.ca">Website Development Team</a>!
+                    </p>
+				</p>								
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+				<div >
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
