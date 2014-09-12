@@ -35,7 +35,8 @@
 /* The source was modified to provide verticalness */
 #leftmenu,
 #leftmenu ul {
-    list-style: none;
+	list-style:none;
+	list-style-image: url(data:0);
 	padding-left:0px;
 }
 #leftmenu {
@@ -62,7 +63,6 @@
 
 #leftmenu > li:hover > ul {
     display: block;
-
 }
 
 /* Menu styling */
