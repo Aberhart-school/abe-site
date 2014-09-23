@@ -36,7 +36,7 @@
 #leftmenu,
 #leftmenu ul {
 	list-style:none;
-	list-style-image: url(data:0);
+	list-style-image: uri(data:0);
 	padding-left:0px;
 }
 #leftmenu {
