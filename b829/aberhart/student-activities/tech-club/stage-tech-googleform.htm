@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>Template document</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script>
+			"use strict";
+			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
+			
+			// "topstuff" is the top area. headers, top menu, etc
+			$( document ).ready(function() { $("#topmenu-import").load( "/b829/aberhart/universal/topmenu.html" );
+				$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html"); });
+			
+			// "areamenu" is the side menu on the left, that you use to navigate within an area of a website.
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/Templates/areamenu-template.html" ); });
+			// IMPORTANT replace with the location of the areamenu for the site area
+			
+			// "rightside" is the side menu on the left, cbe links, and help info thing.
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			
+			// "footers" is self-explanatory
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+			
+		</script>
+	</head>
+    <body>
+		<div id="border"><!-- exists only to give the rounded border around the body -->
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<!-- Content starts here -->
+			<div id="content">
+				<iframe src="https://docs.google.com/forms/d/1f-VdzILZBfJbMWj22XU5BIkH70Cw133R7VS7rRQYMVs/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			</div>
+			<!-- Content ends here -->
+			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+				<div id="areamenu"></div>
+				<div>
+					<script src="http://feeds2.feedburner.com/ab/mhcD?format=sigpro&amp;openLinks=new"></script>
+				</div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
