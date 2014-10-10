@@ -1,0 +1,8 @@
+1 - Open Windows Explorer, navigate to root folder (b829), and search for *.pdf
+2 - Select all files returned by search
+3 - Hold the Shift key and Right Click on the search results
+4 - Select "Copy as Path" (this option only shows up when you hold shift before the right click)
+5 - Paste into a notepad window
+6 - Alphabetize, remove quotes, and change backslashes to forward slashes
+7 - Paste into link builder spreadsheet
+8 - Copy resulting links and paste into website
