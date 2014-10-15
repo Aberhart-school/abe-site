@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Start of the html file
+## Start of the html
 HTML="<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
 <!-- Copyright 2013 Tauran Wood -->
 
@@ -56,21 +56,27 @@ for x in $arr
 do
 	## Get folder
 	PDFS=$(echo "$FILES" | grep $x | tr "\n" "\n" )
+	## If folder contains pdf files
 	if [[ $PDFS != "" ]];	then
+		## Use folder name as section header, start ul
 		FOLDERNAME=${x//b829\/aberhart\//}
 		HTML="$HTML
 				<h3>$FOLDERNAME</h3>
 				<ul>"
+		## For each individual pdf file
 		for y in $PDFS
 		do
+			## Add link to pdf as a list element
 			NAME=${y//.*\//}
 			HTML="$HTML
 					${y//\.\/b829/<li><a href=\"/b829}\">$NAME</a></li>"
 		done
+		## Colse the ul
 		HTML="$HTML
 				</ul>"
 		fi
 done
+## Finish the html
 HTML="$HTML
 			</div>
 			<div id=\"leftside\">
@@ -84,4 +90,6 @@ HTML="$HTML
 		</div>
 	</body>
 </html>"
+## Write to file
 echo "$HTML">document-index.html
+## Done!
