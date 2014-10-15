@@ -56,18 +56,20 @@ for x in $arr
 do
 	## Get folder
 	PDFS=$(echo "$FILES" | grep $x | tr "\n" "\n" )
-	FOLDERNAME=${x//b829\/aberhart\//}
-	HTML="$HTML
+	if [[ $PDFS != "" ]];	then
+		FOLDERNAME=${x//b829\/aberhart\//}
+		HTML="$HTML
 				<h3>$FOLDERNAME</h3>
 				<ul>"
-	for y in $PDFS
-	do
-		NAME=${y//.*\//}
-		HTML="$HTML
+		for y in $PDFS
+		do
+			NAME=${y//.*\//}
+			HTML="$HTML
 					${y//\.\/b829/<li><a href=\"/b829}\">$NAME</a></li>"
-	done
-	HTML="$HTML
+		done
+		HTML="$HTML
 				</ul>"
+		fi
 done
 HTML="$HTML
 			</div>
