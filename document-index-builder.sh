@@ -36,8 +36,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"/b829/aberhart/universal/simpletabs.css\"/>
 		<script src=\"/b829/aberhart/universal/simpletabs.js\"></script>
-	
-		<link rel=\"stylesheet\" type=\"text/css\" href=\"/b829/aberhart/student-services/guidance.css\"/>
 	</head>
 	<body>
 		<div id=\"border\">
@@ -71,7 +69,7 @@ do
 			HTML="$HTML
 					${y//\.\/b829/<li><a href=\"/b829}\">$NAME</a></li>"
 		done
-		## Colse the ul
+		## Close the ul
 		HTML="$HTML
 				</ul>"
 		fi
