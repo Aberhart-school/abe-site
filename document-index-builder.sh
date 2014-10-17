@@ -47,7 +47,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 FILES=$(find . | grep \\.pdf)
 FILES=${FILES//' '/}
 ## Get a list of all top-level folders
-FOLDERS=$(find b829 -type d -d 2)
+FOLDERS=$(find b829 -type d -mindepth 2 -maxdepth 2)
 ## Map folders to array
 arr=$(echo $FOLDERS | tr " " "\n")
 ## For each folder, do
@@ -59,7 +59,7 @@ do
 	HTML="$HTML
 				<h3>$FOLDERNAME</h3>"
 	## Get subfolders
-	SUBFOLDERS=$(find $x -type d -d 1 | tr "\n" "\n")
+	SUBFOLDERS=$(find $x -type d -mindepth 1 -maxdepth 1 | tr "\n" "\n")
 	for z in $SUBFOLDERS
 	do
 		if [[ $(echo "$FILES" | grep $z) != "" ]]; then
