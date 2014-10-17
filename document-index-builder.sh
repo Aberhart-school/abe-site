@@ -45,6 +45,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 				<h2>Alphabetical Index of Documents</h2>"
 ## Get a list of all pdf files
 FILES=$(find . | grep \\.pdf)
+FILES=${FILES//' '/}
 ## Get a list of all top-level folders
 FOLDERS=$(find b829 -type d -d 2)
 ## Map folders to array
@@ -52,27 +53,35 @@ arr=$(echo $FOLDERS | tr " " "\n")
 ## For each folder, do
 for x in $arr
 do
-	## Get folder
-	PDFS=$(echo "$FILES" | grep $x | tr "\n" "\n" )
-	## If folder contains pdf files
-	if [[ $PDFS != "" ]];	then
-		## Use folder name as section header, start ul
-		FOLDERNAME=${x//b829\/aberhart\//}
-		HTML="$HTML
-				<h3>$FOLDERNAME</h3>
-				<ul>"
-		## For each individual pdf file
-		for y in $PDFS
-		do
-			## Add link to pdf as a list element
-			NAME=${y//.*\//}
+	## Get folder name
+	FOLDERNAME=${x//b829\/aberhart\//}
+	if [[ $(echo "$FILES" | grep $x) != "" ]]; then
+	HTML="$HTML
+				<h3>$FOLDERNAME</h3>"
+	## Get subfolders
+	SUBFOLDERS=$(find $x -type d -d 1 | tr "\n" "\n")
+	for z in $SUBFOLDERS
+	do
+		if [[ $(echo "$FILES" | grep $z) != "" ]]; then
+			## Get files in folder
+			PDFS=$(echo "$FILES" | grep $z | tr "\n" "\n")
 			HTML="$HTML
+				<h4>${z//b829\/aberhart\//}</h4>
+				<ul>"
+			## For each individual pdf file
+			for y in $PDFS
+			do
+				## Add link to pdf as a list element
+				NAME=${y//.*\//}
+				HTML="$HTML
 					${y//\.\/b829/<li><a href=\"/b829}\">$NAME</a></li>"
-		done
-		## Close the ul
-		HTML="$HTML
+			done
+			## Close the ul
+			HTML="$HTML
 				</ul>"
 		fi
+		done
+	fi
 done
 ## Finish the html
 HTML="$HTML
