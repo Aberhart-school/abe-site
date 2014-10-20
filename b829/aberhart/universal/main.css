@@ -20,8 +20,9 @@ body {
 	font: 8pt Verdana, Arial, Helvetica, sans-serif;
 	color:#333333;
 	line-height:11pt;
-	width:1060px;
 	padding:15px;
+	width:1060px; /* Remove this line for auto-resizing*/
+	min-width:910px;
 	margin:0px;
 	margin-left:auto;
 	margin-right:auto;
@@ -109,7 +110,7 @@ h3 {
 	margin-bottom:10px;
 	margin-left:8px;
 	margin-right:6px;
-	width:640px; /* 1060, the width of the document, - 2*202, the width of the sidebars - 2*8, the width of the margins, followed by trial and error for precision */
+	width:calc(100% - 420px);
 }
 
 /* iframes are resized using code found here http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
