@@ -1,0 +1,7 @@
+Using the document-index-builder
+
+From a terminal / git bash window
+Do:
+	cd path/to/website/
+	bash document-index-builder.sh
+This will create the document-index.html in the root folder
