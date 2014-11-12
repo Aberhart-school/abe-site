@@ -1,6 +1,6 @@
-abe-site: The New WAHS Website
+abe-site: The WAHS Website
 ==============================
-The new website for William Aberhart High School. The latest, official version of the website can be found at www.aberhart.ca.
+The website for William Aberhart High School. The latest, official version of the website can be found at www.aberhart.ca.
 
 Important Notes for Developers
 ==============================
