@@ -1,0 +1,27 @@
+﻿pick e7dbf88 Added link to exam bank on rightside
+pick 6453657 updated minutes for school council
+pick f33249c added "introduction to high school" documents under student services
+pick 40f4d97 update to QSA meeting location and hours
+pick ccd09f7 added open house information
+pick f74c2f9 fixed incorrect document title
+pick 29a681d Fixed exam schedule wrapper sizing
+pick b439b0e Changed date #84
+
+# Rebase 4977e40..b439b0e onto 4977e40
+#
+# Commands:
+#  p, pick = use commit
+#  r, reword = use commit, but edit the commit message
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#  f, fixup = like "squash", but discard this commit's log message
+#  x, exec = run command (the rest of the line) using shell
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+
