@@ -11,6 +11,10 @@
 /*jslint nomen: true, plusplus: true, sloppy: true, vars: true, white: true */
 /*global window, document, navigator, clearInterval, setInterval */
 
+var d = new Date();
+if (d.getMonth()==0||d.getMonth()==11) {
+
+
 var snowStorm = (function(window, document) {
 
   // --- common properties ---
@@ -664,3 +668,5 @@ var snowStorm = (function(window, document) {
   return this;
 
 }(window, document));
+
+};
