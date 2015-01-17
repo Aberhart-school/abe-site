@@ -53,3 +53,51 @@
 #sliderContainer {
 	margin:0 10px;
 }
+
+
+/* The following few classes control the rss styling */
+.feedburnerFeedBlock {
+	background-color:#ffffff;
+	max-height:370px;
+	width:200px;
+	overflow:auto;
+}
+.feedburnerFeedBlock ul {
+	list-style:none;
+	padding-left:0px;
+	margin:0px;
+}
+.feedburnerFeedBlock li {
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-bottom-color:#000;
+	padding-left:10px;
+}
+.feedburnerFeedBlock li p {
+	margin:0;
+}
+.feedTitle > a, .feedTitle > a:visited {
+	color:#fff;
+	text-decoration:none;
+	font:bold 9pt Verdana, Arial, Helvetica, sans-serif;
+}
+.feedTitle {
+	text-align:center;
+	background-color:#F28726;
+	font-size:1.17em;
+	margin:0px;
+	padding:5px;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-bottom-color:#000;
+}
+#cbeRSSsubscribe {
+	border-style:none;
+	border-top-style:solid;
+	border-color:#000;
+	border-width:2px;
+	padding:5px;
+}
+/* This is where the rss styling ends */
