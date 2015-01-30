@@ -17,16 +17,11 @@
 	margin:0px;
 	width:200px;
 	margin-bottom:10px;
-	border-color:#000;
-	border-bottom-left-radius:5px;
-	border-top-left-radius:5px;
-	border-width:2px;
-	border-style:solid;
-	border-right-width:0px;
 	background-color:#ffffff;
 }
 .rightmenuborder h3 {
 	background-color:#F28726;
+	border-top-left-radius:5px;
 	margin:0px;
 	padding-bottom:8px;
 	padding-left:10px;
@@ -34,9 +29,10 @@
 	color:white;
 }
 #helpmenu {
-	border-top-style:solid;
-	border-top-width:2px;
-	border-top-color:#000;
+	border-style:solid;
+	border-top-style:none;
+	border-width:1px;
+	border-color:#666;
 }
 #helpmenu img{
 	height:75px;
@@ -55,9 +51,10 @@
 	font:8pt Verdana, Arial, Helvetica, sans-serif;
 	line-height:18px;
 	display:block;
-	border-top-style:solid;
-	border-top-width:2px;
-	border-top-color:#000;
+	border-style:solid;
+	border-top-style:none;
+	border-width:1px;
+	border-color:#666;
 }
 #socialmediacontent img {
 	height:55px;
@@ -86,7 +83,7 @@
 }
 #linksmenu {
     float:none;
-	width:200px;
+	width:199px; /* Leave 1px for the border */
 }
 #linksmenu > li {
     float:none;
@@ -102,7 +99,7 @@
     position: absolute;
     display: none;
 	z-index: 999;
-	margin-left:200px;
+	margin-left:199px; /* Leave 1px for the border */
 	margin-top:-42px; /* 40px for the box, plus two for the border */
 }
 
@@ -117,14 +114,18 @@
 ------------------------------------------*/
 #linksmenu {
 	display:block;
+	border-color:#666;
+	border-width:1px;
+	border-style:none;
+	border-left-style:solid;
     margin:0px;
 	color:#000;
 }
 #linksmenu > li {
-	border-style:solid;
-	border-width:0px;
-	border-top-width:2px;
-	border-color:#000;
+	border-style:none;
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:#666;
 }
 #linksmenu > li > a {
     color: #000;

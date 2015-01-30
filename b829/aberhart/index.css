@@ -1,4 +1,4 @@
-/* Copyright 2013-14 Tauran Wood */
+/* Copyright 2013-15 Tauran Wood */
 
 /*  This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -56,6 +56,16 @@
 
 
 /* The following few classes control the rss styling */
+#cbeRSStitle {
+	background-color:#F28726;
+	margin:0px;
+	padding-bottom:8px;
+	padding-left:10px;
+	padding-top:8px;
+	color:white;
+	border-top-right-radius:5px;
+}
+
 .feedburnerFeedBlock {
 	background-color:#ffffff;
 	max-height:370px;
@@ -70,34 +80,39 @@
 .feedburnerFeedBlock li {
 	border-style:solid;
 	border-width:0px;
-	border-bottom-width:2px;
-	border-bottom-color:#000;
+	border-bottom-width:1px;
+	border-bottom-color:#666;
 	padding-left:10px;
 }
 .feedburnerFeedBlock li p {
 	margin:0;
 }
-.feedTitle > a, .feedTitle > a:visited {
-	color:#fff;
-	text-decoration:none;
-	font:bold 9pt Verdana, Arial, Helvetica, sans-serif;
-}
 .feedTitle {
-	text-align:center;
-	background-color:#F28726;
-	font-size:1.17em;
-	margin:0px;
-	padding:5px;
-	border-style:solid;
-	border-width:0px;
-	border-bottom-width:2px;
-	border-bottom-color:#000;
+	display:none;
 }
 #cbeRSSsubscribe {
+	background-color:#F28726;
 	border-style:none;
-	border-top-style:solid;
-	border-color:#000;
-	border-width:2px;
+	border-bottom-right-radius:5px;
 	padding:5px;
 }
+#cbeRSSsubscribe a {
+	color:#fff;
+}
 /* This is where the rss styling ends */
+
+/* Survey link styling */
+#feedbackSurvey {
+	border-style:solid;
+	border-left-style:none;
+	border-width:1px;
+	border-color:#666;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+#feedbackSurvey img {
+	width:160px;
+	height:160px;
+	padding-left:19px;
+	padding-top:5px;
+}

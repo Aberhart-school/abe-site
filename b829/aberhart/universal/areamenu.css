@@ -29,6 +29,7 @@
 	padding-left:10px;
 	padding-top:8px;
 	color:white;
+	border-top-right-radius:5px;
 }
 /* This runs the menu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
@@ -41,7 +42,7 @@
 }
 #leftmenu {
     float:none;
-	width:200px;
+	width:199px; /* Leave 1px for border */
 }
 #leftmenu > li {
     float:none;
@@ -57,8 +58,8 @@
     position: absolute;
     display: none;
 	z-index: 999;
-	margin-left:200px;
-	margin-top:-42px; /* 40px for the box, plus two for the border */
+	margin-left:199px; /* Leave 1px for the border */
+	margin-top:-41px; /* 40px for the box, plus one for the border */
 }
 
 #leftmenu > li:hover > ul {
@@ -73,12 +74,16 @@
 	display:block;
 	margin:0px;
 	color:#000;
+	border-style:none;
+	border-width:1px;
+	border-color:#666;
+	border-right-style:solid;
 }
 #leftmenu > li {
 	border-style:solid;
 	border-width:0px;
-	border-top-width:2px;
-	border-color:#000;
+	border-bottom-width:1px;
+	border-color:#666;
 }
 #leftmenu > li > a {
     color: #000;
@@ -92,21 +97,21 @@
  ------------------------------------------*/
 #leftmenu ul {
     background: #666;
-	border-width:1px;
-	border-style:solid;
-	border-color:#000;
-	
 }
 #leftmenu ul li a {
     color: #fff;
 	margin-top:auto;
 	margin-bottom:auto;
-	border-color:#000;
+	border-color:#fff;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
+	border-top-width:1px;
 }
 #leftmenu ul li:hover a {
     background: #333;
+}
+#leftmenu ul li:first-child a {
+	border-style:none;
 }
 /* move the little sub-menu arrow to the right */
 #leftmenu span {

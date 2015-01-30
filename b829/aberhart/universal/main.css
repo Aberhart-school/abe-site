@@ -83,12 +83,6 @@ h3 {
 }
 #leftside > div {
 	width:200px;
-	border-style:solid;
-	border-width:2px;
-	border-color:#000;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-	border-left-style:none;
 	margin-bottom:10px;
 }
 #rightside {
