@@ -15,8 +15,8 @@
 */
 
 .mainPageNews {
-	border-color:#888;
-	border-width:2px;
+	border-color:#666;
+	border-width:1px;
 	border-style:none;
 	border-top-style:solid;
 	width:100%;
@@ -35,8 +35,8 @@
 	vertical-align:top;
 	width:32%;
 	overflow:hidden;
-	border-color:#888;
-	border-width:2px;
+	border-color:#666;
+	border-width:1px;
 	border-style:none;
 	border-right-style:solid;
 }
@@ -103,16 +103,12 @@
 
 /* Survey link styling */
 #feedbackSurvey {
-	border-style:solid;
-	border-left-style:none;
+	padding-top:10px;
+	margin-top:30px;
+	text-align:center;
+	border-style:none;
+	border-top-style:solid;
 	border-width:1px;
 	border-color:#666;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-}
-#feedbackSurvey img {
-	width:160px;
-	height:160px;
-	padding-left:19px;
-	padding-top:5px;
+	font-size:20px;
 }
