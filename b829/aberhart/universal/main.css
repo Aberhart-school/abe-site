@@ -21,7 +21,7 @@ body {
 	color:#333333;
 	line-height:11pt;
 	padding:15px;
-	width:1060px; /* Remove this line for auto-resizing*/
+	/*width:1060px; /* Remove this line for auto-resizing*/
 	min-width:910px;
 	margin:0px;
 	margin-left:auto;
