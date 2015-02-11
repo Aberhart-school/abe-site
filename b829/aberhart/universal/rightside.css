@@ -47,32 +47,7 @@
 	padding:8px;
 	padding-top:5px;
 }
-#socialmediacontent {
-	font:8pt Verdana, Arial, Helvetica, sans-serif;
-	line-height:18px;
-	display:block;
-	border-style:solid;
-	border-top-style:none;
-	border-width:1px;
-	border-color:#666;
-}
-#socialmediacontent img {
-	height:55px;
-	border-radius:5px;
-	margin-top:15px;
-}
-#socialmediacontent p {
-	margin:0px;
-	padding:8px;
-	padding-top:5px;
-}
-#youtubelogo {
-	margin-left:30px;
-}
-#twitterlogo {
-	float:right;
-	margin-right:30px;
-}
+
 /* This runs the menu */
 /* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
 /* The source was modified to provide verticalness */
