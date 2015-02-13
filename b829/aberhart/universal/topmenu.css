@@ -36,6 +36,6 @@
 #topmenu a:first-child {
 	border-left-style:solid;
 }
-#topmenu a:hover {
+#topmenu a:hover, .topmenuHighlight {
 	background-color:#666;
 }
