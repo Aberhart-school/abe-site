@@ -14,18 +14,13 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 body {
-	background:url(/b829/aberhart/universal/AbeA-outline.svg) repeat center top;
-	background-size:119px;
-	background-color:#aaa;
+	background-color:#fff;
 	font: 8pt Verdana, Arial, Helvetica, sans-serif;
 	color:#333333;
 	line-height:11pt;
-	padding:15px;
-	width:1060px; /* Remove this line for auto-resizing*/
+	/*width:1060px; /* Remove this line for auto-resizing*/
 	min-width:910px;
-	margin:0px;
-	margin-left:auto;
-	margin-right:auto;
+	margin:0;
 }
 p {
 	line-height:135%;
@@ -64,18 +59,6 @@ h3 {
 	padding-bottom:5px;
 	padding-right:5px;
 }
-#border {
-	width:100%;
-	overflow:hidden;
-	
-	/* applies the border */
-	border-style:solid;
-	border-width:2px;
-	border-color:#000;
-	border-radius:10px;
-	
-	background:#fff;
-}
 #leftside{
 	display:inline-block;
 	float:left;
@@ -109,13 +92,13 @@ h3 {
 
 /* iframes are resized using code found here http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
 .fullpageiframe {
-    position: relative;
+	position: relative;
 	width:100%;
 	background:#fff;
 	display:inline-block;
 }
 .fullpageiframe > div {
-    padding-top: 130%; /* 8.5:11 aspect ratio...ish */
+	padding-top: 130%; /* 8.5:11 aspect ratio...ish */
 }
 .fullpageiframe > div > iframe {
 	width:100%;
@@ -127,13 +110,13 @@ h3 {
 	border-radius:5px;
 }
 .landscapeiframe {
-    position: relative;
+	position: relative;
 	width:100%;
 	background:#fff;
 	display:inline-block;
 }
 .landscapeiframe > div {
-    padding-top: 79%; /* 11:8.5 aspect ratio...ish */
+	padding-top: 79%; /* 11:8.5 aspect ratio...ish */
 }
 .landscapeiframe > div > iframe {
 	width:100%;

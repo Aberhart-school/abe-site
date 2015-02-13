@@ -15,7 +15,6 @@ function getAreamenuLocation(parentFilePath) {
 	} else {
 		areamenuLocation=parentFolder+"/areamenu-"+parentFolder+".html";
 	}
-	console.log("Setting: " + areamenuLocation);
 	return ("/b829/aberhart/" + areamenuLocation);
 }
 $( document ).ready(function() {
