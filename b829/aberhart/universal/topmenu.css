@@ -1,4 +1,4 @@
-/* Copyright 2013 Tauran Wood */
+/* Copyright 2015 Tauran Wood */
 
 /*  This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -14,86 +14,28 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-/* This runs the menu */
-/* Menu source, if you are interested http://www.onextrapixel.com/2011/06/03/how-to-create-a-horizontal-dropdown-menu-with-html-css-and-jquery/ */
-#topmenu,
-#topmenu ul {
-    list-style: none;
-	padding-left:0px;
-}
 #topmenu {
-    float: left;
-	display:inline-block;
+	background-color:#00adda;
+	text-align:center;
+	font-size:0;
+	margin-bottom:10px;
 }
-#topmenu > li {
-    float: left;
-}
-#topmenu li a {
-	display: block;
-    height: 25px;
-    line-height: 25px;
-    padding-left: 22px;
-	padding-right:22px;
-    text-decoration: none;
-}
-#topmenu ul {
-    position: absolute;
-    display: none;
-	z-index: 999;
-}
-
-#topmenu li:hover ul {
-    display: block;
-}
-
-/* Menu styling */
-
-/* Main menu
-------------------------------------------*/
-#topmenu {
-    background: #00adda;
-	margin-top:0px;
-	width:100%;
-	height:25px;
+#topmenu a {
+	font-size:8pt;
 	color:#fff;
-	border-style:solid;
-	border-width:0px;
-	border-color:#fff;
-	border-top-width:0px;
-	border-bottom-width:2px;
-}
-#topmenu > li {
-	border-style:solid;
-	border-width:0px;
-	border-right-width:2px;
-	border-color:#fff;
-}
-#topmenu > li > a {
-    color: #fff;
-    font-weight: normal;
-}
-#topmenu > li:hover > a, .topmenuHighlight {
-    background: #666666;
-    color: #fff;
-}
-/* Submenu
- ------------------------------------------*/
-#topmenu ul {
-    background: #f28726;
-	border-color:#fff;
-	border-style:solid;
+	text-decoration:none;
+	line-height:25px;
+	padding:6px;
+	padding-left:22px;
+	padding-right:22px;
+	border-style:none;
 	border-width:1px;
-	border-top-width:0px;
-	margin-left:-2px; /* Compensates for the width of the border when alighning the sub-menu */
+	border-color:#fff;
+	border-right-style:solid;
 }
-#topmenu ul li a {
-    color: #fff;
-	margin-top:auto;
-	margin-bottom:auto;
-	border-style:solid;
-	border-width:0px;
-	border-top-width:0px;
+#topmenu a:first-child {
+	border-left-style:solid;
 }
-#topmenu ul li:hover a {
-    background: #ffc97c;
+#topmenu a:hover {
+	background-color:#666;
 }
