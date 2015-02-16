@@ -21,11 +21,12 @@
 	margin-bottom:10px;
 }
 #topmenu a {
-	font-size:8pt;
+	display:inline-block;
+	font-size:10px;
 	color:#fff;
 	text-decoration:none;
 	line-height:25px;
-	padding:6px;
+	height:25px;
 	padding-left:22px;
 	padding-right:22px;
 	border-style:none;
