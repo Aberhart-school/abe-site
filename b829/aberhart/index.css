@@ -69,7 +69,11 @@
 .feedburnerFeedBlock {
 	background-color:#ffffff;
 	max-height:370px;
-	width:200px;
+	border-style:none;
+	border-width:1px;
+	border-color:#666;
+	border-right-style:solid;
+	width:199px; /* Leave a pixel for border */
 	overflow:auto;
 }
 .feedburnerFeedBlock ul {
@@ -81,7 +85,7 @@
 	border-style:solid;
 	border-width:0px;
 	border-bottom-width:1px;
-	border-bottom-color:#666;
+	border-color:#666;
 	padding-left:10px;
 }
 .feedburnerFeedBlock li p {
@@ -110,5 +114,6 @@
 	border-top-style:solid;
 	border-width:1px;
 	border-color:#666;
-	font-size:17px;
+	font-size:18px;
+	line-height:20px;
 }
