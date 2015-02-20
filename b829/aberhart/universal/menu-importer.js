@@ -10,7 +10,7 @@ function getAreamenuLocation(parentFilePath) {
 	if (parentFolder=="universal") {
 		areamenuLocation=getAreamenuLocation(getURLParameter("file"));
 	}
-	if (parentFolder=="index.htm") {
+	if (parentFolder=="index.htm" || parentFolder=="") {
 		areamenuLocation="main/areamenu-main.html";
 	} else {
 		areamenuLocation=parentFolder+"/areamenu-"+parentFolder+".html";
