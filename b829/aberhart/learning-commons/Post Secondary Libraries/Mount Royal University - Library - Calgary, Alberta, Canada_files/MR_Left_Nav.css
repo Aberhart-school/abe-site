@@ -1,0 +1,36 @@
+.MR_Left_Nav {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #ffffff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MR_Left_Nav:link {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #ffffff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MR_Left_Nav:visited {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #ffffff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MR_Left_Nav:hover {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #33ccff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.MR_Left_Nav-focus:link {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #33ccff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MR_Left_Nav-focus:visited {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #33ccff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.MR_Left_Nav-focus:hover {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-TOP-STYLE: none; COLOR: #33ccff; BORDER-RIGHT-STYLE: none; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+DIV.MR_Left_Nav-container {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; MARGIN-BOTTOM: 60px; FONT-SIZE: 12px
+}
+DIV.MR_Left_Nav {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 5px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.MR_Left_Nav-child {
+	MARGIN: 3px 6px 3px 20px
+}
+.MR_Left_Nav-separator {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; MARGIN-BOTTOM: 0px; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+P.MR_Left_Nav {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; MARGIN-LEFT: 10px; PADDING-TOP: 0px
+}

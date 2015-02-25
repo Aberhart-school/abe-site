@@ -1,0 +1,45 @@
+.rotator {
+	background: rgb(239, 239, 239); border: 1px solid rgb(215, 219, 220); overflow: hidden; position: relative;
+}
+.rotator a {
+	border: 0px currentColor;
+}
+.rotator-width {
+	float: right;
+}
+.rotator-width span {
+	font-weight: bold;
+}
+p.jshowoff-controls {
+	background: url("images/ui-bg_gloss-wave_100_d7dbdc_500x100.png") 50% 50% rgb(215, 219, 220); margin: 0px; padding: 0px 0px 5px 5px; border: 1px solid rgb(215, 219, 220); height: 1%; overflow: auto; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px;
+}
+.jshowoff p.jshowoff-slidelinks {
+	margin: 0px; padding: 0px; right: 5px; bottom: 7px; position: absolute;
+}
+.jshowoff-controls a {
+	background: url("images/ui-bg_gloss-wave_75_939798_500x100.png") 50% 50% rgb(147, 151, 152); margin: 0px 2px; padding: 0px; border-radius: 55px; border: 1px solid rgb(102, 102, 102); width: 13px; height: 13px; text-align: center; color: transparent; font-size: 0px; text-decoration: none; float: left; display: block; opacity: 0.6; -moz-border-radius: 55px; -webkit-border-radius: 55px;
+}
+.jshowoff-slidelinks a {
+	background: url("images/ui-bg_gloss-wave_75_939798_500x100.png") 50% 50% rgb(147, 151, 152); margin: 0px 2px; padding: 0px; border-radius: 55px; border: 1px solid rgb(102, 102, 102); width: 13px; height: 13px; text-align: center; color: transparent; font-size: 0px; text-decoration: none; float: left; display: block; opacity: 0.6; -moz-border-radius: 55px; -webkit-border-radius: 55px;
+}
+.jshowoff-controls a:hover {
+	background: url("images/ui-bg_gloss-wave_75_10beff_500x100.png") repeat-x 50% 50% rgb(16, 190, 255); border: 1px solid rgb(16, 190, 255);
+}
+.jshowoff-slidelinks a:hover {
+	background: url("images/ui-bg_gloss-wave_75_10beff_500x100.png") repeat-x 50% 50% rgb(16, 190, 255); border: 1px solid rgb(16, 190, 255);
+}
+.jshowoff-slidelinks a.jshowoff-active {
+	background: url("images/ui-bg_gloss-wave_75_008eb4_500x100.png") repeat-x 50% 50% rgb(0, 142, 180); border: 1px solid rgb(0, 142, 180);
+}
+.jshowoff-slidelinks a.jshowoff-active:hover {
+	background: url("images/ui-bg_gloss-wave_75_008eb4_500x100.png") repeat-x 50% 50% rgb(0, 142, 180); border: 1px solid rgb(0, 142, 180);
+}
+.jshowoff-pausetext {
+	
+}
+a.ImageButton {
+	background: rgb(221, 221, 221); padding: 2px 8px; border: 1px solid rgb(153, 153, 153); font-size: 11px; font-weight: bold; text-decoration: none;
+}
+.st-grid img {
+	width: 150px;
+}

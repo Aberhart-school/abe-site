@@ -1,0 +1,15 @@
+.pp_ad_space {
+	MARGIN-LEFT: 15px; VERTICAL-ALIGN: top; PADDING-TOP: 20px
+}
+.pp_ad_space-container {
+	VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.pp_ad_space A:link {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; TEXT-DECORATION: none
+}
+.pp_ad_space A:visited {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; TEXT-DECORATION: none
+}
+.pp_ad_space A:hover {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; TEXT-DECORATION: none
+}

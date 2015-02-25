@@ -1,0 +1,12 @@
+#leftColumn {
+	display: none;
+}
+#middleColumn {
+	margin: 0px; width: 99%; padding-right: 3px;
+}
+#innerColumnContainer {
+	border-left-width: 0px;
+}
+#outerColumnContainer {
+	border-left-width: 0px;
+}

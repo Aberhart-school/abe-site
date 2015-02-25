@@ -1,0 +1,144 @@
+* {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; -webkit-text-size-adjust: 100%;
+}
+:focus {
+	outline: 0px;
+}
+html {
+	height: 100%; color: rgb(85, 85, 85); font-family: Tahoma,Geneva,arial,sans-serif; font-size: 13px; overflow-y: scroll;
+}
+body {
+	color: rgb(85, 85, 85); word-wrap: break-word;
+}
+h1 {
+	margin: 5px 0px; font-weight: bold;
+}
+h2 {
+	margin: 5px 0px; font-weight: bold;
+}
+h3 {
+	margin: 5px 0px; font-weight: bold;
+}
+h4 {
+	margin: 5px 0px; font-weight: bold;
+}
+h5 {
+	margin: 5px 0px; font-weight: bold;
+}
+h6 {
+	margin: 5px 0px; font-weight: bold;
+}
+h1 {
+	clear: both; font-size: 22px; font-weight: normal;
+}
+h2 {
+	font-size: 15px;
+}
+h3 {
+	font-size: 14px;
+}
+h4 {
+	font-size: 13px;
+}
+a {
+	color: rgb(0, 85, 170); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 85, 170);
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 0px 0px 5px; padding: 0px 0px 5px;
+}
+ul {
+	margin: 5px 0px 5px 15px; padding: 0px 30px; list-style-position: outside;
+}
+ol {
+	margin: 5px 0px 5px 15px; padding: 0px 30px; list-style-position: outside;
+}
+ul ul {
+	margin: 0px; padding: 0px 15px;
+}
+ol ol {
+	margin: 0px; padding: 0px 15px;
+}
+dl {
+	
+}
+li {
+	
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	padding-left: 25px;
+}
+pre {
+	padding: 5px 0px;
+}
+code {
+	background: rgb(255, 255, 255); margin: 0px 10px; padding: 10px; border: 1px solid rgb(204, 204, 204); text-align: left; overflow: auto; font-family: "Courier New" , "Lucida Console" , monospace; display: block;
+}
+acronym {
+	border-bottom-color: rgb(136, 136, 136); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+blockquote {
+	background: rgb(238, 238, 238); margin: 10px 35px; padding: 20px 40px 10px; border: 1px solid rgb(204, 204, 204); text-align: justify; font-family: Georgia, "Times New Roman" , Times, serif; font-size: 14px; font-weight: normal;
+}
+blockquote p:first-child::before {
+	margin: -10px 0px 0px -25px; font-size: 50px; float: left; content: "\201C";
+}
+blockquote p:first-child::after {
+	margin: 10px -25px 0px 0px; line-height: 18px; font-size: 50px; float: right; content: "\201D";
+}
+table {
+	margin: 10px; border-collapse: collapse;
+}
+th {
+	padding: 6px 10px; text-align: left;
+}
+tr {
+	
+}
+td {
+	padding: 5px 10px; vertical-align: top;
+}
+label {
+	margin: 1px 5px;
+}
+input[type=text] {
+	background: rgb(255, 255, 255); margin: 1px 1px 0px; padding: 2px; border: 1px solid rgb(153, 153, 153); color: rgb(85, 85, 85); font-family: Tahoma,Geneva,arial,sans-serif; font-size: 13px;
+}
+input[type=password] {
+	background: rgb(255, 255, 255); margin: 1px 1px 0px; padding: 2px; border: 1px solid rgb(153, 153, 153); color: rgb(85, 85, 85); font-family: Tahoma,Geneva,arial,sans-serif; font-size: 13px;
+}
+textarea {
+	background: rgb(255, 255, 255); margin: 1px 1px 0px; padding: 2px; border: 1px solid rgb(153, 153, 153); color: rgb(85, 85, 85); font-family: Tahoma,Geneva,arial,sans-serif; font-size: 13px;
+}
+select {
+	background: rgb(255, 255, 255); margin: 1px 1px 0px; padding: 2px; border: 1px solid rgb(153, 153, 153); color: rgb(85, 85, 85); font-family: Tahoma,Geneva,arial,sans-serif; font-size: 13px;
+}
+select option {
+	padding: 0px 5px;
+}
+input[type=checkbox] {
+	margin: 3px 3px 3px 4px;
+}
+input[type=radio] {
+	margin: 3px 3px 3px 4px;
+}
+hr {
+	color: rgb(255, 255, 255); border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+.mceContentBody {
+	padding: 5px;
+}
+.mceContentBody img {
+	margin: 5px 10px;
+}
+.data > div {
+	font-size: 11px;
+}

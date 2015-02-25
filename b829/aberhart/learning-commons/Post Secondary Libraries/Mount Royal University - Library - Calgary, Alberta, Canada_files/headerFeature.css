@@ -1,0 +1,30 @@
+#headerFeature {
+	POSITION: relative; HEIGHT: 140px
+}
+#hf-message {
+	FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 14px
+}
+#fh-control IMG {
+	CURSOR: pointer
+}
+#hf-text-wrapper {
+	TEXT-ALIGN: right; COLOR: #fff
+}
+#hf-title {
+	POSITION: relative; LINE-HEIGHT: 24px; FONT-FAMILY: Arial,Helvetica,sans-serif; MARGIN-BOTTOM: 15px; COLOR: #fff; FONT-SIZE: 24px
+}
+#hf-body {
+	POSITION: relative; FONT-FAMILY: Arial,Helvetica,sans-serif; WORD-WRAP: break-word !important; MARGIN-BOTTOM: 10px; HEIGHT: 45px; COLOR: #fff; MARGIN-LEFT: 5px; FONT-SIZE: 12px; OVERFLOW: hidden
+}
+#hf-link {
+	BORDER-BOTTOM: 0px; COLOR: #33ccdd; TEXT-DECORATION: none
+}
+#hf-link A:link {
+	BORDER-BOTTOM: 0px; COLOR: #33ccdd; TEXT-DECORATION: none
+}
+#hf-link A:visited {
+	BORDER-BOTTOM: 0px; COLOR: #33ccdd; TEXT-DECORATION: none
+}
+#hf-link A:hover {
+	TEXT-DECORATION: underline
+}
