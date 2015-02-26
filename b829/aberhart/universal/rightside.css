@@ -31,15 +31,16 @@
 #helpmenu {
 	border-style:solid;
 	border-top-style:none;
+	border-right-style:none;
 	border-width:1px;
 	border-color:#666;
 }
 #helpmenu img{
 	height:75px;
-	border-radius:5px;
-	margin-left:50px;
-	margin-right:50px;
-	margin-top:8px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding-top:8px;
 }
 #helpmenu p {
 	font:8pt Verdana, Arial, Helvetica, sans-serif;
