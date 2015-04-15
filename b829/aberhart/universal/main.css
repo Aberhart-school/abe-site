@@ -19,7 +19,15 @@ body {
 	color:#333333;
 	line-height:11pt;
 	min-width:935px;
+	max-width:1900px;
 	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:#666;
+	border-style:solid;
+	border-bottom-style:none;
+	border-top-style:none;
+	border-width:1px;
 }
 p {
 	line-height:135%;
