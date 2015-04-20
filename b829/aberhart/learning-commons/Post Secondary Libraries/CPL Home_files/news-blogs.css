@@ -1,0 +1,153 @@
+.NewsBlogsLatestPosts ul {
+	margin: 10px 0px 0px !important; padding: 0px !important;
+}
+.bullet.NewsBlogsLatestPosts ul li {
+	margin: 0px 0px 0px 30px; padding: 0px;
+}
+.bullet.NewsBlogsLatestPosts ul .excerpt .sep {
+	display: none;
+}
+.NewsBlogsLatestPosts .excerpt {
+	font-size: 12px; display: block;
+}
+.NewsBlogsLatestPosts .post .body img {
+	margin: 0px 10px;
+}
+.default.NewsBlogsList ul {
+	margin: 0px; padding: 0px;
+}
+.default.NewsBlogsList li {
+	list-style: none; margin: 10px 0px 0px; padding: 0px; text-decoration: none;
+}
+.NewsBlogsList .sep {
+	display: none;
+}
+.NewsBlogsList .cntwrap {
+	font-size: 12px; display: block;
+}
+.NewsBlogsList .cntwrap .cnttitle {
+	display: block;
+}
+.NewsBlogsPosts .body {
+	overflow: hidden; clear: both; margin-top: 10px;
+}
+.NewsBlogsPosts h1.posttitle {
+	margin: 0px; padding: 10px 0px 0px; clear: both;
+}
+.NewsBlogsPosts .body a {
+	border: 0px currentColor; text-decoration: underline;
+}
+.NewsBlogsPosts .body a:hover {
+	border: 0px currentColor; text-decoration: underline;
+}
+.NewsBlogsPosts h1.posttitle a {
+	font-size: 28px; font-weight: normal; text-decoration: none;
+}
+.NewsBlogsPosts h1.posttitle a:hover {
+	text-decoration: underline;
+}
+.NewsBlogsPosts .info {
+	padding: 0px 0px 3px; font-size: 11px; font-style: italic;
+}
+.NewsBlogsPosts .addthis_toolbox {
+	margin: -19px -3px 0px 0px; float: right; display: table;
+}
+.NewsBlogsPosts .count {
+	margin: 0px 5px 0px 0px; padding: 0px 3px; border-radius: 8px 8px 8px 0px; border: 1px solid rgb(204, 204, 204); line-height: 13px !important; font-size: 9px; float: left; -moz-border-radius: 8px 8px 8px 0; -webkit-border-radius: 8px 8px 8px 0;
+}
+#at16p form {
+	background: rgb(255, 255, 255);
+}
+.addthis_toolbox .at15t_facebook {
+	background: url("/media/images/like.png") 0px 0px !important; width: 42px;
+}
+.addthis_toolbox .at15t_twitter {
+	background: url("/media/images/tweet.png") 0px 0px !important; width: 51px;
+}
+.NewsBlogsPosts .info .pub {
+	font-weight: bold;
+}
+.NewsBlogsPosts .info .postername {
+	font-weight: bold;
+}
+.NewsBlogsPosts .post {
+	padding-bottom: 5px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.NewsBlogsPosts .post .tags {
+	font-size: 12px; font-style: italic; margin-top: 10px;
+}
+.NewsBlogsPosts .post .tags div {
+	display: inline;
+}
+.NewsBlogsPosts .post .tags .label {
+	padding-right: 5px;
+}
+.NewsBlogsPosts .post .signIn {
+	font-weight: bold;
+}
+.NewsBlogsPosts .top-image {
+	margin: 10px 10px 10px 0px; width: 100px; height: 100px; float: left;
+}
+.NewsBlogsPosts .image.post-header {
+	width: 580px; float: left;
+}
+div.RSSFeed {
+	margin-top: -14px; float: right;
+}
+div.RSSFeed a {
+	float: left;
+}
+div.RSSFeed a {
+	background: url("images/rsss.png") no-repeat 0px 1px; margin: 3px 5px 0px 0px; padding: 4px 3px 3px 25px; border: 0px currentColor; font-size: 10px; text-decoration: none; display: block;
+}
+a.RSSFeed {
+	background: url("images/rsss.png") no-repeat 0px 1px; margin: 3px 5px 0px 0px; padding: 4px 3px 3px 25px; border: 0px currentColor; font-size: 10px; text-decoration: none; display: block;
+}
+div.RSSFeed a:hover {
+	text-decoration: underline;
+}
+a.RSSFeed:hover {
+	text-decoration: underline;
+}
+h1.title + div.RSSFeed {
+	margin: 0px; top: 1px; right: 0px; position: absolute;
+}
+h1.title + div.RSSFeed a {
+	color: rgb(255, 255, 255); font-size: 11px;
+}
+a.Comments.RSSFeed {
+	margin-top: -28px; float: right;
+}
+.news-blogs-tags {
+	text-align: justify; word-wrap: break-word;
+}
+.news-blogs-tags a {
+	margin: 1px 3px; padding: 0px; border: 0px currentColor; text-decoration: none;
+}
+.news-blogs-tags a:hover {
+	margin: 1px 3px; padding: 0px; border: 0px currentColor; text-decoration: underline;
+}
+.news-blogs-tags .tags1 {
+	font-size: 0.8em;
+}
+.news-blogs-tags .tags2 {
+	font-size: 1em;
+}
+.news-blogs-tags .tags3 {
+	font-size: 1.2em;
+}
+.news-blogs-tags .tags4 {
+	font-size: 1.3em; font-weight: bold;
+}
+.news-blogs-tags .tags5 {
+	font-size: 1.4em; font-weight: bold;
+}
+#DataEntry #existingTags {
+	display: none;
+}
+#existingTags div {
+	border: 0px currentColor !important; width: 500px !important; overflow: visible !important;
+}
+#cboxLoadedContent {
+	overflow-x: hidden !important;
+}

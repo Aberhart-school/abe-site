@@ -1,0 +1,57 @@
+.comments .nocomments {
+	padding: 10px; text-align: center; font-size: 16px; font-weight: bold;
+}
+.comments .CommentsForm {
+	width: 100%; position: relative;
+}
+.comments .CommentsForm .edit-form {
+	background: rgb(239, 239, 255); border-width: 1px 0px; border-style: dotted; border-color: rgb(204, 204, 204); padding: 10px 3px 6px 10px; clear: both; position: relative;
+}
+.comments .CommentsForm h2 {
+	background: rgb(224, 224, 240); margin: 15px 0px 0px; padding: 5px 15px;
+}
+.comments .CommentsForm .ShowName {
+	top: 7px; right: 8px; position: absolute;
+}
+.comments .CommentsForm .ShowName label {
+	margin: 0px;
+}
+.comments .CommentsForm .ShowName .RequiredFieldIndicator {
+	display: none;
+}
+.comments .CommentsForm .Buttons {
+	text-align: center;
+}
+.comments .CommentsForm input[type=text] {
+	width: 98%; margin-bottom: 5px; display: block;
+}
+.comments .CommentsForm textarea {
+	width: 98%; margin-bottom: 5px; display: block;
+}
+.comments .thanks {
+	padding: 5px; font-weight: bold;
+}
+.comments h1.cmm {
+	margin: 0px; padding: 2px 10px 4px; font-size: 24px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.comments .cmm {
+	clear: both;
+}
+.comments .txt {
+	margin: 0px; padding: 7px 10px 0px; clear: both; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.comments .cmm .info {
+	background: rgb(224, 224, 240); margin: 15px 0px 0px; padding: 8px; border: 1px solid rgb(224, 224, 240); font-size: 11px; font-style: italic; border-top-left-radius: 6px; border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px;
+}
+.comments .info .pub {
+	font-weight: bold;
+}
+.comments .info .postername {
+	font-weight: bold;
+}
+.comments .cmm .body {
+	margin: 0px 0px 20px; padding: 8px; border: 1px solid rgb(224, 224, 240); word-wrap: break-word; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px;
+}
+.comments .msg {
+	padding: 10px; text-align: center; color: rgb(255, 136, 68); font-size: 16px;
+}

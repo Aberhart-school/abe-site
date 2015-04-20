@@ -1,0 +1,30 @@
+.main-menu {
+	background: rgb(255, 255, 255); top: 90px; height: 29px; right: 5px; position: absolute; border-top-left-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -moz-border-radius-topleft: 8px; -webkit-border-top-left-radius: 8px; -moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px;
+}
+.main-menu a {
+	white-space: nowrap;
+}
+.main-menu a.st-active {
+	color: rgb(255, 136, 68); text-decoration: none;
+}
+.main-menu > ul {
+	list-style: none; margin: 5px 0px; padding: 1px 10px; border: 0px currentColor; float: left;
+}
+.main-menu > ul > li {
+	display: inline; position: relative;
+}
+.main-menu > ul > li.sep::before {
+	z-index: 11; content: " | ";
+}
+.main-menu ul > li > a {
+	margin: 0px 5px;
+}
+.main-menu li > ul {
+	background: rgb(255, 255, 255); list-style: none; padding: 0px; border: 2px solid rgb(204, 204, 204); left: -25px; top: 23px; display: none; position: absolute; z-index: 10; box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+}
+.main-menu li li > a {
+	margin: 0px; padding: 3px 10px 5px; display: block;
+}
+.main-menu li li > a:hover {
+	background: rgb(17, 119, 187); color: rgb(255, 255, 255); text-decoration: none;
+}

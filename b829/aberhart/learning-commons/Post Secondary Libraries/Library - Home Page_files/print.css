@@ -1,0 +1,87 @@
+#leftColumn {
+	float: none;
+}
+#rightColumn {
+	float: none;
+}
+#contentColumn {
+	float: none;
+}
+#SOWrap {
+	float: none;
+}
+html > body #SOWrap {
+	width: auto;
+}
+#rightColumn {
+	display: none;
+}
+#leftColumn {
+	display: none;
+}
+.hnav {
+	display: none;
+}
+.printHide {
+	display: none;
+}
+#outerColumnContainer {
+	border-width: 0px; background-color: rgb(255, 255, 255);
+}
+#innerColumnContainer {
+	border-width: 0px; background-color: rgb(255, 255, 255);
+}
+#pageWrapper {
+	border-width: 0px; background-color: rgb(255, 255, 255);
+}
+#header {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0.5em; display: none;
+}
+#footer {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0.5em; display: none;
+}
+* html #footer {
+	margin-top: 1em;
+}
+a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a:link {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a:visited {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+body {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.tableLayout {
+	border: 2px solid rgb(0, 0, 0);
+}
+#topMenu {
+	display: none;
+}
+.breadcrumb {
+	display: none;
+}
+.trans {
+	display: none;
+}
+.inactive.content {
+	display: none;
+}
+:not(p).accordion-close {
+	display: none;
+}
+.homebutton {
+	display: none;
+}
+.tabbed {
+	display: none;
+}
+ol#toc {
+	display: none;
+}
+.dropt {
+	display: none;
+}

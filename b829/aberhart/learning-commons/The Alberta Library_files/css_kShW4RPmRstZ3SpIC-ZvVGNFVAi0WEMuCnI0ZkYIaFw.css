@@ -1,0 +1,345 @@
+#autocomplete {
+	border: 1px solid currentColor; overflow: hidden; position: absolute; z-index: 100;
+}
+#autocomplete ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#autocomplete li {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); white-space: pre; cursor: default; zoom: 1;
+}
+html.js input.form-autocomplete {
+	background-position: 100%; background-image: url("/misc/throbber-inactive.png"); background-repeat: no-repeat;
+}
+html.js input.throbbing {
+	background-position: 100%; background-image: url("/misc/throbber-active.gif");
+}
+html.js fieldset.collapsed {
+	height: 1em; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;
+}
+html.js fieldset.collapsed .fieldset-wrapper {
+	display: none;
+}
+fieldset.collapsible {
+	position: relative;
+}
+fieldset.collapsible .fieldset-legend {
+	display: block;
+}
+.form-textarea-wrapper textarea {
+	margin: 0px; width: 100%; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.resizable-textarea .grippie {
+	background: url("/misc/grippie.png") no-repeat center 2px rgb(238, 238, 238); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(221, 221, 221); height: 9px; overflow: hidden; cursor: s-resize;
+}
+body.drag {
+	cursor: move;
+}
+.draggable a.tabledrag-handle {
+	height: 1.7em; overflow: hidden; text-decoration: none; margin-left: -1em; float: left; cursor: move;
+}
+a.tabledrag-handle:hover {
+	text-decoration: none;
+}
+a.tabledrag-handle .handle {
+	background: url("/misc/draggable.png") no-repeat 6px 9px; margin: -0.4em 0.5em; padding: 0.42em 0.5em; width: 13px; height: 13px;
+}
+a.tabledrag-handle-hover .handle {
+	background-position: 6px -11px;
+}
+div.indentation {
+	margin: -0.4em 0.2em -0.4em -0.4em; padding: 0.42em 0px 0.42em 0.6em; width: 20px; height: 1.7em; float: left;
+}
+div.tree-child {
+	background: url("/misc/tree.png") no-repeat 11px;
+}
+div.tree-child-last {
+	background: url("/misc/tree-bottom.png") no-repeat 11px;
+}
+div.tree-child-horizontal {
+	background: url("/misc/tree.png") no-repeat -11px;
+}
+.tabledrag-toggle-weight-wrapper {
+	text-align: right;
+}
+table.sticky-header {
+	margin-top: 0px; background-color: rgb(255, 255, 255);
+}
+.progress .bar {
+	border: 1px solid currentColor; background-color: rgb(255, 255, 255);
+}
+.progress .filled {
+	width: 5px; height: 1.5em; background-color: rgb(0, 0, 0);
+}
+.progress .percentage {
+	float: right;
+}
+.ajax-progress {
+	display: inline-block;
+}
+.ajax-progress .throbber {
+	background: url("/misc/throbber-active.gif") no-repeat 0px; margin: 2px; width: 15px; height: 15px; float: left;
+}
+.ajax-progress .message {
+	padding-left: 20px;
+}
+tr .ajax-progress .throbber {
+	margin: 0px 2px;
+}
+.ajax-progress-bar {
+	width: 16em;
+}
+.container-inline div {
+	display: inline;
+}
+.container-inline label {
+	display: inline;
+}
+.container-inline .fieldset-wrapper {
+	display: block;
+}
+.nowrap {
+	white-space: nowrap;
+}
+html.js .js-hide {
+	display: none;
+}
+.element-hidden {
+	display: none;
+}
+.element-invisible {
+	height: 1px; overflow: hidden; position: absolute !important; cliptop: 1px; clipright: 1px; clipbottom: 1px; clipleft: 1px;
+}
+.element-focusable.element-invisible:active {
+	height: auto; overflow: visible; position: static !important; clip: auto;
+}
+.element-focusable.element-invisible:focus {
+	height: auto; overflow: visible; position: static !important; clip: auto;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+* html .clearfix {
+	height: 1%;
+}
+*:first-child + html .clearfix {
+	min-height: 1%;
+}
+div.messages {
+	background-position: 8px 8px; margin: 6px 0px; padding: 10px 10px 10px 50px; border: 1px solid currentColor; background-repeat: no-repeat;
+}
+div.status {
+	border-color: rgb(187, 238, 119); background-image: url("/misc/message-24-ok.png");
+}
+div.status {
+	color: rgb(35, 70, 0);
+}
+.ok {
+	color: rgb(35, 70, 0);
+}
+div.status {
+	background-color: rgb(248, 255, 240);
+}
+table tr.ok {
+	background-color: rgb(248, 255, 240);
+}
+div.warning {
+	border-color: rgb(238, 221, 85); background-image: url("/misc/message-24-warning.png");
+}
+div.warning {
+	color: rgb(136, 68, 0);
+}
+.warning {
+	color: rgb(136, 68, 0);
+}
+div.warning {
+	background-color: rgb(255, 252, 229);
+}
+table tr.warning {
+	background-color: rgb(255, 252, 229);
+}
+div.error {
+	border-color: rgb(237, 84, 29); background-image: url("/misc/message-24-error.png");
+}
+div.error {
+	color: rgb(140, 46, 11);
+}
+.error {
+	color: rgb(140, 46, 11);
+}
+div.error {
+	background-color: rgb(254, 245, 241);
+}
+table tr.error {
+	background-color: rgb(254, 245, 241);
+}
+div.error p.error {
+	color: rgb(51, 51, 51);
+}
+div.messages ul {
+	margin: 0px 0px 0px 1em; padding: 0px;
+}
+div.messages ul li {
+	list-style-image: none;
+}
+fieldset {
+	padding: 0.5em; margin-bottom: 1em;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+hr {
+	border: 1px solid gray; height: 1px;
+}
+img {
+	border: 0px currentColor;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	text-align: left; padding-right: 1em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 3px; border-bottom-style: solid;
+}
+tbody {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+tr.even {
+	padding: 0.1em 0.6em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+tr.odd {
+	padding: 0.1em 0.6em; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+th.active img {
+	display: inline;
+}
+td.active {
+	background-color: rgb(221, 221, 221);
+}
+.item-list .title {
+	font-weight: bold;
+}
+.item-list ul {
+	margin: 0px 0px 0.75em; padding: 0px;
+}
+.item-list ul li {
+	margin: 0px 0px 0.25em 1.5em; padding: 0px;
+}
+.form-item {
+	margin-top: 1em; margin-bottom: 1em;
+}
+.form-actions {
+	margin-top: 1em; margin-bottom: 1em;
+}
+tr.odd .form-item {
+	margin-top: 0px; margin-bottom: 0px; white-space: nowrap;
+}
+tr.even .form-item {
+	margin-top: 0px; margin-bottom: 0px; white-space: nowrap;
+}
+.form-item .description {
+	font-size: 0.85em;
+}
+label {
+	font-weight: bold; display: block;
+}
+label.option {
+	font-weight: normal; display: inline;
+}
+.form-checkboxes .form-item {
+	margin-top: 0.4em; margin-bottom: 0.4em;
+}
+.form-radios .form-item {
+	margin-top: 0.4em; margin-bottom: 0.4em;
+}
+.form-type-radio .description {
+	margin-left: 2.4em;
+}
+.form-type-checkbox .description {
+	margin-left: 2.4em;
+}
+input.form-checkbox {
+	vertical-align: middle;
+}
+input.form-radio {
+	vertical-align: middle;
+}
+.marker {
+	color: rgb(255, 0, 0);
+}
+.form-required {
+	color: rgb(255, 0, 0);
+}
+.form-item input.error {
+	border: 2px solid red;
+}
+.form-item textarea.error {
+	border: 2px solid red;
+}
+.form-item select.error {
+	border: 2px solid red;
+}
+.container-inline .form-actions {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.form-actions.container-inline {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.more-link {
+	text-align: right;
+}
+.more-help-link {
+	text-align: right;
+}
+.more-help-link a {
+	background: url("/misc/help.png") no-repeat 0px 50%; padding: 1px 0px 1px 20px;
+}
+.item-list .pager {
+	text-align: center; clear: both;
+}
+.item-list .pager li {
+	padding: 0.5em; display: inline; list-style-type: none; background-image: none;
+}
+.pager-current {
+	font-weight: bold;
+}
+#autocomplete li.selected {
+	background: rgb(0, 114, 185); color: rgb(255, 255, 255);
+}
+html.js fieldset.collapsible .fieldset-legend {
+	background: url("/misc/menu-expanded.png") no-repeat 5px 65%; padding-left: 15px;
+}
+html.js fieldset.collapsed .fieldset-legend {
+	background-position: 5px 50%; background-image: url("/misc/menu-collapsed.png");
+}
+.fieldset-legend span.summary {
+	color: rgb(153, 153, 153); font-size: 0.9em; margin-left: 0.5em;
+}
+tr.drag {
+	background-color: rgb(255, 255, 240);
+}
+tr.drag-previous {
+	background-color: rgb(255, 255, 221);
+}
+.tabledrag-toggle-weight {
+	font-size: 0.9em;
+}
+body div.tabledrag-changed-warning {
+	margin-bottom: 0.5em;
+}
+tr.selected td {
+	background: rgb(255, 255, 204);
+}
+td.checkbox {
+	text-align: center;
+}
+th.checkbox {
+	text-align: center;
+}
+.progress {
+	font-weight: bold;
+}
+.progress .bar {
+	background: rgb(204, 204, 204); border-color: rgb(102, 102, 102); margin: 0px 0.2em; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.progress .filled {
+	background: url("/misc/progress.gif") rgb(0, 114, 185);
+}

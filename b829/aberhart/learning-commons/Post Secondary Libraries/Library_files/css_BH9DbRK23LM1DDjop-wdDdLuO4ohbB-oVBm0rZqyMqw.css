@@ -1,0 +1,1038 @@
+#aggregator .feed-source .feed-title {
+	margin-top: 0px;
+}
+#aggregator .feed-source .feed-image img {
+	margin-bottom: 0.75em;
+}
+#aggregator .feed-source .feed-icon {
+	float: right; display: block;
+}
+#aggregator .feed-item {
+	margin-bottom: 1.5em;
+}
+#aggregator .feed-item-title {
+	font-size: 1.3em; margin-bottom: 0px;
+}
+#aggregator .feed-item-meta {
+	margin-bottom: 0.5em;
+}
+#aggregator .feed-item-body {
+	margin-bottom: 0.5em;
+}
+#aggregator .feed-item-categories {
+	font-size: 0.9em;
+}
+#aggregator td {
+	vertical-align: bottom;
+}
+#aggregator td.categorize-item {
+	white-space: nowrap;
+}
+#aggregator .categorize-item .news-item .body {
+	margin-top: 0px;
+}
+#aggregator .categorize-item h3 {
+	margin-top: 0px; margin-bottom: 1em;
+}
+.calendar-calendar tr.odd {
+	background-color: rgb(255, 255, 255);
+}
+.calendar-calendar tr.even {
+	background-color: rgb(255, 255, 255);
+}
+.calendar-calendar table {
+	margin: 0px auto; padding: 0px; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+.calendar-calendar .month-view table {
+	margin: 0px; padding: 0px; border: currentColor; width: 100%;
+}
+.calendar-calendar .year-view td {
+	padding: 1px; border: currentColor; width: 32%;
+}
+.calendar-calendar .year-view td table td {
+	padding: 0px; width: 13%;
+}
+.calendar-calendar tr {
+	margin: 0px; padding: 0px; background-color: white;
+}
+.calendar-calendar th {
+	margin: 0px; text-align: center;
+}
+.calendar-calendar th a {
+	font-weight: bold;
+}
+.calendar-calendar td {
+	margin: 0px; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 14%; text-align: right; color: rgb(119, 119, 119); vertical-align: top;
+}
+.calendar-calendar .mini {
+	border: currentColor;
+}
+.calendar-calendar td.week {
+	width: 1%; min-width: 1%;
+}
+.calendar-calendar .week {
+	color: rgb(85, 85, 85); clear: both; font-size: 0.8em; font-style: normal;
+}
+.calendar-calendar .inner {
+	margin: 0px; padding: 0px; height: auto !important;
+}
+.calendar-calendar .inner div {
+	margin: 0px; padding: 0px;
+}
+.calendar-calendar .inner p {
+	margin: 0px; padding: 0px 0px 0.8em;
+}
+.calendar-calendar td a {
+	font-weight: bold; text-decoration: none;
+}
+.calendar-calendar td a:hover {
+	text-decoration: underline;
+}
+.calendar-calendar td.year {
+	text-align: center;
+}
+.calendar-calendar td.month {
+	text-align: center;
+}
+.calendar-calendar th.days {
+	margin: 0px; padding: 1px; text-align: center; color: rgb(204, 204, 204); background-color: rgb(34, 34, 68);
+}
+.calendar-calendar div.day {
+	border-width: 0px 0px 1px 1px; border-style: solid; border-color: gray; margin: 0px; padding: 0.12em 0.25em 0px; width: 1.5em; text-align: center; clear: both; float: right; background-color: rgb(243, 243, 243);
+}
+.calendar-calendar div.calendar {
+	margin: 0px 0.25em 0.25em 0px; border: 1px solid rgb(221, 221, 221); width: 96%; text-align: left; clear: both; float: right; background-color: rgb(255, 255, 255);
+}
+.calendar-calendar .day-view div.calendar {
+	margin: 1% 1% 0px; width: 98%; float: none;
+}
+.calendar-calendar div.title {
+	text-align: center; font-size: 0.8em;
+}
+.calendar-calendar div.title a {
+	color: rgb(0, 0, 0);
+}
+.calendar-calendar div.title a:hover {
+	color: rgb(204, 0, 0);
+}
+.calendar-calendar .content {
+	padding: 3px 3px 3px 5px; clear: both;
+}
+.calendar div.form-item {
+	white-space: normal;
+}
+table td.mini {
+	margin: 0px; padding: 0px 1px 0px 0px;
+}
+table th.mini {
+	margin: 0px; padding: 0px 1px 0px 0px;
+}
+table.mini td.week {
+	margin: 0px; padding: 0px 1px 0px 0px;
+}
+table td.mini a {
+	font-weight: normal;
+}
+.calendar-calendar .mini-day-off {
+	padding: 0px;
+}
+.calendar-calendar .mini-day-on {
+	padding: 0px;
+}
+table .mini-day-on a {
+	text-decoration: underline;
+}
+.calendar-calendar .mini .title {
+	font-size: 0.8em;
+}
+.mini .calendar-calendar .week {
+	font-size: 0.7em;
+}
+.mini-row {
+	border: currentColor; width: 100%;
+}
+.mini {
+	width: 32%; vertical-align: top;
+}
+.calendar-calendar .stripe {
+	width: auto; height: 5px; line-height: 1px !important; font-size: 1px !important;
+}
+.calendar-calendar .day-view .stripe {
+	width: 100%;
+}
+table.calendar-legend {
+	margin: 0px; padding: 0px; width: 100%; background-color: rgb(204, 204, 204);
+}
+table.calendar-legend tr.odd .stripe {
+	height: 12px !important; line-height: 10px !important; font-size: 9px !important;
+}
+table.calendar-legend tr.even .stripe {
+	height: 12px !important; line-height: 10px !important; font-size: 9px !important;
+}
+.calendar-legend td {
+	text-align: left; padding-left: 5px;
+}
+.calendar-empty {
+	line-height: 1px; font-size: 1px;
+}
+.calendar-calendar td.calendar-agenda-hour {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(204, 204, 204) currentColor currentColor; width: 1%; text-align: right; padding-top: 0.25em;
+}
+.calendar-calendar td.calendar-agenda-no-hours {
+	min-width: 1%;
+}
+.calendar-calendar td.calendar-agenda-hour .calendar-hour {
+	font-size: 1.2em; font-weight: bold;
+}
+.calendar-calendar td.calendar-agenda-hour .calendar-ampm {
+	font-size: 1em;
+}
+.calendar-calendar td.calendar-agenda-items {
+	border: 1px solid rgb(204, 204, 204); text-align: left;
+}
+.calendar-calendar td.calendar-agenda-items div.calendar {
+	margin: 0px; padding: 0.25em; width: auto;
+}
+.calendar-calendar div.calendar div.inner .calendar-agenda-empty {
+	padding: 1em 0px; width: 100%; text-align: center; vertical-align: middle; background-color: rgb(255, 255, 255);
+}
+.calendar-date-select form {
+	width: 25%; text-align: right; float: right;
+}
+.calendar-date-select div {
+	margin: 0px; padding: 0px; text-align: right; clear: both; float: right;
+}
+.calendar-date-select input {
+	margin: 0px; padding: 0px; text-align: right; clear: both; float: right;
+}
+.calendar-date-select label {
+	margin: 0px; padding: 0px; text-align: right; clear: both; float: right;
+}
+.calendar-date-select .description {
+	float: right;
+}
+.calendar-label {
+	clear: both; font-weight: bold; display: block;
+}
+.calendar-calendar div.date-nav {
+	padding: 0.2em; border: 1px solid rgb(204, 204, 204); width: auto; color: rgb(119, 119, 119); background-color: rgb(204, 204, 204);
+}
+.calendar-calendar div.date-nav a {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.calendar-calendar div.date-nav h3 {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.calendar-calendar th.days {
+	border: 1px solid rgb(204, 204, 204); color: rgb(119, 119, 119); font-weight: bold; background-color: rgb(238, 238, 238);
+}
+.calendar-calendar td.empty {
+	background: rgb(204, 204, 204); border-color: rgb(204, 204, 204); color: rgb(204, 204, 153);
+}
+.calendar-calendar table.mini td.empty {
+	background: rgb(255, 255, 255); border-color: rgb(255, 255, 255);
+}
+.calendar-calendar td div.day {
+	border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(204, 204, 204) rgb(204, 204, 204); margin-bottom: 2px;
+}
+.calendar-calendar td .inner div {
+	background: rgb(238, 238, 238);
+}
+.calendar-calendar td .inner div a {
+	background: rgb(238, 238, 238);
+}
+.calendar-calendar div.calendar {
+	border: currentColor; font-size: x-small;
+}
+.calendar-calendar td .inner div.calendar div {
+	background: rgb(255, 255, 204); padding: 0px; border: currentColor;
+}
+.calendar-calendar td .inner div.calendar div a {
+	background: rgb(255, 255, 204); padding: 0px; border: currentColor;
+}
+.calendar-calendar td .inner div.calendar div.calendar-more {
+	background: rgb(255, 255, 255); text-align: right; color: rgb(68, 68, 68);
+}
+.calendar-calendar td .inner div.calendar div.calendar-more a {
+	background: rgb(255, 255, 255); text-align: right; color: rgb(68, 68, 68);
+}
+.calendar-calendar td .inner .view-field {
+	color: rgb(68, 68, 68); font-weight: normal;
+}
+.calendar-calendar td .inner .view-field a {
+	color: rgb(68, 68, 68); font-weight: normal;
+}
+.calendar-calendar td span.date-display-single {
+	font-weight: bold;
+}
+.calendar-calendar td span.date-display-start {
+	font-weight: bold;
+}
+.calendar-calendar td span.date-display-end {
+	font-weight: bold;
+}
+.calendar-calendar td span.date-display-separator {
+	font-weight: bold;
+}
+.calendar-calendar td .inner div.day a {
+	color: rgb(75, 133, 172);
+}
+.calendar-calendar tr td.today {
+	background-color: rgb(195, 214, 228);
+}
+.calendar-calendar tr.odd td.today {
+	background-color: rgb(195, 214, 228);
+}
+.calendar-calendar tr.even td.today {
+	background-color: rgb(195, 214, 228);
+}
+.calendar-calendar td .inner div.calendar div div.view-data-node-data-field-date-field-date-value {
+	
+}
+.calendar-calendar td.past {
+	
+}
+.calendar-calendar td.future {
+	
+}
+.calendar-calendar td.has-events {
+	
+}
+.calendar-calendar td.has-no-events {
+	
+}
+.calendar-calendar tbody {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.calendar-calendar .month-view .full .inner {
+	height: auto; min-height: auto;
+}
+.calendar-calendar .week-view .full .multi-day .inner {
+	height: auto; min-height: auto;
+}
+.calendar-calendar .week-view .full .calendar-agenda-hour .calendar-calendar .month-view .full .single-day .inner .view-item {
+	width: 100%; float: left;
+}
+.calendar-calendar .week-view .full .calendar-agenda-hour {
+	padding-right: 2px;
+}
+.calendar-calendar .day-view .full .calendar-agenda-hour {
+	padding-right: 2px;
+}
+.calendar-calendar .week-view .full .calendar-agenda-hour {
+	width: 6%; min-width: 0px;
+}
+.calendar-calendar .week-view .full .days {
+	width: 13%;
+}
+.calendar-calendar .month-view .full div.calendar {
+	width: auto;
+}
+.calendar-calendar .week-view .full div.calendar {
+	width: auto;
+}
+.calendar-calendar .day-view div.calendar {
+	width: auto;
+}
+.calendar-calendar .month-view .full tr.date-box {
+	height: 19px; max-height: 19px;
+}
+.calendar-calendar .month-view .full tr.date-box td {
+	height: 19px; max-height: 19px;
+}
+.calendar-calendar .month-view .full tr.multi-day {
+	height: 19px; max-height: 19px;
+}
+.calendar-calendar .month-view .full tr.multi-day td {
+	height: 19px; max-height: 19px;
+}
+.calendar-calendar .month-view .full tr.single-day .no-entry {
+	height: 44px !important; line-height: 44px;
+}
+.calendar-calendar .month-view .full tr.single-day .no-entry .inner {
+	height: 44px !important; line-height: 44px;
+}
+.calendar-calendar .month-view .full tr.single-day .noentry-multi-day {
+	height: 22px !important; line-height: 22px;
+}
+.calendar-calendar .month-view .full tr.single-day .noentry-multi-day .inner {
+	height: 22px !important; line-height: 22px;
+}
+.calendar-calendar .month-view .full td {
+	padding: 1px 2px 0px; vertical-align: top;
+}
+.calendar-calendar .week-view .full td {
+	padding: 1px 2px 0px; vertical-align: top;
+}
+.calendar-calendar .day-view td {
+	padding: 1px 2px 0px; vertical-align: top;
+}
+.calendar-calendar .month-view .full td.date-box {
+	height: 1%; padding-bottom: 2px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.calendar-calendar .month-view .full .week {
+	font-size: inherit;
+}
+.calendar-calendar .month-view .full .week a {
+	color: rgb(75, 133, 172);
+}
+.calendar-calendar .week-view .full .week a {
+	color: rgb(75, 133, 172);
+}
+.calendar-calendar .month-view .full td .inner div.day {
+	border: currentColor; margin-bottom: 0px;
+}
+.calendar-calendar .month-view .full td .inner div.day a {
+	border: currentColor; margin-bottom: 0px;
+}
+.calendar-calendar .month-view .full td.date-box .inner {
+	min-height: inherit;
+}
+.calendar-calendar .week-view .full td.date-box .inner {
+	min-height: inherit;
+}
+.calendar-calendar .month-view .full td.multi-day {
+	border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none;
+}
+.calendar-calendar .week-view .full td.multi-day {
+	border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none;
+}
+.calendar-calendar .week-view .full .first td.multi-day {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.calendar-calendar .month-view .full td.single-day {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.calendar-calendar .month-view .full td.multi-day .inner {
+	width: auto; position: relative; min-height: inherit;
+}
+.calendar-calendar .week-view .full td.multi-day .inner {
+	width: auto; position: relative; min-height: inherit;
+}
+.calendar-calendar .day-view .full td.multi-day .inner {
+	width: auto; position: relative; min-height: inherit;
+}
+.calendar-calendar .month-view .full td.no-entry.multi-day {
+	min-height: 0px;
+}
+.calendar-calendar .month-view .full td.single-day .calendar-empty {
+	background: rgb(244, 244, 244);
+}
+.calendar-calendar .month-view .full td.empty.single-day {
+	background: rgb(244, 244, 244);
+}
+.calendar-calendar .month-view .full td.empty.date-box {
+	background: rgb(244, 244, 244);
+}
+.calendar-calendar .month-view .full td.single-day .inner div {
+	
+}
+.calendar-calendar .month-view .full td.single-day .inner div a {
+	
+}
+.calendar-calendar .month-view .full td.multi-day .inner div {
+	
+}
+.calendar-calendar .month-view .full td.multi-day .inner div a {
+	
+}
+.calendar-calendar .month-view .full td .inner div.monthview.calendar div {
+	
+}
+.calendar-calendar .month-view .full td .inner div.monthview.calendar div a {
+	
+}
+.calendar-calendar .week-view .full td.single-day .inner div {
+	
+}
+.calendar-calendar .week-view .full td.single-day .inner div a {
+	
+}
+.calendar-calendar .week-view .full td.multi-day .inner div {
+	
+}
+.calendar-calendar .week-view .full td.multi-day .inner div a {
+	
+}
+.calendar-calendar .week-view .full td .inner div.weekview.calendar div {
+	
+}
+.calendar-calendar .week-view .full td .inner div.weekview.calendar div a {
+	
+}
+.calendar-calendar .day-view .full td .inner div.view-item {
+	
+}
+.calendar-calendar .day-view .full td .inner div.calendar div {
+	
+}
+.calendar-calendar .day-view .full td .inner div.calendar div a {
+	
+}
+.calendar-calendar .day-view .full td .inner div.calendar div {
+	margin: 0px 3px;
+}
+.calendar-calendar .day-view .full td .inner div.calendar div a {
+	margin: 0px 3px;
+}
+.calendar-calendar .day-view .full td .inner div.calendar div.stripe {
+	margin: 0px;
+}
+.calendar-calendar .month-view .full tr td.today {
+	border-right-color: rgb(124, 127, 18); border-left-color: rgb(124, 127, 18); border-right-width: 2px; border-left-width: 2px; border-right-style: solid; border-left-style: solid;
+}
+.calendar-calendar .month-view .full tr.odd td.today {
+	border-right-color: rgb(124, 127, 18); border-left-color: rgb(124, 127, 18); border-right-width: 2px; border-left-width: 2px; border-right-style: solid; border-left-style: solid;
+}
+.calendar-calendar .month-view .full tr.even td.today {
+	border-right-color: rgb(124, 127, 18); border-left-color: rgb(124, 127, 18); border-right-width: 2px; border-left-width: 2px; border-right-style: solid; border-left-style: solid;
+}
+.calendar-calendar .month-view .full td.today.date-box {
+	border-width: 2px 2px 0px; border-style: solid; border-color: rgb(124, 127, 18);
+}
+.calendar-calendar .month-view .full tr td.today.single-day {
+	border-bottom-color: rgb(124, 127, 18); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.calendar-calendar .month-view .full tr td.starts-today.multi-day {
+	border-left-color: rgb(124, 127, 18); border-left-width: 2px; border-left-style: solid;
+}
+.calendar-calendar .month-view .full tr td.ends-today.multi-day {
+	border-right-color: rgb(124, 127, 18); border-right-width: 2px; border-right-style: solid;
+}
+.calendar-calendar .month-view .full tr td.multi-day {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.calendar-calendar .month-view .full tr td.single-day {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.calendar-calendar .month-view .full tr td.multi-day {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.calendar-calendar .month-view .full tr td.date-box {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.calendar-calendar .month-view .full .inner .monthview {
+	margin: 0.25em auto; border-radius: 5px; width: auto; float: none; display: block; position: relative; -moz-border-radius: 5px;
+}
+.calendar-calendar .week-view .full .inner .weekview {
+	margin: 0.25em auto; border-radius: 5px; width: auto; float: none; display: block; position: relative; -moz-border-radius: 5px;
+}
+.calendar-calendar .day-view .full .inner .dayview {
+	margin: 0.25em auto; border-radius: 5px; width: auto; float: none; display: block; position: relative; -moz-border-radius: 5px;
+}
+.calendar-calendar .month-view .full td.single-day div.monthview {
+	background: rgb(255, 255, 204); padding: 0px 3px; width: auto; overflow: hidden;
+}
+.calendar-calendar .week-view .full td.single-day div.weekview {
+	background: rgb(255, 255, 204); padding: 0px 3px; width: auto; overflow: hidden;
+}
+.calendar-calendar .day-view .full td.single-day div.dayview {
+	background: rgb(255, 255, 204); padding: 0px 3px; width: auto; overflow: hidden;
+}
+.calendar-calendar .month-view .full td.single-day .calendar-more div.monthview {
+	
+}
+.calendar-calendar .day-view td div.dayview {
+	padding: 0px;
+}
+.calendar-calendar .month-view .full td.multi-day div.monthview {
+	background: rgb(116, 165, 215); margin: 0px auto; height: 1.9em; color: rgb(255, 255, 255); overflow: hidden; position: relative;
+}
+.calendar-calendar .week-view .full td.multi-day div.weekview {
+	background: rgb(116, 165, 215); margin: 0px auto; height: 1.9em; color: rgb(255, 255, 255); overflow: hidden; position: relative;
+}
+.calendar-calendar .day-view .full td.multi-day div.dayview {
+	background: rgb(116, 165, 215); margin: 0px auto; height: 1.9em; color: rgb(255, 255, 255); overflow: hidden; position: relative;
+}
+.calendar-calendar .week-view .full td.multi-day div.weekview {
+	height: 3.5em;
+}
+.calendar-calendar .month-view .full td.multi-day .inner .view-field {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .month-view .full td.multi-day .inner .view-field a {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .week-view .full td.multi-day .inner .view-field {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .week-view .full td.multi-day .inner .view-field a {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .day-view .full td.multi-day .inner .view-field {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .day-view .full td.multi-day .inner .view-field a {
+	color: rgb(255, 255, 255);
+}
+.calendar-calendar .full td.multi-day .calendar .view-field {
+	
+}
+.calendar-calendar .full td.single-day .calendar .view-field {
+	
+}
+.calendar-calendar .day-view .full td.multi-day div.dayview {
+	margin-bottom: 2px;
+}
+.calendar-calendar .week-view .full td.multi-day div.weekview {
+	margin-bottom: 2px;
+}
+.calendar-calendar .month-view .full td.multi-day .monthview.calendar .view-field {
+	margin-right: 3px; float: left; white-space: nowrap;
+}
+.calendar-calendar .week-view .full td.multi-day .weekview.calendar .view-field {
+	margin-right: 3px; display: inline; white-space: nowrap;
+}
+.calendar-calendar .day-view .full td.multi-day .weekview.calendar .view-field {
+	display: block;
+}
+.calendar-calendar .month-view .full td.multi-day .monthview.calendar .contents {
+	left: 5px; width: 3000px; position: absolute;
+}
+.calendar-calendar .week-view .full td.multi-day .weekview.calendar .contents {
+	left: 5px; width: 3000px; position: absolute;
+}
+.calendar-calendar .day-view td .stripe {
+	border-radius: 5px 5px 0px 0px; left: 0px; top: 0px; width: 100%; height: 3px; z-index: 2; -moz-border-radius: 5px 5px 0px 0px;
+}
+.calendar-calendar .month-view .full td .stripe {
+	border-radius: 5px 5px 0px 0px; left: 0px; top: 0px; width: 100%; height: 3px; z-index: 2; -moz-border-radius: 5px 5px 0px 0px;
+}
+.calendar-calendar .week-view .full td .stripe {
+	border-radius: 5px 5px 0px 0px; left: 0px; top: 0px; width: 100%; height: 3px; z-index: 2; -moz-border-radius: 5px 5px 0px 0px;
+}
+.calendar-calendar .full td.single-day .continuation {
+	display: none;
+}
+.calendar-calendar .full td.single-day .continues {
+	display: none;
+}
+.calendar-calendar .full td.single-day .cutoff {
+	display: none;
+}
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .continuation {
+	height: 1.9em; margin-right: 3px; float: left;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .continuation {
+	height: 1.9em; margin-right: 3px; float: left;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .continuation {
+	height: 2.75em; padding-top: 0.75em; margin-right: 8px;
+}
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .continues {
+	background: rgb(116, 165, 215); border-radius: 0px 5px 5px 0px; width: 10px; height: 1.9em; text-align: left; right: 0px !important; padding-left: 6px; position: absolute; z-index: 1; -moz-border-radius: 0px 5px 5px 0px;
+}
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff {
+	background: rgb(116, 165, 215); border-radius: 0px 5px 5px 0px; width: 10px; height: 1.9em; text-align: left; right: 0px !important; padding-left: 6px; position: absolute; z-index: 1; -moz-border-radius: 0px 5px 5px 0px;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .continues {
+	background: rgb(116, 165, 215); border-radius: 0px 5px 5px 0px; width: 10px; height: 1.9em; text-align: left; right: 0px !important; padding-left: 6px; position: absolute; z-index: 1; -moz-border-radius: 0px 5px 5px 0px;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff {
+	background: rgb(116, 165, 215); border-radius: 0px 5px 5px 0px; width: 10px; height: 1.9em; text-align: left; right: 0px !important; padding-left: 6px; position: absolute; z-index: 1; -moz-border-radius: 0px 5px 5px 0px;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .continues {
+	height: 2.75em; padding-top: 0.75em;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff {
+	height: 2.75em; padding-top: 0.75em;
+}
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff {
+	width: 8px; padding-left: 0px;
+}
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff {
+	width: 8px; padding-left: 0px;
+}
+.calendar-calendar .week-view .full td.multi-day {
+	padding: 2px;
+}
+.calendar-calendar .week-view td.single-day div.calendar {
+	width: 100%; padding-right: 0px; padding-left: 0px;
+}
+.calendar-calendar .week-view .full tr.last td.multi-day {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.view .date-nav-wrapper .clear-block {
+	margin-bottom: 10px;
+}
+.view .date-nav-wrapper {
+	width: 100%; margin-top: 5px; position: relative;
+}
+.view .date-nav-wrapper .date-nav {
+	border: 0px currentColor; height: auto; margin-bottom: 10px; position: relative; min-height: 30px; background-color: transparent;
+}
+.view .date-nav-wrapper .date-prev a {
+	color: inherit; font-size: 12px; text-decoration: none;
+}
+.view .date-nav-wrapper .date-next a {
+	color: inherit; font-size: 12px; text-decoration: none;
+}
+.view .date-nav.date-nav-wrapper a:hover {
+	text-decoration: underline;
+}
+.view .date-nav-wrapper .date-prev {
+	background: 0px 0px rgb(223, 223, 223); padding: 5px 0px; border-radius: 5px 0px 0px 5px; left: auto; top: 0px; width: auto; text-align: right; right: 60px; font-size: 12px; float: none; position: absolute; z-index: 1; -moz-border-radius: 5px 0 0 5px;
+}
+.block-views .view .date-nav-wrapper .date-prev {
+	left: 0px; right: auto;
+}
+.view .date-nav-wrapper .date-prev a {
+	font-weight: bold; margin-left: 10px;
+}
+.view .date-nav-wrapper .date-heading {
+	top: 0px; width: 100%; text-align: center; position: relative; z-index: 0;
+}
+.view .date-nav-wrapper .date-heading h3 {
+	line-height: 30px; font-size: 1.7em;
+}
+.view .date-nav-wrapper .date-next {
+	background: 0px 0px rgb(223, 223, 223); padding: 5px 0px; border-radius: 0px 5px 5px 0px; top: 0px; width: auto; text-align: right; right: 0px; font-size: 12px; float: none; position: absolute; z-index: 1; -moz-border-radius: 0px 5px 5px 0px;
+}
+.view .date-nav-wrapper .date-next a {
+	font-weight: bold; margin-right: 10px;
+}
+.attachment .calendar-calendar {
+	clear: both; margin-top: 20px;
+}
+.calendar-calendar th a {
+	border: 0px currentColor; background-color: transparent;
+}
+.attachment .calendar-calendar th {
+	border: 0px currentColor; background-color: transparent;
+}
+.attachment .calendar-calendar th.calendar-agenda-hour {
+	text-align: right; color: rgb(119, 119, 119); font-weight: bold;
+}
+.view-calendar .feed-icon {
+	margin-top: 5px;
+}
+.view table.mini .date-prev {
+	
+}
+.view table.mini .date-next {
+	
+}
+.date-nav div.date-prev {
+	width: auto;
+}
+.date-nav div.date-next {
+	width: auto;
+}
+.date-nav {
+	width: auto;
+}
+ul.calendar-links {
+	margin: 0px; padding: 0px;
+}
+.region-content ul.calendar-links {
+	margin: 0px; padding: 0px;
+}
+.year-view div.month-view div.date-nav {
+	min-height: 20px; background-color: rgb(223, 223, 223);
+}
+.container-inline-date {
+	clear: both;
+}
+.container-inline-date .form-item {
+	margin: 0px; padding: 0px; float: none;
+}
+.container-inline-date > .form-item {
+	margin-right: 0.5em; margin-bottom: 10px; vertical-align: top; display: inline-block;
+}
+.container-inline-date .form-item .form-item {
+	float: left;
+}
+.container-inline-date .form-item {
+	width: auto;
+}
+.container-inline-date .form-item input {
+	width: auto;
+}
+.container-inline-date .description {
+	clear: both;
+}
+.container-inline-date .form-item input {
+	margin-right: 5px;
+}
+.container-inline-date .form-item select {
+	margin-right: 5px;
+}
+.container-inline-date .form-item option {
+	margin-right: 5px;
+}
+.container-inline-date .date-spacer {
+	margin-left: -5px;
+}
+.views-right-60 .container-inline-date div {
+	margin: 0px; padding: 0px;
+}
+.container-inline-date .date-timezone .form-item {
+	width: auto; clear: both; float: none;
+}
+.container-inline-date .date-padding {
+	padding: 10px; float: left;
+}
+.views-exposed-form .container-inline-date .date-padding {
+	padding: 0px;
+}
+#calendar_div {
+	margin: 0px; padding: 0px;
+}
+#calendar_div td {
+	margin: 0px; padding: 0px;
+}
+#calendar_div th {
+	margin: 0px; padding: 0px;
+}
+#calendar_div {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_control {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_links {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar_header {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar {
+	margin: 0px; width: 185px; border-collapse: separate;
+}
+.calendar td {
+	padding: 0px;
+}
+span.date-display-single {
+	
+}
+span.date-display-start {
+	
+}
+span.date-display-end {
+	
+}
+.date-prefix-inline {
+	display: inline-block;
+}
+.date-clear {
+	clear: both; float: none; display: block;
+}
+.date-no-float {
+	width: 98%; clear: both; float: none;
+}
+.date-float {
+	width: auto; clear: none; float: left;
+}
+.date-float .form-type-checkbox {
+	padding-right: 1em;
+}
+.form-type-date-select [class$=hour].form-type-select {
+	margin-left: 0.75em;
+}
+.date-container .date-format-delete {
+	margin-top: 1.8em; margin-left: 1.5em; float: left;
+}
+.date-container .date-format-name {
+	float: left;
+}
+.date-container .date-format-type {
+	padding-left: 10px; float: left;
+}
+.date-container .select-container {
+	clear: left; float: left;
+}
+div.date-calendar-day {
+	background: rgb(243, 243, 243); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(187, 187, 187) rgb(187, 187, 187) rgb(238, 238, 238); margin: 6px 10px 0px 0px; width: 40px; text-align: center; color: rgb(153, 153, 153); line-height: 1; float: left;
+}
+div.date-calendar-day span {
+	text-align: center; display: block;
+}
+div.date-calendar-day span.month {
+	padding: 2px; color: white; text-transform: uppercase; font-size: 0.9em; background-color: rgb(181, 190, 190);
+}
+div.date-calendar-day span.day {
+	font-size: 2em; font-weight: bold;
+}
+div.date-calendar-day span.year {
+	padding: 2px; font-size: 0.9em;
+}
+.form-item-instance-widget-settings-input-format-custom.form-item {
+	margin-left: 1.3em;
+}
+.form-item-field-settings-enddate-required.form-item {
+	margin-left: 1.3em;
+}
+#edit-field-settings-granularity .form-type-checkbox {
+	margin-right: 0.6em;
+}
+.date-year-range-select {
+	margin-right: 1em;
+}
+#ui-datepicker-div {
+	background: rgb(238, 238, 238); font-family: Verdana,sans-serif; font-size: 100%; border-right-color: rgb(102, 102, 102); border-bottom-color: rgb(102, 102, 102); border-right-width: 2px; border-bottom-width: 2px; border-right-style: solid; border-bottom-style: solid; z-index: 9999;
+}
+.ui-datepicker {
+	padding: 0.2em 0.2em 0px; width: 17em;
+}
+.ui-datepicker .ui-datepicker-header {
+	padding: 0.2em 0px; position: relative;
+}
+.ui-datepicker .ui-datepicker-prev {
+	top: 2px; width: 1.8em; height: 1.8em; position: absolute;
+}
+.ui-datepicker .ui-datepicker-next {
+	top: 2px; width: 1.8em; height: 1.8em; position: absolute;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; display: block; position: absolute;
+}
+.ui-datepicker .ui-datepicker-next span {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; display: block; position: absolute;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0px 2.3em; text-align: center; line-height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-title select {
+	margin: 1px 0px; font-size: 1em; float: left;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width: 100%;
+}
+.ui-datepicker select.ui-datepicker-month {
+	width: 49%;
+}
+.ui-datepicker select.ui-datepicker-year {
+	width: 49%;
+}
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year {
+	float: right;
+}
+.ui-datepicker table {
+	margin: 0px 0px 0.4em; width: 100%; font-size: 0.9em; border-collapse: collapse;
+}
+.ui-datepicker th {
+	padding: 0.7em 0.3em; border: 0px currentColor; text-align: center; font-weight: bold;
+}
+.ui-datepicker td {
+	padding: 1px; border: 0px currentColor;
+}
+.ui-datepicker td span {
+	padding: 0.2em; text-align: right; text-decoration: none; display: block;
+}
+.ui-datepicker td a {
+	padding: 0.2em; text-align: right; text-decoration: none; display: block;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	margin: 0.7em 0px 0px; padding: 0px 0.2em; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-style: none; border-bottom-style: none; border-left-style: none; background-image: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	margin: 0.5em 0.2em 0.4em; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; float: right; cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+.ui-datepicker-multi.ui-datepicker {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	margin: 0px auto 0.4em; width: 95%;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header {
+	border-left-width: 0px;
+}
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0px;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	width: 100%; clear: both;
+}
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	left: auto; right: 2px;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px; right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	left: auto; right: 1px;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px; right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header {
+	border-right-width: 0px; border-left-width: 1px;
+}
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0px; border-left-width: 1px;
+}
+.field .field-label {
+	font-weight: bold;
+}
+.field-label-inline .field-label {
+	float: left;
+}
+.field-label-inline .field-items {
+	float: left;
+}
+form .field-multiple-table {
+	margin: 0px;
+}
+form .field-multiple-table th.field-label {
+	padding-left: 0px;
+}
+form .field-multiple-table td.field-multiple-drag {
+	width: 30px; padding-right: 0px;
+}
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+	padding-right: 0.5em;
+}
+form .field-add-more-submit {
+	margin: 0.5em 0px 0px;
+}

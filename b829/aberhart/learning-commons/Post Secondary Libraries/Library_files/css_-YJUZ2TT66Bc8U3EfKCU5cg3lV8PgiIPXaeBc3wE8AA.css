@@ -1,0 +1,114 @@
+#admin-menu {
+	left: 0px; top: 0px; width: 100%; height: 23px; text-align: left; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 9px; position: fixed; box-shadow: none;
+}
+html body.admin-menu {
+	padding-top: 18px !important;
+}
+#admin-menu-wrapper {
+	background: rgb(16, 16, 16); width: 980px; height: 23px;
+}
+#admin-menu-wrapper {
+	padding: 0px;
+}
+#admin-menu {
+	list-style: none; margin: 0px auto; padding: 0px; line-height: 1.4em; z-index: 999;
+}
+#admin-menu-wrapper {
+	list-style: none; margin: 0px auto; padding: 0px; line-height: 1.4em; z-index: 999;
+}
+#media-browser-page a.button {
+	background: rgb(218, 217, 218); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); margin: 0.5em 6px 25px 0px; padding: 3px 15px; text-align: center; color: rgb(41, 42, 42); font-size: 0.6em; font-weight: 700; cursor: pointer; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+#media-browser-page .form-submit {
+	background: rgb(218, 217, 218); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); margin: 0.5em 6px 25px 0px; padding: 3px 15px; text-align: center; color: rgb(41, 42, 42); font-size: 0.6em; font-weight: 700; cursor: pointer; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+#media-browser-page a.fake-ok.button {
+	background-color: rgb(241, 182, 32);
+}
+#media-browser-page .form-submit {
+	background-color: rgb(241, 182, 32);
+}
+#uc-navigation div.primary a.active {
+	color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary a.active-trail {
+	color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary a:hover {
+	color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary li:hover > a {
+	color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary ul.dropmenu li ul {
+	opacity: 0.95; background-color: rgb(140, 204, 211);
+}
+#uc-navigation div.primary ul.dropmenu li ul li a {
+	color: rgb(0, 0, 0);
+}
+#uc-navigation div.primary ul.dropmenu li ul li a.active {
+	background: rgba(0, 0, 0, 0.23); color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary ul.dropmenu li ul li a:hover {
+	background: rgba(0, 0, 0, 0.23); color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary ul.dropmenu li ul li:hover > a {
+	background: rgba(0, 0, 0, 0.23); color: rgb(46, 48, 62);
+}
+#uc-navigation div.primary ul.dropmenu li ul li ul {
+	background-color: rgb(140, 204, 211);
+}
+#uc-navigation div.primary a {
+	color: rgb(0, 0, 0);
+}
+#uc-navigation div.secondary a {
+	color: rgb(46, 48, 62);
+}
+.uofc_a #uc-navigation div.secondary a {
+	color: rgb(0, 0, 0);
+}
+a {
+	color: rgb(46, 48, 62);
+}
+#uc-content div.secondary .block h2 {
+	color: rgb(0, 0, 0); background-color: rgb(140, 204, 211);
+}
+.uc-980 #uc-navigation div.primary {
+	background-color: rgb(140, 204, 211);
+}
+.uc-980 #uc-footer .wrapper {
+	border-top-color: rgb(140, 204, 211);
+}
+.uc-980 #uc-content div.secondary h2 {
+	background-color: rgb(140, 204, 211);
+}
+.uc-790 #uc-navigation div.primary li {
+	background-color: rgb(140, 204, 211);
+}
+.uc-790 #uc-footer {
+	background-color: rgb(46, 48, 62);
+}
+.uc-790 #uc-navigation div.secondary h2 {
+	color: rgb(46, 48, 62);
+}
+.uofc_d.uc-790 #uc-navigation div.primary {
+	background-color: rgb(140, 204, 211);
+}
+.uofc_f.uc-790 #uc-navigation div.primary {
+	background-color: rgb(140, 204, 211);
+}
+div.contextual-links-wrapper {
+	z-index: 300;
+}
+div.contextual-links-active.contextual-links-wrapper {
+	z-index: 400;
+}
+ul.dropmenu li ul {
+	width: 378px;
+}
+ul.dropmenu li ul li {
+	margin: 0px; padding: 0px; width: 50%;
+}
+h2.pane-title {
+	background-position: left bottom; padding-bottom: 10px; background-image: url("//library.ucalgary.ca/files/library/underline.gif"); background-repeat: no-repeat;
+}
