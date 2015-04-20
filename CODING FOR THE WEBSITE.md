@@ -8,7 +8,7 @@ The top menu is for navigating between areas of the site.
 ####Left side
 The left area is for navigating within an area of a website; For instance, clicking on the topmenu link to "Departments"
 would take you to the main Departments page, then you would be able to navigate different sections/courses using the
-left menu. You would return to the main Departments page by clicking the top menu item, which sould be orange.
+left menu. You would return to the main Departments page by clicking the top menu item, which should be orange.
 This area will be different for each area of the website,and will follow a template
 
 The left area also includes the rss feed
@@ -22,16 +22,16 @@ to the crisis help page and links to social media. ALL EXTERNAL LINKS GO HERE OR
 ####Footer
 The footer is for the short copyright info, with a link to the full explanation, along with the cbe slogan.
 ##Modifying the website
-When making a commit, the commit message should be brief but informative. Github reccommends less than 50 characters, any more than 80 and the message will be cut off. If more information is neccesary, running `git commit` without `-m` will open a text editor where the first line is the main message, and all subsequent lines are the extended description.  
+When making a commit, the commit message should be brief but informative. Github recommends less than 50 characters, any more than 80 and the message will be cut off. If more information is neccesary, running `git commit` without `-m` will open a text editor where the first line is the main message, and all subsequent lines are the extended description.  
 For example:  
-`Completed minor fixes for issue #42. Refactored files for fees and transit to their own folder in response to issue #52.` is too long. (on a side note, this should have been two commits, one for #42 and one for #52)  
+`Completed minor fixes for issue #42. Re-factored files for fees and transit to their own folder in response to issue #52.` is too long. (on a side note, this should have been two commits, one for #42 and one for #52)  
 On the other hand:  
-`Fixed issue #29` is too short; It doesnt say what was actually changed.  
-`Updared registration guide, issue #20`, despite the spelling mistake, is an example of a good commit message, both referencing the issue and giving a brief description of what actually happened.
+`Fixed issue #29` is too short; It doesn't say what was actually changed.  
+`Updated registration guide, issue #20`, despite the spelling mistake, is an example of a good commit message, both referencing the issue and giving a brief description of what actually happened.
 
 When you drastically change a file, you can add your name to the copyright header of that file
-##Standard colors
-The standard orange is #f28726; the standard dark grey is #666, the standars cyan is #00adda.
+##Standard colours
+The standard orange is #f28726; the standard dark grey is #666, the standard cyan is #00adda.
 
 ##More
 If you have any questions, feel free to post an issue with the 'question' label

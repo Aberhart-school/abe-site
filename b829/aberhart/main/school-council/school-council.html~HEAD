@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>School Council</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/simpletabs.css"/>
+		<script src="/b829/aberhart/universal/simpletabs.js"></script>
+	</head>
+
+	<body>
+		<div id="border">
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<div id="content">
+				<h2 class="centerAlign">
+					William Aberhart School Council
+				</h2>
+				<div class="simpleTabs">
+					<ul class="simpleTabsNavigation">
+						<li><a>Agenda and Additional Documents</a></li>
+						<li><a>Minutes</a></li>
+						<li><a>Contact Info</a></li>
+					</ul>
+					<div class="simpleTabsContent">
+						<p>
+							The William Aberhart School Council is an advisory group that 
+							facilitates communication among all members of our School Community 
+							so that we may work together as partners. All parents (including guardians), 
+							teachers, students and other individuals in the community 
+							with a stake in William Aberhart Senior High School are members of our School Council.
+						</p>
+						<hr/>
+						<h3>Upcoming meetings</h3>
+						<ul>
+							<li><a href="agendas/upcoming-agenda.html">Monday, March 16, 1900h</a></li>
+							<p>Note: Date changed from March 30 to accomodate a visit from our School Trustee.</p>
+						</ul>
+						<hr/>
+						<h3>Calgary Varsity Education Panel</h3>
+						<a href="info/calgary-varsity-education-panel.html">Notes - Nov. 19, 2013</a>
+						<hr/>
+						<h3>School Fee Agreement</h3>
+						<a href="info/school-fee-agreement.html">Information on School Fee Agreement</a>
+						<hr/>
+						<h3>External Links</h3>
+						<ul>
+							<li><a href="http://www.cbe.ab.ca/parents/schlcouncils.asp">CBE School Councils Key Communicators</a></li>
+							<li><a href="http://www.cbe.ab.ca/parents/School_Council/key_com/May9_2013.htm">CBE Key Communique - May, 2013</a></li>
+							<li><a href="http://capsc.ca/">Calgary Association of Parents and School Councils</a></li>
+						</ul>
+						<hr/>
+						<h3>Other Links</h3>
+						<ul>
+							<li><a href="info/grad-apparel.html">Grad Apparel Fundraiser</a></li>	
+							<li><a href="info/blood-donation-form.html">Blood Donation Form</a></li>
+							<li><a href="info/career-exploration.html">Career Exploration</a></li>
+							<li><a href="info/rap-opportunities.html">RAP Opportunities</a></li>
+						</ul>
+					</div>
+					<div class="simpleTabsContent">
+						<ul>
+							<li><a href="minutes/2015-02-minutes.html">Minutes - February 2014</a></li>
+							<li><a href="minutes/2015-01-minutes.html">Minutes - January 2015</a></li>
+							<li><a href="minutes/2014-11-minutes.html">Minutes - November 2014</a></li>
+							<li><a href="minutes/2014-10-minutes.html">Minutes - October 2014</a></li>
+							<li><a href="minutes/2014-09-minutes.html">Minutes - September 2014</a></li>
+							<li><a href="minutes/2014-03-minutes.html">Minutes - March 2014</a></li>
+							<li><a href="minutes/2014-02-minutes.html">Minutes - February 2014</a></li>
+							<li><a href="minutes/2014-01-finances.html">Financial Report - January 2014</a></li>
+						</ul>
+					</div>
+					<div class="simpleTabsContent">
+						<table class="contactList">
+							<tbody>
+								<tr>
+									<th>Name:</th>
+									<th>Title:</th>
+									<th>Email:</th>
+									<th>Phone:</th>
+								</tr>
+								<tr>
+									<td>Sheila Tomlinson</td>
+									<td>Chairperson</td>
+									<td><a href="MAILTO:sheiladt@icloud.com">sheiladt@icloud.com</a></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="leftside">
+				<div id="areamenu"></div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+		</div>
+	</body>
+</html>
