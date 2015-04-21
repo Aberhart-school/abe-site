@@ -1,9 +1,0 @@
-@font-face {
-	font-family: Interstate;
-	src: url(//cloud.webtype.com/webtype/ff/2/7b02fd4a-461c-43c5-9502-c9bf0e26e73b#iefix) format("embedded-opentype"), url(//cloud.webtype.com/webtype/ff/1/abfc5500-2a08-48b0-88c5-4978a5c79b6b) format("truetype"), url(//cloud.webtype.com/webtype/ff/3/9c9a6973-4410-449e-87c8-06a19897d21f) format("woff");
-	font-weight: bold;
-	font-style: normal;
-}
-body::after {
-	content: ""; background-image: url("//pls.webtype.com/v.gif?ct=47377,47377,47377&r=7624&p=6643&h=ntitWXMqoX7N4uOIhoa5%2bw%3d%3d");
-}
