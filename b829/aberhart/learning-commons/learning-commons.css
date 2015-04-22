@@ -23,13 +23,15 @@
 	vertical-align:center;
 	padding:5px;
 	width:32%;
+	border-style:solid;
 	border-color:#666;
 	border-width:1px;
-	border-style:solid;
-}
-.lendingInformation tr:first-child td, td:first-child{
-	border-left-style:none;
-}
-.lendingInformation tr:last-child td, .lendingInformation td:last-child {
+	border-bottom-style:none;
 	border-right-style:none;
+}
+.lendingInformation td:last-child{
+	border-right-style:solid;
+}
+.lendingInformation tr:last-child td {
+	border-bottom-style:solid;
 }
