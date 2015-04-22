@@ -15,31 +15,14 @@
 */
 
 .lendingInformation {
-	border-color:#666;
-	border-width:1px;
-	border-top-style:none;
-	border-bottom-style:none;
 	border-collapse:collapse;
 	width:100%;
-}
-.lendingInformation col {
-	margin-left:auto;
-	margin-right:auto;
-	height:300px;
-	overflow:hidden;
-}
-.lendingInformation col:first-child{
-	border-left-style:none;
-}
-.lendingInformation col:last-child {
-	border-right-style:none;
 }
 .lendingInformation td {
 	text-align:center;
 	vertical-align:center;
 	padding:5px;
 	width:32%;
-	overflow:hidden;
 	border-color:#666;
 	border-width:1px;
 	border-style:solid;
