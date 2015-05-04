@@ -2497,7 +2497,7 @@ var PDFView = {
       pdfPageSource: this,
       integratedFind: this.supportsIntegratedFind
     });
-
+    
     HandTool.initialize({
       container: container,
       toggleHandTool: document.getElementById('toggleHandTool')
@@ -2564,7 +2564,7 @@ var PDFView = {
   getPage: function pdfViewGetPage(n) {
     return this.pdfDocument.getPage(n);
   },
-
+  
   // Helper function to keep track whether a div was scrolled up or down and
   // then call a callback.
   watchScroll: function pdfViewWatchScroll(viewAreaElement, state, callback) {
@@ -3195,11 +3195,6 @@ var PDFView = {
 
       self.setInitialView(storedHash, scale);
 
-      // Make all navigation keys work on document load,
-      // unless the viewer is embedded in a web page.
-      if (!self.isViewerEmbedded) {
-        self.container.focus();
-      }
     });
 
     pagesPromise.then(function() {
