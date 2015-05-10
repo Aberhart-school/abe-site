@@ -13,6 +13,15 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+@media print {
+	#topmenu-import, #cbe-header, #rightside, #footers, #leftside {
+		display: none !important;
+	}
+	#content {
+		width:100% !important;
+		margin: 0 !important;
+	}
+}
 body {
 	background-color:#fff;
 	font: 8pt Verdana, Arial, Helvetica, sans-serif;
