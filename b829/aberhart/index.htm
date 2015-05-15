@@ -25,16 +25,20 @@
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
 		
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/index.css"/>
+		<script src="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.css">
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/bxslider/jquery.bxslider.css"/>
 		<script src="/b829/aberhart/universal/bxslider/jquery.bxslider.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/index.css"/>
 		<script src="/b829/aberhart/universal/menu-importer.js"></script>
 		
 		<script>
 			"use strict";
 			$( document ).ready(function() {
 				$('.mainPageSlider').bxSlider({ auto: true, autoControls: true, adaptiveHeight: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
+				$( "#maxWidthSlider" ).slider({ min:935, max:1600, slide: function( event, ui ) { $( "body" ).css( "max-width" , ui.value + "px" )} });
 			});
 		</script>
 	</head>
@@ -166,6 +170,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<div id="maxWidthSliderContainer"><div id="maxWidthSlider"></div></div>
 			<div id="feedbackSurvey">
 				<a href="main/website-survey.html">
 					Please tell us what you think of the website and take our survey!
