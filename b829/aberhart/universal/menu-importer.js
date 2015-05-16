@@ -18,6 +18,7 @@ function getAreamenuLocation(parentFilePath) {
 	return ("/b829/aberhart/" + areamenuLocation);
 }
 $( document ).ready(function() {
+	$("body").css("max-width", Cookies.get("max-width") + "px");
 	$("#topmenu-import").load( "/b829/aberhart/universal/topmenu.html" );
 	$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html");
 	$("#rightside").load( "/b829/aberhart/universal/rightside.html" );

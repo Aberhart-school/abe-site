@@ -24,15 +24,16 @@
 		<title>William Aberhart</title>
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
 		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script src="/b829/aberhart/universal/js-cookie.js"></script>
+		<script src="/b829/aberhart/universal/menu-importer.js"></script>
 		
 		<script src="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/jquery-ui-custom/jquery-ui.css"/>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/bxslider/jquery.bxslider.css"/>
 		<script src="/b829/aberhart/universal/bxslider/jquery.bxslider.min.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="/b829/aberhart/index.css"/>
-		<script src="/b829/aberhart/universal/menu-importer.js"></script>
 		
 		<script>
 			"use strict";
@@ -42,7 +43,11 @@
 				// If browser is not mobile
 				if (typeof window.orientation == 'undefined') {
 					$( "#maxWidthSliderContainer" ).css("display","block");
-					$( "#maxWidthSlider" ).slider({ min:935, max:1600, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" )} });
+					var value = 1600;
+					if (Cookies.get("max-width")) {
+						value=Cookies.get("max-width");
+					}
+					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" )}, stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });} });
 				}
 			});
 		</script>
