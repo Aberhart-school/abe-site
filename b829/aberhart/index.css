@@ -63,6 +63,10 @@
 	
 	display:none; /* This is nullified by javascript for desktop browsers */
 }
+#maxWidthSliderContainer h3 {
+	margin-top:0;
+	text-align:center;
+}
 #maxWidthSlider {
 	width:200px;
 	margin-left:auto;
