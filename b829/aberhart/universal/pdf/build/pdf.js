@@ -3793,9 +3793,13 @@ var LinkAnnotation = (function LinkAnnotationClosure() {
 
       container.style.borderColor = item.colorCssRgb;
       container.style.borderStyle = 'solid';
-
+      
+      var linkUrl = this.data.url || '';
+      linkUrl = linkUrl.replace(/.*schools.cbe.ab.ca\/b829/, "/b829");
+      
       var link = document.createElement('a');
-      link.href = link.title = this.data.url || '';
+      
+      link.href = link.title = linkUrl;
 
       container.appendChild(link);
 
