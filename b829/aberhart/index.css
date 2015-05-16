@@ -60,6 +60,8 @@
 	border-top-style:solid;
 	border-width:1px;
 	border-color:#666;
+	
+	display:none; /* This is nullified by javascript for desktop browsers */
 }
 #maxWidthSlider {
 	width:200px;

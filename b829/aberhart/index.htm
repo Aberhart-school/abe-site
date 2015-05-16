@@ -38,7 +38,12 @@
 			"use strict";
 			$( document ).ready(function() {
 				$('.mainPageSlider').bxSlider({ auto: true, autoControls: true, adaptiveHeight: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
-				$( "#maxWidthSlider" ).slider({ min:935, max:1600, slide: function( event, ui ) { $( "body" ).css( "max-width" , ui.value + "px" )} });
+				
+				// If browser is not mobile
+				if (typeof window.orientation == 'undefined') {
+					$( "#maxWidthSliderContainer" ).css("display","block");
+					$( "#maxWidthSlider" ).slider({ min:935, max:1600, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" )} });
+				}
 			});
 		</script>
 	</head>
@@ -109,7 +114,7 @@
 						<img src="/b829/aberhart/main/news/banner/white-hat-ceremony.jpg" alt="white-hat-ceremony" style="float:left; padding-right:5px;"/>
 						<h3 class="centerAlign">International Exchange</h3>
 						<p>
-							Recently, we were pleased to have students and teachers from Maurick College, Vught, Netherlands visiting our French Immersion students for 10 days.  This DELF project is a cultural & linguistic exchange program. Pictured is the White Hat ceremony at the Calgary airport
+							Recently, we were pleased to have students and teachers from Maurick College, Vught, Netherlands visiting our French Immersion students for 10 days.  This DELF project is a cultural and linguistic exchange program. Pictured is the White Hat ceremony at the Calgary airport
 						</p>
 					</div>
 				</div>
