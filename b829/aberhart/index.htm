@@ -38,7 +38,7 @@
 		<script>
 			"use strict";
 			$( document ).ready(function() {
-				$('.mainPageSlider').bxSlider({ auto: true, autoControls: true, adaptiveHeight: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
+				var mainPageSlider = $('.mainPageSlider').bxSlider({ auto: true, autoControls: true, adaptiveHeight: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
 				
 				// If browser is not mobile
 				if (typeof window.orientation == 'undefined') {
@@ -47,7 +47,7 @@
 					if (Cookies.get("max-width")) {
 						value=Cookies.get("max-width");
 					}
-					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" )}, stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });} });
+					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" ); mainPageSlider.redrawSlider(); }, stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });} });
 				}
 			});
 		</script>
