@@ -47,6 +47,8 @@
 	padding-left:40px;
 }
 .mainPageSlider img {
+	float:left;
+	margin-right:5px;
 	height:200px;
 	margin-left:15px;
 }
