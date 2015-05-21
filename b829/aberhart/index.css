@@ -55,6 +55,25 @@
 #sliderContainer {
 	margin:0 10px;
 }
+#maxWidthSliderContainer {
+	padding-top:15px;
+	margin-top:15px;
+	border-style:none;
+	border-top-style:solid;
+	border-width:1px;
+	border-color:#666;
+	
+	display:none; /* This is nullified by javascript for desktop browsers */
+}
+#maxWidthSliderContainer h3 {
+	margin-top:0;
+	text-align:center;
+}
+#maxWidthSlider {
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 
 /* The following few classes control the rss styling */
@@ -110,7 +129,7 @@
 /* Survey link styling */
 #feedbackSurvey {
 	padding-top:10px;
-	margin-top:30px;
+	margin-top:15px;
 	text-align:center;
 	border-style:none;
 	border-top-style:solid;

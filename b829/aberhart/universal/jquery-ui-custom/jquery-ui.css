@@ -1,0 +1,109 @@
+/*! jQuery UI - v1.11.4 - 2015-05-15
+* http://jqueryui.com
+* Includes: core.css, slider.css, theme.css
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT 
+* Substantially stripped down by Tauran Wood */
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.3em;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+/* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.25em;
+	margin-left: -.6em;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-size: 1.1em;
+}
+.ui-widget-content {
+	border: 1px solid #666;
+	background: #ffffff;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default {
+	background: #f28726;
+}
+.ui-state-hover, .ui-state-focus {
+	cursor:pointer;
+}
+.ui-state-active {
+	background: #666;
+}
+
+/* Interaction Cues
+----------------------------------*/
+
+.ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35); /* support: IE8 */
+	background-image: none;
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 5px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 5px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 5px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 5px;
+}
