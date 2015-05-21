@@ -3793,9 +3793,16 @@ var LinkAnnotation = (function LinkAnnotationClosure() {
 
       container.style.borderColor = item.colorCssRgb;
       container.style.borderStyle = 'solid';
-
+      
+      var linkUrl = this.data.url || '';
+      linkUrl = linkUrl.replace(/.*schools.cbe.ab.ca\/b829/, "/b829");
+      if ((linkUrl.search(/b829.*\.pdf/) >= 0) && (linkUrl.search("viewer.html?file=") <  0)) {
+        linkUrl = "/b829/aberhart/universal/pdf/web/viewer.html?file=" + linkUrl;
+      }
+      
       var link = document.createElement('a');
-      link.href = link.title = this.data.url || '';
+      
+      link.href = link.title = linkUrl;
 
       container.appendChild(link);
 
