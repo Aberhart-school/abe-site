@@ -47,16 +47,21 @@ for x in $arr
 do
 	## Get folder name
 	FOLDERNAME=${x//b829\/aberhart\//}
+	## If folder contains pdf files
 	if [[ $(echo "$FILES" | grep $x) != "" ]]; then
+	## Add folder header to html
 	HTML="$HTML
 				<h3>$FOLDERNAME</h3>"
 	## Get subfolders
 	SUBFOLDERS=$(find $x -type d -mindepth 1 -maxdepth 1 | tr "\n" "\n")
+	## For each subfolder, do
 	for z in $SUBFOLDERS
 	do
+		## If subfolder contains pdf files
 		if [[ $(echo "$FILES" | grep $z) != "" ]]; then
 			## Get files in folder
 			PDFS=$(echo "$FILES" | grep $z | tr "\n" "\n")
+			## Add subfolder header to html and open the ul
 			HTML="$HTML
 				<h4>${z//b829\/aberhart\//}</h4>
 				<ul>"
