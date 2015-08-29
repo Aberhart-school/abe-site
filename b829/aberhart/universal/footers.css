@@ -55,10 +55,6 @@
 	float:left;
 	padding-left:15px;
 }
-#footer > span:last-child{
-	float:right;
-	padding:11px 0;
-}
 #footer > span:nth-child(2) {
 	line-height:54px;
 	font-size:20px;
@@ -73,6 +69,10 @@
 	border-color:#000;
 	border-width:0 2px;
 	margin:0 2px;
+}
+#footer > span:nth-child(3){
+	float:right;
+	padding:11px 0;
 }
 #footer img {
 	height:40px;
