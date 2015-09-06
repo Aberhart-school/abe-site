@@ -54,33 +54,33 @@
 /* The source was modified to provide verticalness */
 #linksmenu,
 #linksmenu ul {
-    list-style: none;
+	list-style: none;
 	padding-left:0px;
 }
 #linksmenu {
-    float:none;
+	float:none;
 	width:199px; /* Leave 1px for the border */
 }
 #linksmenu > li {
-    float:none;
+	float:none;
 }
 #linksmenu li a {
 	display: block;
-    line-height: 40px;
-    padding-left: 10px;
+	line-height: 40px;
+	padding-left: 10px;
 	padding-right:10px;
-    text-decoration: none;
+	text-decoration: none;
 }
 #linksmenu ul {
-    position: absolute;
-    display: none;
+	position: absolute;
+	display: none;
 	z-index: 999;
 	margin-left:199px; /* Leave 1px for the border */
 	margin-top:-42px; /* 40px for the box, plus two for the border */
 }
 
 #linksmenu li:hover ul {
-    display: block;
+	display: block;
 
 }
 
@@ -94,7 +94,7 @@
 	border-width:1px;
 	border-style:none;
 	border-left-style:solid;
-    margin:0px;
+	margin:0px;
 	color:#000;
 }
 #linksmenu > li {
@@ -104,10 +104,10 @@
 	border-color:#666;
 }
 #linksmenu > li > a {
-    color: #000;
-    font-weight: normal;
+	color: #000;
+	font-weight: normal;
 }
 #linksmenu > li:hover > a {
-    background: #666;
-    color: #fff;
+	background: #666;
+	color: #fff;
 }
