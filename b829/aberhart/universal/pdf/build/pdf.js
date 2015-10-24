@@ -333,9 +333,9 @@ PDFJS.isValidUrl = isValidUrl;
 
 function shadow(obj, prop, value) {
 	Object.defineProperty(obj, prop, { value: value,
-																		 enumerable: true,
-																		 configurable: true,
-																		 writable: false });
+										enumerable: true,
+										configurable: true,
+										writable: false });
 	return value;
 }
 PDFJS.shadow = shadow;
@@ -455,7 +455,7 @@ var XRefParseException = (function XRefParseExceptionClosure() {
 
 function bytesToString(bytes) {
 	assert(bytes !== null && typeof bytes === 'object' &&
-				 bytes.length !== undefined, 'Invalid argument for bytesToString');
+			bytes.length !== undefined, 'Invalid argument for bytesToString');
 	var length = bytes.length;
 	var MAX_ARGUMENT_COUNT = 8192;
 	if (length < MAX_ARGUMENT_COUNT) {
@@ -482,7 +482,7 @@ function stringToBytes(str) {
 
 function string32(value) {
 	return String.fromCharCode((value >> 24) & 0xff, (value >> 16) & 0xff,
-														 (value >> 8) & 0xff, value & 0xff);
+								(value >> 8) & 0xff, value & 0xff);
 }
 
 function log2(x) {
@@ -757,7 +757,7 @@ var Util = PDFJS.Util = (function UtilClosure() {
 	};
 
 	Util.getInheritableProperty = function Util_getInheritableProperty(dict,
-																																		 name) {
+																		name) {
 		while (dict && !dict.has(name)) {
 			dict = dict.get('Parent');
 		}
@@ -885,7 +885,7 @@ var PageViewport = PDFJS.PageViewport = (function PageViewportClosure() {
 			var scale = 'scale' in args ? args.scale : this.scale;
 			var rotation = 'rotation' in args ? args.rotation : this.rotation;
 			return new PageViewport(this.viewBox.slice(), scale, rotation,
-															this.offsetX, this.offsetY, args.dontFlip);
+									this.offsetX, this.offsetY, args.dontFlip);
 		},
 		/**
 		 * Converts PDF point to the viewport coordinates. For examples, useful for
@@ -1603,7 +1603,7 @@ function loadJpegStream(id, imageUrl, objs) {
  * @var {number}
  */
 PDFJS.maxImageSize = (PDFJS.maxImageSize === undefined ?
-											-1 : PDFJS.maxImageSize);
+					-1 : PDFJS.maxImageSize);
 
 /**
  * The url of where the predefined Adobe CMaps are located. Include trailing
@@ -1633,7 +1633,7 @@ PDFJS.disableFontFace = (PDFJS.disableFontFace === undefined ?
  * @var {string}
  */
 PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
-														'' : PDFJS.imageResourcesPath);
+							'' : PDFJS.imageResourcesPath);
 
 /**
  * Disable the web worker and run all code on the main thread. This will happen
@@ -1642,7 +1642,7 @@ PDFJS.imageResourcesPath = (PDFJS.imageResourcesPath === undefined ?
  * @var {boolean}
  */
 PDFJS.disableWorker = (PDFJS.disableWorker === undefined ?
-											 false : PDFJS.disableWorker);
+						false : PDFJS.disableWorker);
 
 /**
  * Path and filename of the worker file. Required when the worker is enabled in
@@ -1659,7 +1659,7 @@ PDFJS.workerSrc = (PDFJS.workerSrc === undefined ? null : PDFJS.workerSrc);
  * @var {boolean}
  */
 PDFJS.disableRange = (PDFJS.disableRange === undefined ?
-											false : PDFJS.disableRange);
+					false : PDFJS.disableRange);
 
 /**
  * Disable streaming of PDF file data. By default PDF.js attempts to load PDF
@@ -1667,7 +1667,7 @@ PDFJS.disableRange = (PDFJS.disableRange === undefined ?
  * @var {boolean}
  */
 PDFJS.disableStream = (PDFJS.disableStream === undefined ?
-											 false : PDFJS.disableStream);
+						false : PDFJS.disableStream);
 
 /**
  * Disable pre-fetching of PDF file data. When range requests are enabled PDF.js
@@ -1679,7 +1679,7 @@ PDFJS.disableStream = (PDFJS.disableStream === undefined ?
  * @var {boolean}
  */
 PDFJS.disableAutoFetch = (PDFJS.disableAutoFetch === undefined ?
-													false : PDFJS.disableAutoFetch);
+							false : PDFJS.disableAutoFetch);
 
 /**
  * Enables special hooks for debugging PDF.js.
@@ -1692,14 +1692,14 @@ PDFJS.pdfBug = (PDFJS.pdfBug === undefined ? false : PDFJS.pdfBug);
  * @var {boolean}
  */
 PDFJS.postMessageTransfers = (PDFJS.postMessageTransfers === undefined ?
-															true : PDFJS.postMessageTransfers);
+								true : PDFJS.postMessageTransfers);
 
 /**
  * Disables URL.createObjectURL usage.
  * @var {boolean}
  */
 PDFJS.disableCreateObjectURL = (PDFJS.disableCreateObjectURL === undefined ?
-																false : PDFJS.disableCreateObjectURL);
+								false : PDFJS.disableCreateObjectURL);
 
 /**
  * Disables WebGL usage.
@@ -1714,14 +1714,14 @@ PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
  * @var {boolean}
  */
 PDFJS.disableFullscreen = (PDFJS.disableFullscreen === undefined ?
-													 false : PDFJS.disableFullscreen);
+							false : PDFJS.disableFullscreen);
 
 /**
  * Enables CSS only zooming.
  * @var {boolean}
  */
 PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
-												false : PDFJS.useOnlyCssZoom);
+						false : PDFJS.useOnlyCssZoom);
 
 /**
  * Controls the logging level.
@@ -1732,7 +1732,7 @@ PDFJS.useOnlyCssZoom = (PDFJS.useOnlyCssZoom === undefined ?
  * @var {number}
  */
 PDFJS.verbosity = (PDFJS.verbosity === undefined ?
-									 PDFJS.VERBOSITY_LEVELS.warnings : PDFJS.verbosity);
+					PDFJS.VERBOSITY_LEVELS.warnings : PDFJS.verbosity);
 
 /**
  * The maximum supported canvas size in total pixels e.g. width * height.
@@ -1740,7 +1740,7 @@ PDFJS.verbosity = (PDFJS.verbosity === undefined ?
  * @var {number}
  */
 PDFJS.maxCanvasPixels = (PDFJS.maxCanvasPixels === undefined ?
-												 16777216 : PDFJS.maxCanvasPixels);
+						16777216 : PDFJS.maxCanvasPixels);
 
 /**
  * Opens external links in a new window if enabled. The default behavior opens
@@ -1806,9 +1806,9 @@ PDFJS.openExternalLinksInNewWindow = (
  * @return {PDFDocumentLoadingTask}
  */
 PDFJS.getDocument = function getDocument(src,
-																				 pdfDataRangeTransport,
-																				 passwordCallback,
-																				 progressCallback) {
+										pdfDataRangeTransport,
+										passwordCallback,
+										progressCallback) {
 	var task = new PDFDocumentLoadingTask();
 
 	// Support of the obsolete arguments (for compatibility with API v1.0)
@@ -1863,7 +1863,7 @@ PDFJS.getDocument = function getDocument(src,
 				params[key] = new Uint8Array(pdfBytes);
 			} else {
 				error('Invalid PDF binary data: either typed array, string or ' +
-							'array-like object is expected in the data property.');
+						'array-like object is expected in the data property.');
 			}
 			continue;
 		}
@@ -2180,15 +2180,15 @@ var PDFDocumentProxy = (function PDFDocumentProxyClosure() {
  * @typedef {Object} RenderParameters
  * @property {Object} canvasContext - A 2D context of a DOM Canvas object.
  * @property {PDFJS.PageViewport} viewport - Rendering viewport obtained by
- *																calling of PDFPage.getViewport method.
+ *									calling of PDFPage.getViewport method.
  * @property {string} intent - Rendering intent, can be 'display' or 'print'
- *										(default value is 'display').
+ *									(default value is 'display').
  * @property {Object} imageLayer - (optional) An object that has beginLayout,
- *										endLayout and appendImage functions.
+ *									endLayout and appendImage functions.
  * @property {function} continueCallback - (deprecated) A function that will be
- *											called each time the rendering is paused.	To continue
- *											rendering call the function that is the first argument
- *											to the callback.
+ *						called each time the rendering is paused.	To continue
+ *						rendering call the function that is the first argument
+ *						to the callback.
  */
 
 /**
@@ -2271,7 +2271,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 		 * Begins the process of rendering a page to the desired context.
 		 * @param {RenderParameters} params Page render parameters.
 		 * @return {RenderTask} An object that contains the promise, which
-		 *											is resolved when the page finishes rendering.
+		 *						is resolved when the page finishes rendering.
 		 */
 		render: function PDFPageProxy_render(params) {
 			var stats = this.stats;
@@ -2307,10 +2307,10 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 			}
 
 			var internalRenderTask = new InternalRenderTask(complete, params,
-																											this.objs,
-																											this.commonObjs,
-																											intentState.operatorList,
-																											this.pageNumber);
+															this.objs,
+															this.commonObjs,
+															intentState.operatorList,
+															this.pageNumber);
 			internalRenderTask.useRequestAnimationFrame = renderingIntent !== 'print';
 			if (!intentState.renderTasks) {
 				intentState.renderTasks = [];
@@ -2443,7 +2443,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 		 * @ignore
 		 */
 		_startRenderPage: function PDFPageProxy_startRenderPage(transparency,
-																														intent) {
+																intent) {
 			var intentState = this.intentStates[intent];
 			// TODO Refactor RenderPageRequest to separate rendering
 			// and operator list logic
@@ -2456,7 +2456,7 @@ var PDFPageProxy = (function PDFPageProxyClosure() {
 		 * @ignore
 		 */
 		_renderPageChunk: function PDFPageProxy_renderPageChunk(operatorListChunk,
-																														intent) {
+																intent) {
 			var intentState = this.intentStates[intent];
 			var i, ii;
 			// Add the new chunk to the current operator list.
@@ -2642,18 +2642,18 @@ var WorkerTransport = (function WorkerTransportClosure() {
 				var loadingTask = this.loadingTask;
 				if (loadingTask.onPassword) {
 					return loadingTask.onPassword(updatePassword,
-																				PasswordResponses.NEED_PASSWORD);
+													PasswordResponses.NEED_PASSWORD);
 				}
 				loadingTask._capability.reject(
 					new PasswordException(exception.message, exception.code));
 			}, this);
 
 			messageHandler.on('IncorrectPassword',
-												function transportIncorrectPassword(exception) {
+								function transportIncorrectPassword(exception) {
 				var loadingTask = this.loadingTask;
 				if (loadingTask.onPassword) {
 					return loadingTask.onPassword(updatePassword,
-																				PasswordResponses.INCORRECT_PASSWORD);
+													PasswordResponses.INCORRECT_PASSWORD);
 				}
 				loadingTask._capability.reject(
 					new PasswordException(exception.message, exception.code));
@@ -2670,13 +2670,14 @@ var WorkerTransport = (function WorkerTransportClosure() {
 			}, this);
 
 			messageHandler.on('UnexpectedResponse',
-												function transportUnexpectedResponse(exception) {
+								function transportUnexpectedResponse(exception) {
 				this.loadingTask._capability.reject(
-					new UnexpectedResponseException(exception.message, exception.status));
+					new UnexpectedResponseException(exception.message,
+													exception.status));
 			}, this);
 
 			messageHandler.on('UnknownError',
-												function transportUnknownError(exception) {
+								function transportUnknownError(exception) {
 				this.loadingTask._capability.reject(
 					new UnknownErrorException(exception.message, exception.details));
 			}, this);
@@ -3106,7 +3107,7 @@ var RenderTask = (function RenderTaskClosure() {
 var InternalRenderTask = (function InternalRenderTaskClosure() {
 
 	function InternalRenderTask(callback, params, objs, commonObjs, operatorList,
-															pageNumber) {
+								pageNumber) {
 		this.callback = callback;
 		this.params = params;
 		this.objs = objs;
@@ -3144,7 +3145,7 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
 
 			var params = this.params;
 			this.gfx = new CanvasGraphics(params.canvasContext, this.commonObjs,
-																		this.objs, params.imageLayer);
+											this.objs, params.imageLayer);
 
 			this.gfx.beginDrawing(params.viewport, transparency);
 			this.operatorListIdx = 0;
@@ -3203,9 +3204,9 @@ var InternalRenderTask = (function InternalRenderTaskClosure() {
 				return;
 			}
 			this.operatorListIdx = this.gfx.executeOperatorList(this.operatorList,
-																				this.operatorListIdx,
-																				this._continueBound,
-																				this.stepper);
+																this.operatorListIdx,
+																this._continueBound,
+																this.stepper);
 			if (this.operatorListIdx === this.operatorList.argsArray.length) {
 				this.running = false;
 				if (this.operatorList.lastChunk) {
@@ -3225,9 +3226,10 @@ var Metadata = PDFJS.Metadata = (function MetadataClosure() {
 	function fixMetadata(meta) {
 		return meta.replace(/>\\376\\377([^<]+)/g, function(all, codes) {
 			var bytes = codes.replace(/\\([0-3])([0-7])([0-7])/g,
-																function(code, d1, d2, d3) {
-				return String.fromCharCode(d1 * 64 + d2 * 8 + d3 * 1);
-			});
+									  function(code, d1, d2, d3) {
+										return String.fromCharCode(d1 * 64 + d2
+																	* 8 + d3 * 1);
+									  });
 			var chars = '';
 			for (var i = 0; i < bytes.length; i += 2) {
 				var code = bytes.charCodeAt(i) * 256 + bytes.charCodeAt(i + 1);
@@ -3446,7 +3448,7 @@ var CachedCanvases = (function CachedCanvasesClosure() {
 	var cache = {};
 	return {
 		getCanvas: function CachedCanvases_getCanvas(id, width, height,
-																								 trackTransform) {
+													trackTransform) {
 			var canvasEntry;
 			if (cache[id] !== undefined) {
 				canvasEntry = cache[id];
@@ -3877,8 +3879,8 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
 	function copyCtxState(sourceCtx, destCtx) {
 		var properties = ['strokeStyle', 'fillStyle', 'fillRule', 'globalAlpha',
-											'lineWidth', 'lineCap', 'lineJoin', 'miterLimit',
-											'globalCompositeOperation', 'font'];
+							'lineWidth', 'lineCap', 'lineJoin', 'miterLimit',
+							'globalCompositeOperation', 'font'];
 		for (var i = 0, ii = properties.length; i < ii; i++) {
 			var property = properties[i];
 			if (sourceCtx[property] !== undefined) {
@@ -3931,7 +3933,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 	}
 
 	function genericComposeSMask(maskCtx, layerCtx, width, height,
-															 subtype, backdrop) {
+								subtype, backdrop) {
 		var hasBackdrop = !!backdrop;
 		var r0 = hasBackdrop ? backdrop[0] : 0;
 		var g0 = hasBackdrop ? backdrop[1] : 0;
@@ -4019,9 +4021,10 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 		},
 
 		executeOperatorList: function CanvasGraphics_executeOperatorList(
-																		operatorList,
-																		executionStartIdx, continueCallback,
-																		stepper) {
+															operatorList,
+															executionStartIdx,
+															continueCallback,
+															stepper) {
 			var argsArray = operatorList.argsArray;
 			var fnArray = operatorList.fnArray;
 			var i = executionStartIdx || 0;
@@ -4033,7 +4036,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			}
 
 			var chunkOperations = (argsArrayLen - i > EXECUTION_STEPS &&
-														 typeof continueCallback === 'function');
+									typeof continueCallback === 'function');
 			var endTime = chunkOperations ? Date.now() + EXECUTION_TIME : 0;
 			var steps = 0;
 
@@ -4300,13 +4303,13 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 					case OPS.curveTo:
 						x = args[j + 4];
 						y = args[j + 5];
-						ctx.bezierCurveTo(args[j], args[j + 1], args[j + 2], args[j + 3],
-															x, y);
+						ctx.bezierCurveTo(args[j], args[j + 1], args[j + 2],
+											args[j + 3], x, y);
 						j += 6;
 						break;
 					case OPS.curveTo2:
 						ctx.bezierCurveTo(x, y, args[j], args[j + 1],
-															args[j + 2], args[j + 3]);
+											args[j + 2], args[j + 3]);
 						x = args[j + 2];
 						y = args[j + 3];
 						j += 4;
@@ -4480,7 +4483,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			}
 
 			current.fontMatrix = (fontObj.fontMatrix ?
-														fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
+									fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
 			// A valid matrix needs all main diagonal elements to be non-zero
 			// This also ensures we bypass FF bugzilla bug #719844.
@@ -4507,7 +4510,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
 			var name = fontObj.loadedName || 'sans-serif';
 			var bold = fontObj.black ? (fontObj.bold ? '900' : 'bold') :
-																 (fontObj.bold ? 'bold' : 'normal');
+									(fontObj.bold ? 'bold' : 'normal');
 
 			var italic = fontObj.italic ? 'italic' : 'normal';
 			var typeface = '"' + name + '", ' + fontObj.fallbackName;
@@ -4517,7 +4520,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			// the current transformation matrix before the fillText/strokeText.
 			// See https://bugzilla.mozilla.org/show_bug.cgi?id=726227
 			var browserFontSize = size < MIN_FONT_SIZE ? MIN_FONT_SIZE :
-														size > MAX_FONT_SIZE ? MAX_FONT_SIZE : size;
+								size > MAX_FONT_SIZE ? MAX_FONT_SIZE : size;
 			this.current.fontSizeScale = size / browserFontSize;
 
 			var rule = italic + ' ' + bold + ' ' + browserFontSize + 'px ' + typeface;
@@ -4816,12 +4819,13 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			// We can safely ignore this since the width should be the same
 			// as the width in the Widths array.
 		},
-		setCharWidthAndBounds: function CanvasGraphics_setCharWidthAndBounds(xWidth,
-																																				yWidth,
-																																				llx,
-																																				lly,
-																																				urx,
-																																				ury) {
+		setCharWidthAndBounds: function CanvasGraphics_setCharWidthAndBounds(
+																			xWidth,
+																			yWidth,
+																			llx,
+																			lly,
+																			urx,
+																			ury) {
 			// TODO According to the spec we're also suppose to ignore any operators
 			// that set color or include images while processing this type3 font.
 			this.ctx.rect(llx, lly, urx - llx, ury - lly);
@@ -4835,7 +4839,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			if (IR[0] === 'TilingPattern') {
 				var color = IR[1];
 				pattern = new TilingPattern(IR, color, this.ctx, this.objs,
-																		this.commonObjs, this.baseTransform);
+											this.commonObjs, this.baseTransform);
 			} else {
 				pattern = getShadingPatternFromIR(IR);
 			}
@@ -4905,8 +4909,9 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			error('Should not call beginImageData');
 		},
 
-		paintFormXObjectBegin: function CanvasGraphics_paintFormXObjectBegin(matrix,
-																																				bbox) {
+		paintFormXObjectBegin: function CanvasGraphics_paintFormXObjectBegin(
+																		matrix,
+																		bbox) {
 			this.save();
 			this.baseTransformStack.push(this.baseTransform);
 
@@ -5065,7 +5070,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 		},
 
 		beginAnnotation: function CanvasGraphics_beginAnnotation(rect, transform,
-																														 matrix) {
+																matrix) {
 			this.save();
 
 			if (isArray(rect) && 4 === rect.length) {
@@ -5144,7 +5149,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			maskCtx.globalCompositeOperation = 'source-in';
 
 			maskCtx.fillStyle = isPatternFill ?
-													fillColor.getPattern(maskCtx, this) : fillColor;
+								fillColor.getPattern(maskCtx, this) : fillColor;
 			maskCtx.fillRect(0, 0, width, height);
 
 			maskCtx.restore();
@@ -5154,7 +5159,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
 		paintImageMaskXObjectRepeat:
 			function CanvasGraphics_paintImageMaskXObjectRepeat(imgData, scaleX,
-																													scaleY, positions) {
+																scaleY, positions) {
 			var width = imgData.width;
 			var height = imgData.height;
 			var fillColor = this.current.fillColor;
@@ -5169,7 +5174,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			maskCtx.globalCompositeOperation = 'source-in';
 
 			maskCtx.fillStyle = isPatternFill ?
-													fillColor.getPattern(maskCtx, this) : fillColor;
+								fillColor.getPattern(maskCtx, this) : fillColor;
 			maskCtx.fillRect(0, 0, width, height);
 
 			maskCtx.restore();
@@ -5204,7 +5209,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 				maskCtx.globalCompositeOperation = 'source-in';
 
 				maskCtx.fillStyle = isPatternFill ?
-														fillColor.getPattern(maskCtx, this) : fillColor;
+									fillColor.getPattern(maskCtx, this) : fillColor;
 				maskCtx.fillRect(0, 0, width, height);
 
 				maskCtx.restore();
@@ -5230,7 +5235,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 
 		paintImageXObjectRepeat:
 			function CanvasGraphics_paintImageXObjectRepeat(objId, scaleX, scaleY,
-																													positions) {
+															positions) {
 			var imgData = this.objs.get(objId);
 			if (!imgData) {
 				warn('Dependent image isn\'t ready yet');
@@ -5242,7 +5247,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			var map = [];
 			for (var i = 0, ii = positions.length; i < ii; i += 2) {
 				map.push({transform: [scaleX, 0, 0, scaleY, positions[i],
-								 positions[i + 1]], x: 0, y: 0, w: width, h: height});
+						positions[i + 1]], x: 0, y: 0, w: width, h: height});
 			}
 			this.paintInlineImageXObjectGroup(imgData, map);
 		},
@@ -5294,14 +5299,14 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 				tmpCtx = tmpCanvas.context;
 				tmpCtx.clearRect(0, 0, newWidth, newHeight);
 				tmpCtx.drawImage(imgToPaint, 0, 0, paintWidth, paintHeight,
-																		 0, 0, newWidth, newHeight);
+								0, 0, newWidth, newHeight);
 				imgToPaint = tmpCanvas.canvas;
 				paintWidth = newWidth;
 				paintHeight = newHeight;
 				tmpCanvasId = tmpCanvasId === 'prescale1' ? 'prescale2' : 'prescale1';
 			}
 			ctx.drawImage(imgToPaint, 0, 0, paintWidth, paintHeight,
-																0, -height, width, height);
+							0, -height, width, height);
 
 			if (this.imageLayer) {
 				var position = this.getCanvasPosition(0, -height);
@@ -5332,7 +5337,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 				ctx.transform.apply(ctx, entry.transform);
 				ctx.scale(1, -1);
 				ctx.drawImage(tmpCanvas.canvas, entry.x, entry.y, entry.w, entry.h,
-											0, -1, 1, 1);
+								0, -1, 1, 1);
 				if (this.imageLayer) {
 					var position = this.getCanvasPosition(entry.x, entry.y);
 					this.imageLayer.appendImage({
@@ -5364,7 +5369,7 @@ var CanvasGraphics = (function CanvasGraphicsClosure() {
 			// TODO Marked content.
 		},
 		beginMarkedContentProps: function CanvasGraphics_beginMarkedContentProps(
-																				tag, properties) {
+															tag, properties) {
 			// TODO Marked content.
 		},
 		endMarkedContent: function CanvasGraphics_endMarkedContent() {
@@ -5490,48 +5495,48 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 	}
 
 	var smaskVertexShaderCode = '\
-	attribute vec2 a_position;																		\
-	attribute vec2 a_texCoord;																		\
-																																\
-	uniform vec2 u_resolution;																		\
-																																\
-	varying vec2 v_texCoord;																			\
-																																\
-	void main() {																								 \
-		vec2 clipSpace = (a_position / u_resolution) * 2.0 - 1.0;	 \
+	attribute vec2 a_position;												\
+	attribute vec2 a_texCoord;												\
+																			\
+	uniform vec2 u_resolution;												\
+																			\
+	varying vec2 v_texCoord;												\
+																			\
+	void main() {															\
+		vec2 clipSpace = (a_position / u_resolution) * 2.0 - 1.0;			\
 		gl_Position = vec4(clipSpace * vec2(1, -1), 0, 1);					\
-																																\
-		v_texCoord = a_texCoord;																		\
-	}																														 ';
+																			\
+		v_texCoord = a_texCoord;											\
+	}																		';
 
 	var smaskFragmentShaderCode = '\
-	precision mediump float;																			\
-																																\
-	uniform vec4 u_backdrop;																			\
-	uniform int u_subtype;																				\
-	uniform sampler2D u_image;																		\
-	uniform sampler2D u_mask;																		 \
-																																\
-	varying vec2 v_texCoord;																			\
-																																\
-	void main() {																								 \
-		vec4 imageColor = texture2D(u_image, v_texCoord);					 \
-		vec4 maskColor = texture2D(u_mask, v_texCoord);						 \
-		if (u_backdrop.a > 0.0) {																	 \
-			maskColor.rgb = maskColor.rgb * maskColor.a +						 \
-											u_backdrop.rgb * (1.0 - maskColor.a);		 \
-		}																													 \
-		float lum;																									\
-		if (u_subtype == 0) {																			 \
-			lum = maskColor.a;																				\
-		} else {																										\
-			lum = maskColor.r * 0.3 + maskColor.g * 0.59 +						\
-						maskColor.b * 0.11;																 \
-		}																													 \
-		imageColor.a *= lum;																				\
-		imageColor.rgb *= imageColor.a;														 \
-		gl_FragColor = imageColor;																	\
-	}																														 ';
+	precision mediump float;												\
+																			\
+	uniform vec4 u_backdrop;												\
+	uniform int u_subtype;													\
+	uniform sampler2D u_image;												\
+	uniform sampler2D u_mask;												\
+																			\
+	varying vec2 v_texCoord;												\
+																			\
+	void main() {															\
+		vec4 imageColor = texture2D(u_image, v_texCoord);					\
+		vec4 maskColor = texture2D(u_mask, v_texCoord);						\
+		if (u_backdrop.a > 0.0) {											\
+			maskColor.rgb = maskColor.rgb * maskColor.a +					\
+							u_backdrop.rgb * (1.0 - maskColor.a);			\
+		}																	\
+		float lum;															\
+		if (u_subtype == 0) {												\
+			lum = maskColor.a;												\
+		} else {															\
+			lum = maskColor.r * 0.3 + maskColor.g * 0.59 +					\
+						maskColor.b * 0.11;									\
+		}																	\
+		imageColor.a *= lum;												\
+		imageColor.rgb *= imageColor.a;										\
+		gl_FragColor = imageColor;											\
+	}																		';
 
 	var smaskCache = null;
 
@@ -5595,12 +5600,12 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 
 		if (properties.backdrop) {
 			gl.uniform4f(cache.resolutionLocation, properties.backdrop[0],
-									 properties.backdrop[1], properties.backdrop[2], 1);
+						properties.backdrop[1], properties.backdrop[2], 1);
 		} else {
 			gl.uniform4f(cache.resolutionLocation, 0, 0, 0, 0);
 		}
 		gl.uniform1i(cache.subtypeLocation,
-								 properties.subtype === 'Luminosity' ? 1 : 0);
+					properties.subtype === 'Luminosity' ? 1 : 0);
 
 		// Create a textures
 		var texture = createTexture(gl, layer, gl.TEXTURE0);
@@ -5639,31 +5644,31 @@ var WebGLUtils = (function WebGLUtilsClosure() {
 	}
 
 	var figuresVertexShaderCode = '\
-	attribute vec2 a_position;																		\
-	attribute vec3 a_color;																			 \
-																																\
-	uniform vec2 u_resolution;																		\
-	uniform vec2 u_scale;																				 \
-	uniform vec2 u_offset;																				\
-																																\
-	varying vec4 v_color;																				 \
-																																\
-	void main() {																								 \
-		vec2 position = (a_position + u_offset) * u_scale;					\
-		vec2 clipSpace = (position / u_resolution) * 2.0 - 1.0;		 \
-		gl_Position = vec4(clipSpace * vec2(1, -1), 0, 1);					\
-																																\
-		v_color = vec4(a_color / 255.0, 1.0);											 \
-	}																														 ';
+	attribute vec2 a_position;\
+	attribute vec3 a_color;\
+\
+	uniform vec2 u_resolution;\
+	uniform vec2 u_scale;\
+	uniform vec2 u_offset;\
+\
+	varying vec4 v_color;\
+\
+	void main() {\
+		vec2 position = (a_position + u_offset) * u_scale;\
+		vec2 clipSpace = (position / u_resolution) * 2.0 - 1.0;\
+		gl_Position = vec4(clipSpace * vec2(1, -1), 0, 1);\
+\
+		v_color = vec4(a_color / 255.0, 1.0);\
+	}';
 
 	var figuresFragmentShaderCode = '\
-	precision mediump float;																			\
-																																\
-	varying vec4 v_color;																				 \
-																																\
-	void main() {																								 \
-		gl_FragColor = v_color;																		 \
-	}																														 ';
+	precision mediump float;\
+\
+	varying vec4 v_color;\
+\
+	void main() {\
+		gl_FragColor = v_color;\
+	}';
 
 	var figuresCache = null;
 
@@ -6011,7 +6016,7 @@ var createMeshCanvas = (function createMeshCanvasClosure() {
 		var canvas, tmpCanvas, i, ii;
 		if (WebGLUtils.isEnabled) {
 			canvas = WebGLUtils.drawFigures(width, height, backgroundColor,
-																			figures, context);
+											figures, context);
 
 			// https://bugzilla.mozilla.org/show_bug.cgi?id=972126
 			tmpCanvas = CachedCanvases.getCanvas('mesh', width, height, false);
@@ -6039,7 +6044,7 @@ var createMeshCanvas = (function createMeshCanvasClosure() {
 		}
 
 		return {canvas: canvas, offsetX: offsetX, offsetY: offsetY,
-						scaleX: scaleX, scaleY: scaleY};
+				scaleX: scaleX, scaleY: scaleY};
 	}
 	return createMeshCanvas;
 })();
@@ -6421,8 +6426,8 @@ var FontLoader = {
 	},
 
 	prepareFontLoadEvent: function fontLoaderPrepareFontLoadEvent(rules,
-																																fonts,
-																																request) {
+																	fonts,
+																	request) {
 			/** Hack begin */
 			// There's currently no event when a font has finished downloading so the
 			// following code is a dirty hack to 'guess' when a font is
@@ -6505,9 +6510,9 @@ var FontLoader = {
 
 			var div = document.createElement('div');
 			div.setAttribute('style',
-											 'visibility: hidden;' +
-											 'width: 10px; height: 10px;' +
-											 'position: absolute; top: 0px; left: 0px;');
+							'visibility: hidden;' +
+							'width: 10px; height: 10px;' +
+							'position: absolute; top: 0px; left: 0px;');
 			for (i = 0, ii = names.length; i < ii; ++i) {
 				var span = document.createElement('span');
 				span.textContent = 'Hi';
@@ -7285,7 +7290,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 		transform: function SVGGraphics_transform(a, b, c, d, e, f) {
 			var transformMatrix = [a, b, c, d, e, f];
 			this.transformMatrix = PDFJS.Util.transform(this.transformMatrix,
-																									transformMatrix);
+														transformMatrix);
 
 			this.tgrp = document.createElementNS(NS, 'svg:g');
 			this.tgrp.setAttributeNS(null, 'transform', pm(this.transformMatrix));
@@ -7372,7 +7377,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 						break;
 					case OPS.setTextMatrix:
 						this.setTextMatrix(args[0], args[1], args[2],
-															 args[3], args[4], args[5]);
+											args[3], args[4], args[5]);
 						break;
 					case OPS.setLineWidth:
 						this.setLineWidth(args[0]);
@@ -7495,7 +7500,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			current.tspan = document.createElementNS(NS, 'svg:tspan');
 			current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
 			current.tspan.setAttributeNS(null, 'font-size',
-																	 pf(current.fontSize) + 'px');
+										pf(current.fontSize) + 'px');
 			current.tspan.setAttributeNS(null, 'y', pf(-current.y));
 
 			current.txtElement = document.createElementNS(NS, 'svg:text');
@@ -7522,7 +7527,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			current.tspan = document.createElementNS(NS, 'svg:tspan');
 			current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
 			current.tspan.setAttributeNS(null, 'font-size',
-																	 pf(current.fontSize) + 'px');
+										pf(current.fontSize) + 'px');
 			current.tspan.setAttributeNS(null, 'y', pf(-current.y));
 		},
 
@@ -7570,11 +7575,11 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			}
 
 			current.tspan.setAttributeNS(null, 'x',
-																	 current.xcoords.map(pf).join(' '));
+										current.xcoords.map(pf).join(' '));
 			current.tspan.setAttributeNS(null, 'y', pf(-current.y));
 			current.tspan.setAttributeNS(null, 'font-family', current.fontFamily);
 			current.tspan.setAttributeNS(null, 'font-size',
-																	 pf(current.fontSize) + 'px');
+										pf(current.fontSize) + 'px');
 			if (current.fontStyle !== SVG_DEFAULTS.fontStyle) {
 				current.tspan.setAttributeNS(null, 'font-style', current.fontStyle);
 			}
@@ -7586,8 +7591,8 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			}
 
 			current.txtElement.setAttributeNS(null, 'transform',
-																				pm(current.textMatrix) +
-																				' scale(1, -1)' );
+												pm(current.textMatrix) +
+												' scale(1, -1)' );
 			current.txtElement.setAttributeNS(XML_NS, 'xml:space', 'preserve');
 			current.txtElement.appendChild(current.tspan);
 			current.txtgrp.appendChild(current.txtElement);
@@ -7627,10 +7632,10 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			}
 
 			current.fontMatrix = (fontObj.fontMatrix ?
-														fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
+									fontObj.fontMatrix : FONT_IDENTITY_MATRIX);
 
 			var bold = fontObj.black ? (fontObj.bold ? 'bolder' : 'bold') :
-																 (fontObj.bold ? 'bold' : 'normal');
+										(fontObj.bold ? 'bold' : 'normal');
 			var italic = fontObj.italic ? 'italic' : 'normal';
 
 			if (size < 0) {
@@ -7705,7 +7710,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 						var xw = x + width;
 						var yh = y + height;
 						d.push('M', pf(x), pf(y), 'L', pf(xw) , pf(y), 'L', pf(xw), pf(yh),
-									 'L', pf(x), pf(yh), 'Z');
+								'L', pf(x), pf(yh), 'Z');
 						break;
 					case OPS.moveTo:
 						x = args[j++];
@@ -7745,15 +7750,15 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			}
 			current.path.setAttributeNS(null, 'd', d.join(' '));
 			current.path.setAttributeNS(null, 'stroke-miterlimit',
-																	pf(current.miterLimit));
+										pf(current.miterLimit));
 			current.path.setAttributeNS(null, 'stroke-linecap', current.lineCap);
 			current.path.setAttributeNS(null, 'stroke-linejoin', current.lineJoin);
 			current.path.setAttributeNS(null, 'stroke-width',
-																	pf(current.lineWidth) + 'px');
+										pf(current.lineWidth) + 'px');
 			current.path.setAttributeNS(null, 'stroke-dasharray',
-																	current.dashArray.map(pf).join(' '));
+										current.dashArray.map(pf).join(' '));
 			current.path.setAttributeNS(null, 'stroke-dashoffset',
-																	pf(current.dashPhase) + 'px');
+										pf(current.dashPhase) + 'px');
 			current.path.setAttributeNS(null, 'fill', 'none');
 
 			this.tgrp.appendChild(current.path);
@@ -7802,7 +7807,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			current.pendingClip = true;
 			this.cgrp = document.createElementNS(NS, 'svg:g');
 			this.cgrp.setAttributeNS(null, 'clip-path',
-															 'url(#' + current.clipId + ')');
+									'url(#' + current.clipId + ')');
 			this.pgrp.appendChild(this.cgrp);
 		},
 
@@ -7927,7 +7932,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			imgEl.setAttributeNS(null, 'x', '0');
 			imgEl.setAttributeNS(null, 'y', pf(-h));
 			imgEl.setAttributeNS(null, 'transform',
-													 'scale(' + pf(1 / w) + ' ' + pf(-1 / h) + ')');
+								'scale(' + pf(1 / w) + ' ' + pf(-1 / h) + ')');
 
 			this.tgrp.appendChild(imgEl);
 			if (current.pendingClip) {
@@ -7968,8 +7973,8 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 			imgEl.setAttributeNS(null, 'width', pf(width) + 'px');
 			imgEl.setAttributeNS(null, 'height', pf(height) + 'px');
 			imgEl.setAttributeNS(null, 'transform',
-													 'scale(' + pf(1 / width) + ' ' +
-													 pf(-1 / height) + ')');
+								'scale(' + pf(1 / width) + ' ' +
+								pf(-1 / height) + ')');
 			if (mask) {
 				mask.appendChild(imgEl);
 			} else {
@@ -8013,7 +8018,7 @@ var SVGGraphics = (function SVGGraphicsClosure() {
 
 			if (isArray(matrix) && matrix.length === 6) {
 				this.transform(matrix[0], matrix[1], matrix[2],
-											 matrix[3], matrix[4], matrix[5]);
+								matrix[3], matrix[4], matrix[5]);
 			}
 
 			if (isArray(bbox) && bbox.length === 4) {
@@ -8049,7 +8054,7 @@ if (!PDFJS.workerSrc && typeof document !== 'undefined') {
 	PDFJS.workerSrc = (function () {
 		'use strict';
 		var scriptTagContainer = document.body ||
-														 document.getElementsByTagName('head')[0];
+								document.getElementsByTagName('head')[0];
 		var pdfjsSrc = scriptTagContainer.lastChild.src;
 		return pdfjsSrc && pdfjsSrc.replace(/\.js$/i, '.worker.js');
 	})();
