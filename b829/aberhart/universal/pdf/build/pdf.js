@@ -6842,9 +6842,17 @@ var AnnotationUtils = (function AnnotationUtilsClosure() {
 	function getHtmlElementForLinkAnnotation(item) {
 		var container = initContainer(item);
 		container.className = 'annotLink';
-
+		
+		var linkURL = item.url || '';
+		linkURL = linkURL.replace(/.*schools.cbe.ab.ca\/b829/, '/b829');
+		if ((linkURL.search(/b829.*\.pdf/) >= 0) && (linkURL.search('viewer.html?file=') < 0)) {
+			linkURL = '/b829/aberhart/universal/pdf/web/viewer.html?file=' + linkURL;
+		}
+		
 		var link = document.createElement('a');
-		link.href = link.title = item.url || '';
+		
+		link.href = link.title = linkURL;
+
 		if (item.url && PDFJS.openExternalLinksInNewWindow) {
 			link.target = '_blank';
 		}
