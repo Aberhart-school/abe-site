@@ -316,6 +316,7 @@ html[dir='rtl'] .innerCenter {
 
 #content {
 	height: calc(100% - 205px);
+	min-height:680px;
 	position: relative;
 	overflow-x:hidden;
 }
