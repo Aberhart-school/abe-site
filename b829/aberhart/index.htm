@@ -38,7 +38,17 @@
 		<script>
 			"use strict";
 			$( document ).ready(function() {
-				var mainPageSlider = $('.mainPageSlider').bxSlider({ auto: true, autoControls: true, adaptiveHeight: true, responsive: true, infiniteLoop: true, autoControlsCombine: true, autoHover: true, pause: 7000, randomStart: true, useCSS: false	});
+				var mainPageSlider = $('.mainPageSlider').bxSlider({ auto: true,
+																	autoControls: true,
+																	adaptiveHeight: true,
+																	responsive: true,
+																	infiniteLoop: true,
+																	autoControlsCombine:
+																	true, autoHover: true,
+																	pause: 7000,
+																	randomStart: true,
+																	useCSS: false
+																	});
 				
 				// If browser is not mobile
 				if (typeof window.orientation == 'undefined') {
@@ -47,7 +57,10 @@
 					if (Cookies.get("max-width")) {
 						value=Cookies.get("max-width");
 					}
-					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value, slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" ); mainPageSlider.redrawSlider(); }, stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });} });
+					$( "#maxWidthSlider" ).slider({ min:935, max:1600, value: value,
+												slide: function( event, ui ) { $( "body" ).css( "max-width", ui.value + "px" ); mainPageSlider.redrawSlider(); },
+												stop: function( event, ui ) { Cookies.set('max-width', ui.value, { expires: 365, path: '/b829/aberhart/' });}
+												});
 				}
 			});
 		</script>
@@ -83,57 +96,86 @@
 					<div>
 						<img src="/b829/aberhart/main/news/banner/exchange-maurick-college.jpg" alt="exchange-maurick-college"/>
 						<h3 class="centerAlign">Exchange in the Netherlands</h3>
-						<p>In October a group of 14 students from William Aberhart went on a ten-day exchange to                        the Netherlands and France with students from Maurick College. 
-                        In the Netherlands, the group traveled to different cities and monuments during our
-                        visit, including Amsterdam and Kamp Vught (a concentration camp) in ‘s-Hertogenbosch.
-                        In France, students and staff visited various landmarks in Paris, such as la Tour Eiffel, 
-                        le Château de Versailles, l’Arc de Triomphe, les Invalides, Musés Louvre & d’Orsay, 
-                        and les Catacombes.
-                        <p>
-							<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/banner/exchange-maurick-college.pdf">Full article
-							</a>
+						<p>
+							In October a group of 14 students from William Aberhart
+							went on a ten-day exchange to the Netherlands and
+							France with students from Maurick College. In the Netherlands,
+							the group traveled to different cities and monuments during our
+							visit, including Amsterdam and Kamp Vught (a concentration camp)
+							in ‘s-Hertogenbosch. In France, students and staff
+							visited various landmarks in Paris, such as la Tour Eiffel,
+							le Château de Versailles, l’Arc de Triomphe, les Invalides,
+							Musés Louvre and d’Orsay, and les Catacombes.
+							<p>
+								<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/banner/exchange-maurick-college.pdf">
+									Full article
+								</a>
+							</p>
 						</p>
 					</div>
 					<div>
 						<img src="/b829/aberhart/main/news/banner/advocate.jpg" alt="advocate"/>
 						<h3 class="centerAlign">Check out The Advocate</h3>
-						<p>The Advocate is the official newspaper of William Aberhart High School. We publish on a
-						bi-weekly basis, and the most recent version is <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/advocate/advocate.pdf">posted here</a>.
+						<p>
+							The Advocate is the official newspaper of William
+							Aberhart High School. We publish on a bi-weekly basis,
+							and the most recent version is
+							<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/student-activities/advocate/advocate.pdf">
+								posted here
+							</a>
+							.
 						</p>
-						<p>The Advocate is meant as a forum for student expression and is published to inform and
-						entertain the students and the entire school community.
+						<p>
+							The Advocate is meant as a forum for student expression
+							and is published to inform and entertain the students
+							and the entire school community.
 						</p>
 					</div>
 					<div>
 						<img src="/b829/aberhart/main/news/banner/water-is-life-small.jpg" alt="water-is-life-small"/>
 						<h3 class="centerAlign">Aberhart to Participate in International Conference</h3>						
-						<p>Aberhart students will present their water research at the Water is Life Conference in the 
-						Netherlands in June 2016. Water is Life is an event that occurs every second year, uniting
-						students from across the world to discuss water issues						
+						<p>
+							Aberhart students will present their water research
+							at the Water is Life Conference in the Netherlands in
+							June 2016. Water is Life is an event that occurs every
+							second year, uniting students from across the world
+							to discuss water issues
 						</p>
 						<p>
-						The Aberhart research groups are examining water issues like drinking water quality on the
-						T’suu T’ina Reserve in comparison to City of Calgary Residents; the current reality of the Ray
-						Glacier and the extent to which it will continue to provide water to the Elbow River;
+							The Aberhart research groups are examining water issues
+							like drinking water quality on the T’suu T’ina Reserve
+							in comparison to City of Calgary Residents; the current
+							reality of the Ray Glacier and the extent to which it
+							will continue to provide water to the Elbow River;
 						</p>
 					</div>
 					<div>
 						<img src="/b829/aberhart/main/news/banner/blood-drive-assembly.jpg" alt="blood-drive-assembly"/>
 						<h3 class="centerAlign">Young Bloods For Life - Help Save a Life</h3>
-						<p>Students at William Aberhart High School are rolling up their sleeves to help meet Canada's demand for blood.</p>
-						<p>Defend ABE's 2nd national high school blood donation title by joining our Orange team and register as a blood donor on line:</p>
 						<p>
-							<a href="https://www.blood.ca/en/blood/how-do-i-join-team">To Donate:</a> (PARTNER ID#: WILL011469)
+							Students at William Aberhart High School are rolling
+							up their sleeves to help meet Canada's demand for blood.
 						</p>
 						<p>
-							<a href="http://globalnews.ca/news/2267548/injured-calgarian-hopes-to-inspire-other-teens-to-help-save-lives/">Global News article and video</a>
+							Defend ABE's 2nd national high school blood donation
+							title by joining our Orange team and register as a
+							blood donor on line:
 						</p>
 						<p>
-							<a href="http://pulse.blood.ca/2015/04/canadian-high-school-students-take-up-thechallenge/#.VhVB0uxViko">Pulse Magazine article</a>
+							<a href="https://www.blood.ca/en/blood/how-do-i-join-team">
+								To Donate:
+							</a>
+							(PARTNER ID#: WILL011469)
 						</p>
-						<p>
-							<a href="https://www.blood.ca/en/media/canadian-high-school-students-have-power-give-life-through-young-blood-life-challenge">Young Blood for Life challenge</a>
-						</p>
+						<p><a href="http://globalnews.ca/news/2267548/injured-calgarian-hopes-to-inspire-other-teens-to-help-save-lives/">
+							Global News article and video
+						</a></p>
+						<p><a href="http://pulse.blood.ca/2015/04/canadian-high-school-students-take-up-thechallenge/#.VhVB0uxViko">
+							Pulse Magazine article
+						</a></p>
+						<p><a href="https://www.blood.ca/en/media/canadian-high-school-students-have-power-give-life-through-young-blood-life-challenge">
+							Young Blood for Life challenge
+						</a></p>
 					</div>
 				</div>
 			</div>
@@ -147,23 +189,49 @@
 						<td>
 							<h3 class="centerAlign">What's New</h3>
 							<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
-							<!-- Include only events that have occured; limit of four -->							<!-- Include only events that have occured; limit of four -->
+							<!-- Include only events that have occured; limit of four -->
 							<ul class="list">
-								<li>William Aberhart High School's <a href="https://aberhartlearningcommons.wordpress.com/">Learning Commons Blog</a> (new post November 4th)
+								<li>
+									William Aberhart High School's
+									<a href="https://aberhartlearningcommons.wordpress.com/">
+										Learning Commons Blog
+									</a>
+									(new post November 4th)
 								</li>
-								<li>Important Information from Student Services:
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/student-services-news.pdf">October Newsletter</a>
+								<li>
+									Important Information from Student Services:
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/student-services-news.pdf">
+										October Newsletter
+									</a>
 								</li>
-								<li>Tell Them From Me Survey Results:
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-survey-highlights.pdf">Highlights</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-bullying-and-school-safety.pdf">Bullying and School Safety</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-school-completion.pdf">School Completion</a>
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-student-engagement.pdf">Student Engagement</a>
+								<li>
+									Tell Them From Me Survey Results:
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-survey-highlights.pdf">
+										Highlights
+									</a>
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-bullying-and-school-safety.pdf">
+										Bullying and School Safety
+									</a>
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-school-completion.pdf">
+										School Completion
+									</a>
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/abe-ttfm-student-engagement.pdf">
+										Student Engagement
+									</a>
 								</li>
-								<li>William Aberhart High School's <a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-results-report.pdf">2014-15 School Results Report</a> and 
-									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-development-plan.pdf">2015-16 School Development Plan</a>
+								<li>
+									William Aberhart High School's
+									<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-results-report.pdf">
+										2014-15 School Results Report
+									</a>
+									and 
+										<a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/whats-new/school-development-plan.pdf">
+										2015-16 School Development Plan
+										</a>
 								</li>
-								<li><a href="/b829/aberhart/main/news/whats-new/welcome-to-website.html">Welcome to our website!</a></li>
+								<li><a href="/b829/aberhart/main/news/whats-new/welcome-to-website.html">
+									Welcome to our website!
+								</a></li>
 							</ul>
 						</td>
 						<td>
@@ -172,7 +240,9 @@
 							<!-- Include only events that have yet to occur; limit of four -->
 							<ul class="list">
 								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/exams/exam-schedule.pdf">January 2016 Exam Dates</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/upcoming/learning-commons-update.pdf">Coming soon: The new and improved Learning Commons</a></li>                                
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/upcoming/learning-commons-update.pdf">
+									Coming soon: The new and improved Learning Commons
+								</a></li>
 							</ul>
 						</td>
 						<td>
@@ -180,13 +250,29 @@
 							<!-- These should be in "Headline format," that is, short, informative, and eye-catching. -->
 							<!-- Include only information that is current (i.e. events that are ongoing; limit of four -->
 							<ul class="list">
-								<li> Parents/Guardians – please inform the main office of any mailing address, phone number or email address changes that concerns your students</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/wasc-application-form.pdf">William Aberhart Student Council - Application Form</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/technology-challenge.pdf">Gr. 10 Technology Challenge</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/friends-of-orange/bottle-drive.pdf">Friends of Orange fundraising</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/homelogic-parent-letter.pdf">Home Logic Parent letter</a></li>
-								<li><a href="http://www.cbeinternational.ca/homestay_host.htm">Info for hosting international students (CBE website)</a></li>
-								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/finding-gmail-address.pdf">Finding your Gmail address</a></li>
+								<li> Parents/Guardians: please inform the main office of any mailing address, phone number or email address changes that concerns your students
+								</li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/wasc-application-form.pdf">
+									William Aberhart Student Council - Application Form
+								</a></li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/technology-challenge.pdf">
+									Gr. 10 Technology Challenge
+								</a></li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/learning-commons-fundraiser.pdf">
+									Learning Commons fundraising
+								</a></li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/friends-of-orange/bottle-drive.pdf">
+									Friends of Orange fundraising
+								</a></li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/homelogic-parent-letter.pdf">
+									Home Logic Parent letter
+								</a></li>
+								<li><a href="http://www.cbeinternational.ca/homestay_host.htm">
+									Info for hosting international students (CBE website)
+								</a></li>
+								<li><a href="/b829/aberhart/universal/pdf/web/viewer.html?file=/b829/aberhart/main/news/ongoing/finding-gmail-address.pdf">
+									Finding your Gmail address
+								</a></li>
 							</ul>
 						</td>
 					</tr>
@@ -216,7 +302,10 @@
 					<strong>CBE RSS News Feed</strong>
 					<p>JavaScript seems to not be working.</p>
 					<p>
-						Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/CalgaryBoardOfEducationNews">The Calgary Board of Education</a>
+						Subscribe to RSS headline updates from:
+						<a href="http://feeds.feedburner.com/CalgaryBoardOfEducationNews">
+							The Calgary Board of Education
+						</a>
 					</p>
 				</noscript>
 				<div id="cbeRSSsubscribe">
