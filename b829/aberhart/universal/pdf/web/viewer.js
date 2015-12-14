@@ -6636,9 +6636,10 @@ var PDFViewerApplication = {
 
 				// Make all navigation keys work on document load,
 				// unless the viewer is embedded in a web page.
-				if (!self.isViewerEmbedded) {
-					self.pdfViewer.focus();
-				}
+// Commented to stop viewer from scrolling down on load
+//				if (!self.isViewerEmbedded) {
+//					self.pdfViewer.focus();
+//				}
 			}, function rejected(reason) {
 				console.error(reason);
 				self.setInitialView(null, scale);
