@@ -17,7 +17,7 @@ ul.simpleTabsNavigation {
 }
 ul.simpleTabsNavigation li {
 	list-style:none;
-	display:inline;
+	display:inline-block;
 	margin:0;
 	padding:0;
 }
@@ -25,27 +25,33 @@ ul.simpleTabsNavigation li a {
 	border-style:solid;
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
-	border-color:#000;
+	border-color:#666;
 	border-bottom-style:none;
-	border-width:2px;
-	padding:5px 6px;
-	background-color:#FFF;
+	border-width:0;
+	padding-top:5px;
+	padding-bottom:4px;
+	padding-left:6px;
+	padding-right:6px;
+	background-color:#666;
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 }
 ul.simpleTabsNavigation li a:hover {
-	background-color:#666;
+	background-color:#f28726;
+	color:#fff;
 }
 ul.simpleTabsNavigation li a.current {
-	background:#F28726;
-	color:#fff;
+	border-width:1px;
+	background:#fff;
+	color:#000;
 	border-bottom:1px solid #fff;
 }
 div.simpleTabsContent {
 	border-style:solid;
-	border-radius:5px;
-	border-color:#000;
-	border-width:2px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-color:#666;
+	border-width:1px;
 	padding:5px 15px 15px;
 	margin-top:3px;
 	display:none;
