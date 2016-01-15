@@ -1,0 +1,74 @@
+<!DOCTYPE html> <!-- This has to come before any comments (or anything else). Otherwise it kills IE -->
+<!-- Copyright 2013 Tauran Wood -->
+
+<!--  This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- For info about changing the website (fixing bugs, etc.) see https://github.com/thirstyice/abe-site -->
+
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Grad 2016</title>
+		<link rel="stylesheet" type="text/css" href="/b829/aberhart/universal/main.css"/>
+		<script src="/b829/aberhart/universal/jquery-1.11.0.min.js"></script>
+		<script>
+			"use strict";
+			// this script has to be included in the html file because the references to the main files will have to be changed to reflect the relative positions of the files
+			
+			// "topstuff" is the top area. headers, top menu, etc
+			$( document ).ready(function() { $("#topmenu-import").load( "/b829/aberhart/universal/topmenu.html" );
+				$("#cbe-header").load( "/b829/aberhart/universal/cbe-header.html"); });
+			
+			// "areamenu" is the side menu on the left, that you use to navigate within an area of a website.
+			$( document ).ready(function() { $("#areamenu").load( "/b829/aberhart/Templates/areamenu-template.html" ); });
+			// IMPORTANT replace with the location of the areamenu for the site area
+			
+			// "rightside" is the side menu on the left, cbe links, and help info thing.
+			$( document ).ready(function() { $("#rightside").load( "/b829/aberhart/universal/rightside.html" ); });
+			
+			// "footers" is self-explanatory
+			$( document ).ready(function() { $("#footers").load( "/b829/aberhart/universal/footers.html" ); });
+			
+		</script>
+	</head>
+	<body><!-- exists only to give the rounded border around the body -->
+			<div id="cbe-header"></div>
+			<div id="topmenu-import"></div>
+			<!-- Content starts here -->
+			<div id="content">
+				<p>
+					<h2>Grad 2016</h2>
+					<h3>Graduation Ceremonies</h3>
+					Wednesday, May 25, 9:00 am to 12:00 pm
+					<br>
+					Stampede Corral, Stampede Park
+					<br>
+					<h3>Graduation Banquet</h3>
+						Wednesday, May 25, 6:30 pm to 12:00 am
+					<br>
+						BMO Centre, Stampede Park
+					<br>
+					<h3>Grad Information Bulletins</h3>
+					More Information and extra Banquet order forms will be available on this page in March
+					</p>
+			</div>
+			<!-- Content ends here -->
+			<div id="leftside"><!-- this is the left sidebar. it comes second so that the content div hugs the top instead of the bottom -->
+				<div id="areamenu"></div>
+			</div>
+			<div id="rightside"></div>
+			<div id="footers"></div>
+	</body>
+</html>
