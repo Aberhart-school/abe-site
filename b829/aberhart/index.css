@@ -13,20 +13,22 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
-.mainPageNews {
-	border-color:#666;
-	border-width:1px;
+.mainPageSection {
 	border-style:none;
 	border-top-style:solid;
+	border-width:1px;
+	border-color:#666;
+	margin-bottom:15px;
 	width:100%;
+}
+.mainPageSection h3 {
+	text-align:center;
 }
 .mainPageNews col {
 	margin-left:auto;
 	margin-right:auto;
 	height:300px;
 	overflow:hidden;
-	
 }
 .mainPageNews col:last-child {
 	border-right-style:none;
@@ -56,18 +58,7 @@
 	margin:0 10px;
 }
 #maxWidthSliderContainer {
-	padding-top:15px;
-	margin-top:15px;
-	border-style:none;
-	border-top-style:solid;
-	border-width:1px;
-	border-color:#666;
-	
 	display:none; /* This is nullified by javascript for desktop browsers */
-}
-#maxWidthSliderContainer h3 {
-	margin-top:0;
-	text-align:center;
 }
 #maxWidthSlider {
 	width:200px;
