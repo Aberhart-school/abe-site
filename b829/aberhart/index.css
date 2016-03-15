@@ -66,6 +66,10 @@
 	margin-right:auto;
 }
 
+#concussionLinks{
+	text-align:center;
+	width:100%;
+}
 
 /* The following few classes control the rss styling */
 #cbeRSStitle {
