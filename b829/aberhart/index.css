@@ -125,16 +125,3 @@
 	color:#fff;
 }
 /* This is where the rss styling ends */
-
-/* Survey link styling */
-#feedbackSurvey {
-	padding-top:10px;
-	margin-top:15px;
-	text-align:center;
-	border-style:none;
-	border-top-style:solid;
-	border-width:1px;
-	border-color:#666;
-	font-size:18px;
-	line-height:20px;
-}
